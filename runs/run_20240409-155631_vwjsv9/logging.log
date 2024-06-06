@@ -1,0 +1,49 @@
+2024-04-09 15:56:32.011 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 15:56:32.012 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-09 15:56:32.012 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-09 15:56:32.012 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240409-155631_vwjsv9/agentscope.db]
+2024-04-09 15:56:32.015 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.015 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-09 15:56:32.016 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 15:56:32.017 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 15:56:32.018 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 15:56:32.018 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.019 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.020 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.027 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 15:56:32.027 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 15:56:32.027 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 15:56:32.027 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 15:56:32.029 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.029 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.043 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 15:56:32.043 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 15:56:32.044 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 15:56:32.043 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 15:56:32.044 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 15:56:32.044 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 15:56:32.052 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.052 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.057 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.052 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.057 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 15:56:32.057 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.

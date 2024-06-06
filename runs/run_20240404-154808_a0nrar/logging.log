@@ -1,0 +1,106 @@
+2024-04-04 15:48:09.093 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:48:09.094 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-04 15:48:09.095 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-04 15:48:09.095 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240404-154808_a0nrar/agentscope.db]
+2024-04-04 15:48:09.096 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:09.097 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-04 15:48:09.098 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:48:09.098 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:48:09.099 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:48:09.099 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.111 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 15:48:13.111 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 15:48:13.111 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:48:13.111 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:48:13.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.121 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.121 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.124 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:48:13.124 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "I observe that the initial board is empty, providing ample opportunity for strategic placement. As the first player, I should focus on laying the groundwork for multiple possible winning configurations while simultaneously hindering my opponent's ability to do the same. A common opening strategy in Gomoku is to play near the center, aiming to control key intersections or creating fork-like structures that force the opponent to react. Therefore, I choose to play at [7, 7], which is close to the central point of the board and allows for maximum flexibility in establishing potential lines both horizontally, vertically, and diagonally.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "I observe that the initial board is empty, providing ample opportunity for strategic placement. As the first player, I should focus on laying the groundwork for multiple possible winning configurations while simultaneously hindering my opponent's ability to do the same. A common opening strategy in Gomoku is to play near the center, aiming to control key intersections or creating fork-like structures that force the opponent to react. Therefore, I choose to play at [7, 7], which is close to the central point of the board and allows for maximum flexibility in establishing potential lines both horizontally, vertically, and diagonally.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.

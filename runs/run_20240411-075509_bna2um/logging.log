@@ -1,0 +1,257 @@
+2024-04-11 07:55:10.050 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:10.051 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-11 07:55:10.052 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-11 07:55:10.052 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240411-075509_bna2um/agentscope.db]
+2024-04-11 07:55:10.058 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:10.058 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-11 07:55:10.059 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 07:55:10.060 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 07:55:10.060 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 07:55:10.061 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:10.061 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:10.069 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:10.069 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:10.069 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:10.069 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:16.702 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:16.702 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:16.702 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:16.703 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:16.703 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:16.703 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:16.710 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.710 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.710 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.712 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.712 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.712 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.713 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.713 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.713 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.718 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.718 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.718 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.720 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.720 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.720 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.722 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.722 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.722 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.723 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.723 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.723 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.725 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.725 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.725 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.726 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.726 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.726 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:16.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:17.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:17.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:17.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:55:17.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:17.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:17.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:17.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:55:17.752 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.752 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.752 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.752 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.754 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.754 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.754 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.754 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:55:17.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 好的，欢迎来到神秘推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，然后我将为您提供一个案件概述（汤面）。您将有有限的提问次数，用于向我询问与案件相关的问题，以帮助您推理出案件的真相。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请告诉我您选择的汤底类型（数字即可），我们将开始这场推理之旅。
+host: 好的，欢迎来到神秘推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，然后我将为您提供一个案件概述（汤面）。您将有有限的提问次数，用于向我询问与案件相关的问题，以帮助您推理出案件的真相。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请告诉我您选择的汤底类型（数字即可），我们将开始这场推理之旅。
+host: 好的，欢迎来到神秘推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，然后我将为您提供一个案件概述（汤面）。您将有有限的提问次数，用于向我询问与案件相关的问题，以帮助您推理出案件的真相。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请告诉我您选择的汤底类型（数字即可），我们将开始这场推理之旅。
+host: 好的，欢迎来到神秘推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，然后我将为您提供一个案件概述（汤面）。您将有有限的提问次数，用于向我询问与案件相关的问题，以帮助您推理出案件的真相。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请告诉我您选择的汤底类型（数字即可），我们将开始这场推理之旅。
+host: 欢迎来到“侦探推理游戏”，您将扮演一名侦探，通过提问和逻辑推理来揭示隐藏的案件真相。以下为游戏规则：
+
+1. 您需要先选择汤底类型：
+   - 1-红汤：指有死亡情节的汤；
+   - 2-清汤：指没有人死亡的汤；
+   - 3-本格：指没有超自然现象的案件；
+   - 4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请回复您所选择的汤底类型数字，我们将为您准备相应的案件背景信息。
+
+选择汤底类型：
+host: 欢迎来到“侦探推理游戏”，您将扮演一名侦探，通过提问和逻辑推理来揭示隐藏的案件真相。以下为游戏规则：
+
+1. 您需要先选择汤底类型：
+   - 1-红汤：指有死亡情节的汤；
+   - 2-清汤：指没有人死亡的汤；
+   - 3-本格：指没有超自然现象的案件；
+   - 4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请回复您所选择的汤底类型数字，我们将为您准备相应的案件背景信息。
+
+选择汤底类型：
+host: 欢迎来到“侦探推理游戏”，您将扮演一名侦探，通过提问和逻辑推理来揭示隐藏的案件真相。以下为游戏规则：
+
+1. 您需要先选择汤底类型：
+   - 1-红汤：指有死亡情节的汤；
+   - 2-清汤：指没有人死亡的汤；
+   - 3-本格：指没有超自然现象的案件；
+   - 4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请回复您所选择的汤底类型数字，我们将为您准备相应的案件背景信息。
+
+选择汤底类型：
+host: 欢迎来到“侦探推理游戏”，您将扮演一名侦探，通过提问和逻辑推理来揭示隐藏的案件真相。以下为游戏规则：
+
+1. 您需要先选择汤底类型：
+   - 1-红汤：指有死亡情节的汤；
+   - 2-清汤：指没有人死亡的汤；
+   - 3-本格：指没有超自然现象的案件；
+   - 4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请回复您所选择的汤底类型数字，我们将为您准备相应的案件背景信息。
+
+选择汤底类型：
+host: 您选择了红汤类型，即含有死亡情节的案件。现在为您呈现案件背景：
+
+**汤面**
+在一座古老的庄园内，一场盛大的晚宴正在进行。宾客们身着华服，觥筹交错，气氛热烈。突然，庄园主人——富商罗伯特·克拉克被发现倒在书房中，颈部有一道深长的刀伤，已无生命迹象。书房门窗紧闭，钥匙由克拉克先生随身携带。初步调查发现，凶器是一把缺失的餐刀，现场未发现明显打斗痕迹。晚宴期间，所有宾客都有明确的不在场证明。
+
+您有5次提问机会来揭开这起谋杀案的真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 您选择了红汤类型，即含有死亡情节的案件。现在为您呈现案件背景：
+
+**汤面**
+在一座古老的庄园内，一场盛大的晚宴正在进行。宾客们身着华服，觥筹交错，气氛热烈。突然，庄园主人——富商罗伯特·克拉克被发现倒在书房中，颈部有一道深长的刀伤，已无生命迹象。书房门窗紧闭，钥匙由克拉克先生随身携带。初步调查发现，凶器是一把缺失的餐刀，现场未发现明显打斗痕迹。晚宴期间，所有宾客都有明确的不在场证明。
+
+您有5次提问机会来揭开这起谋杀案的真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 您选择了红汤类型，即含有死亡情节的案件。现在为您呈现案件背景：
+
+**汤面**
+在一座古老的庄园内，一场盛大的晚宴正在进行。宾客们身着华服，觥筹交错，气氛热烈。突然，庄园主人——富商罗伯特·克拉克被发现倒在书房中，颈部有一道深长的刀伤，已无生命迹象。书房门窗紧闭，钥匙由克拉克先生随身携带。初步调查发现，凶器是一把缺失的餐刀，现场未发现明显打斗痕迹。晚宴期间，所有宾客都有明确的不在场证明。
+
+您有5次提问机会来揭开这起谋杀案的真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 您选择了红汤类型，即含有死亡情节的案件。现在为您呈现案件背景：
+
+**汤面**
+在一座古老的庄园内，一场盛大的晚宴正在进行。宾客们身着华服，觥筹交错，气氛热烈。突然，庄园主人——富商罗伯特·克拉克被发现倒在书房中，颈部有一道深长的刀伤，已无生命迹象。书房门窗紧闭，钥匙由克拉克先生随身携带。初步调查发现，凶器是一把缺失的餐刀，现场未发现明显打斗痕迹。晚宴期间，所有宾客都有明确的不在场证明。
+
+您有5次提问机会来揭开这起谋杀案的真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 您选择了清汤汤底，这意味着接下来的案件中不会涉及任何死亡情节。现在为您呈上汤面：
+
+**汤面**
+在某个宁静的小镇上，一家古董店的店主发现店内一件珍贵的古代玉佩突然失踪了。店主声称他一直将玉佩锁在保险柜内，且只有他自己知道密码。然而，保险柜完好无损，没有被撬动的痕迹。警方调查发现，案发当天，共有三名顾客进入过店内：一名热衷于收藏古董的富商、一位对古代文化颇有研究的历史老师，以及一名声称对玉佩有着深厚兴趣的神秘女子。店主和这三名顾客均否认偷窃行为。
+
+您有三次提问机会来揭示这件玉佩失窃的真相。请问第一个问题。
+host: 您选择了清汤汤底，这意味着接下来的案件中不会涉及任何死亡情节。现在为您呈上汤面：
+
+**汤面**
+在某个宁静的小镇上，一家古董店的店主发现店内一件珍贵的古代玉佩突然失踪了。店主声称他一直将玉佩锁在保险柜内，且只有他自己知道密码。然而，保险柜完好无损，没有被撬动的痕迹。警方调查发现，案发当天，共有三名顾客进入过店内：一名热衷于收藏古董的富商、一位对古代文化颇有研究的历史老师，以及一名声称对玉佩有着深厚兴趣的神秘女子。店主和这三名顾客均否认偷窃行为。
+
+您有三次提问机会来揭示这件玉佩失窃的真相。请问第一个问题。
+host: 您选择了清汤汤底，这意味着接下来的案件中不会涉及任何死亡情节。现在为您呈上汤面：
+
+**汤面**
+在某个宁静的小镇上，一家古董店的店主发现店内一件珍贵的古代玉佩突然失踪了。店主声称他一直将玉佩锁在保险柜内，且只有他自己知道密码。然而，保险柜完好无损，没有被撬动的痕迹。警方调查发现，案发当天，共有三名顾客进入过店内：一名热衷于收藏古董的富商、一位对古代文化颇有研究的历史老师，以及一名声称对玉佩有着深厚兴趣的神秘女子。店主和这三名顾客均否认偷窃行为。
+
+您有三次提问机会来揭示这件玉佩失窃的真相。请问第一个问题。
+host: 您选择了清汤汤底，这意味着接下来的案件中不会涉及任何死亡情节。现在为您呈上汤面：
+
+**汤面**
+在某个宁静的小镇上，一家古董店的店主发现店内一件珍贵的古代玉佩突然失踪了。店主声称他一直将玉佩锁在保险柜内，且只有他自己知道密码。然而，保险柜完好无损，没有被撬动的痕迹。警方调查发现，案发当天，共有三名顾客进入过店内：一名热衷于收藏古董的富商、一位对古代文化颇有研究的历史老师，以及一名声称对玉佩有着深厚兴趣的神秘女子。店主和这三名顾客均否认偷窃行为。
+
+您有三次提问机会来揭示这件玉佩失窃的真相。请问第一个问题。
+host: 是
+host: 是
+host: 是
+host: 是

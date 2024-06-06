@@ -1,0 +1,177 @@
+2024-06-03 20:47:27.628 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-06-03 20:47:27.630 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-06-03 20:47:27.630 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-06-03 20:47:27.630 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240603-204724_kb2h3f/agentscope.db]
+2024-06-03 20:47:27.638 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:27.639 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-06-03 20:47:27.641 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:27.642 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:27.642 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:27.643 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:27.644 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:27.646 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:27.646 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:27.647 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:27.655 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-06-03 20:47:27.655 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-06-03 20:47:27.655 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-06-03 20:47:27.655 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-06-03 20:47:29.503 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-06-03 20:47:29.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-06-03 20:47:29.503 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-06-03 20:47:29.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-06-03 20:47:29.503 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-06-03 20:47:29.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-06-03 20:47:29.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-06-03 20:47:29.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-06-03 20:47:29.504 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-06-03 20:47:29.504 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-06-03 20:47:29.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-06-03 20:47:29.504 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-06-03 20:47:29.509 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.509 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.509 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.510 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.510 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.510 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.511 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.511 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.511 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.512 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.512 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.512 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.513 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.513 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.513 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.514 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-06-03 20:47:29.514 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-06-03 20:47:29.514 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-06-03 20:47:29.514 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-06-03 20:47:29.514 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-06-03 20:47:29.514 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-06-03 20:47:29.531 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-03 20:47:29.531 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-03 20:47:29.531 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-03 20:47:29.532 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-06-03 20:47:29.532 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-06-03 20:47:29.532 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-06-03 20:47:29.532 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-06-03 20:47:29.532 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-06-03 20:47:29.532 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-06-03 20:47:29.533 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-06-03 20:47:29.533 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-06-03 20:47:29.533 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-06-03 20:47:29.534 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.534 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.534 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.535 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.535 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.535 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.536 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.536 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.536 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-03 20:47:29.537 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.537 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.537 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.537 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.537 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.537 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.538 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.538 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.538 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.539 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.539 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.539 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.540 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.540 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.540 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.541 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.541 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:29.541 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-03 20:47:35.993 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:35.993 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:35.993 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:35.998 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:35.998 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:35.998 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+host: 三个十不出头（打一字）
+host: 三个十不出头（打一字）
+host: 三个十不出头（打一字）
+2024-06-03 20:47:46.953 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:46.953 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:46.953 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:46.957 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:46.957 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:46.957 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+judge: 很遗憾，回答错误，减1分，当前得分是4。因为正确的答案应该是“正”，这里“三个十不出头”指的是“正”字的上部分由三个“十”字组成，且没有出头的部分。
+judge: 很遗憾，回答错误，减1分，当前得分是4。因为正确的答案应该是“正”，这里“三个十不出头”指的是“正”字的上部分由三个“十”字组成，且没有出头的部分。
+judge: 很遗憾，回答错误，减1分，当前得分是4。因为正确的答案应该是“正”，这里“三个十不出头”指的是“正”字的上部分由三个“十”字组成，且没有出头的部分。
+2024-06-03 20:47:50.989 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:50.989 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:50.989 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:52.000 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:52.000 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:52.000 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+participant: 答案为正
+participant: 答案为正
+participant: 答案为正
+2024-06-03 20:47:52.690 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:52.690 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-06-03 20:47:52.690 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+judge-AI: 恭喜AI-Agent，回答正确，加1分，当前得分是6。
+judge-AI: 恭喜AI-Agent，回答正确，加1分，当前得分是6。
+judge-AI: 恭喜AI-Agent，回答正确，加1分，当前得分是6。
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.

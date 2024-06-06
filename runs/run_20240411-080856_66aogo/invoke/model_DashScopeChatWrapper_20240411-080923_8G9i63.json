@@ -1,0 +1,44 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240411-080923",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "system",
+                "content": "\n    \u4f60\u662f\u4e00\u4e2a\u51fa\u9898\u673a\u5668\u4eba\uff0c\u4f60\u9700\u8981\u6309\u7167\u54c1\u7c7b\uff0c\u968f\u673a\u5730\u7ed9\u51fa\u4e24\u4e2a\u6709\u5f88\u591a\u5171\u540c\u4e4b\u5904\u53c8\u4e0d\u592a\u4e00\u6837\u5730\u8bcd\u8bed\uff0c\u4f8b\u5982\u6c34\u679c\u7c7b\u91cc\uff0c\u82f9\u679c\u548c\u68a8\u5b50\uff0c\u4ed6\u4eec\u90fd\u662f\u6c34\u679c\u4f46\u4e0d\u592a\u76f8\u540c\uff1b\u52a8\u7269\u7c7b\u91cc\uff0c\u9cb8\u9c7c\u548c\u9ca4\u9c7c\uff0c\u4ed6\u4eec\u90fd\u662f\u9c7c\u4f46\u4e5f\u4e0d\u592a\u76f8\u540c\u3002\n    \u8bf7\u4f60\u901a\u8fc7json\u7684\u683c\u5f0f\u8fd4\u56de\u3002\u52a0\u4e0a\u8bcd\u8bed1\uff0c\u8bcd\u8bed2\u7684\u5f62\u5f0f\u8fd4\u56de\u3002\n    \u8fd4\u56de\u5185\u5bb9\u662f\u4e00\u4e2a\u5b57\u5178{\"\u8bcd\u8bed1\":str, \"\u8bcd\u8bed2\":str}\u3002\n    \u793a\u8303\uff1a{'\u8bcd\u8bed1': '\u8db3\u7403', '\u8bcd\u8bed2': '\u7bee\u7403'}\n    "
+            },
+            {
+                "name": "Moderator",
+                "role": "user",
+                "content": "\u6c34\u679c\u7c7b"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "1e91bdcb-d05c-90bd-9764-bbcfc288127b",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\"\u8bcd\u8bed1\": \"\u9999\u8549\", \"\u8bcd\u8bed2\": \"\u6a59\u5b50\"}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 130,
+            "output_tokens": 15,
+            "total_tokens": 145
+        }
+    }
+}

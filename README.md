@@ -1,2 +1,7 @@
-# AlphaTo
-An AI project that mimics AlphaGo and plays games with humans
+---
+
+license: Apache License 2.0
+---
+#### install
+
+AI Game 

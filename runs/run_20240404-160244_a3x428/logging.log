@@ -1,0 +1,682 @@
+2024-04-04 16:02:44.850 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 16:02:44.852 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-04 16:02:44.852 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-04 16:02:44.852 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240404-160244_a3x428/agentscope.db]
+2024-04-04 16:02:44.853 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:44.854 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-04 16:02:44.855 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 16:02:44.855 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 16:02:44.856 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 16:02:44.856 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.681 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 16:02:48.681 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 16:02:48.682 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 16:02:48.682 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 16:02:48.684 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.684 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.685 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.685 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.686 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.686 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.687 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 16:02:48.687 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "As the board is currently empty except for one isolated 'o' piece at [5, 6], there are no immediate threats or opportunities to create a winning line. However, since the opponent played their first move in the center of the board, it suggests they may be aiming for a balanced and strategic game. In response, I should adopt a similar approach and play my first move in the central area as well, preferably not directly adjacent to the opponent's piece to maintain flexibility in my future moves. Therefore, I'll choose to place my piece at [4, 4], ensuring a good starting position without committing to a specific direction too early.",
+    "move": [
+        4,
+        4
+    ]
+}
+Bob: {
+    "thought": "As the board is currently empty except for one isolated 'o' piece at [5, 6], there are no immediate threats or opportunities to create a winning line. However, since the opponent played their first move in the center of the board, it suggests they may be aiming for a balanced and strategic game. In response, I should adopt a similar approach and play my first move in the central area as well, preferably not directly adjacent to the opponent's piece to maintain flexibility in my future moves. Therefore, I'll choose to place my piece at [4, 4], ensuring a good starting position without committing to a specific direction too early.",
+    "move": [
+        4,
+        4
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000x0000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000x0000000000
+000000000000000
+00000000o000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000x0000000000
+000000000000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000x0000000000
+000000000000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Given Alice's placement at [6, 6], she appears to be aiming for a diagonal line starting from her initial piece at [5, 6]. To effectively counter this strategy and simultaneously lay the foundation for my own potential diagonal line, I should place my piece at [4, 5]. This move blocks Alice's direct diagonal progression while creating an opportunity for me to develop a diagonal line in two directions (top-left to bottom-right and bottom-left to top-right) from my own central pieces.",
+    "move": [
+        4,
+        5
+    ]
+}
+Bob: {
+    "thought": "Given Alice's placement at [6, 6], she appears to be aiming for a diagonal line starting from her initial piece at [5, 6]. To effectively counter this strategy and simultaneously lay the foundation for my own potential diagonal line, I should place my piece at [4, 5]. This move blocks Alice's direct diagonal progression while creating an opportunity for me to develop a diagonal line in two directions (top-left to bottom-right and bottom-left to top-right) from my own central pieces.",
+    "move": [
+        4,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+000000000000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+000000000000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+000000000000000
+00000o00oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+000000000000000
+00000o00oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "After Alice's move at [3, 7], she seems to be attempting to establish a diagonal pattern from her initial piece at [5, 6]. To obstruct this plan and simultaneously open up possibilities for my own diagonal formation, I should place my piece at [5, 4]. This move blocks Alice's diagonal advancement while enabling me to develop a diagonal line in two directions (top-left to bottom-right and bottom-left to top-right) from my central pieces.",
+    "move": [
+        5,
+        4
+    ]
+}
+Bob: {
+    "thought": "After Alice's move at [3, 7], she seems to be attempting to establish a diagonal pattern from her initial piece at [5, 6]. To obstruct this plan and simultaneously open up possibilities for my own diagonal formation, I should place my piece at [5, 4]. This move blocks Alice's diagonal advancement while enabling me to develop a diagonal line in two directions (top-left to bottom-right and bottom-left to top-right) from my central pieces.",
+    "move": [
+        5,
+        4
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000o00oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000o00oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000oo0oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000oo0oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Considering Alice's move at [7, 7], she seems to be targeting a diagonal formation stretching from [5, 6] through [7, 7]. To hinder this strategy and simultaneously initiate a potential counter-diagonal for myself, I should place my piece at [6, 5]. This move blocks Alice's diagonal progress while allowing me to pursue a diagonal line in either direction from my existing pieces at [4, 5] and [5, 4].",
+    "move": [
+        6,
+        5
+    ]
+}
+Bob: {
+    "thought": "Considering Alice's move at [7, 7], she seems to be targeting a diagonal formation stretching from [5, 6] through [7, 7]. To hinder this strategy and simultaneously initiate a potential counter-diagonal for myself, I should place my piece at [6, 5]. This move blocks Alice's diagonal progress while allowing me to pursue a diagonal line in either direction from my existing pieces at [4, 5] and [5, 4].",
+    "move": [
+        6,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xo0oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xo0oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xoooo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xoooo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Alice's move at [8, 7] strengthens her diagonal formation from [5, 6] through [8, 7]. To disrupt this strategy and set up a potential counter-diagonal, I should place my piece at [7, 6]. This move blocks Alice's diagonal progression and creates opportunities for me to build a diagonal line in either direction from my pieces at [6, 5] and [5, 4].",
+    "move": [
+        7,
+        6
+    ]
+}
+Bob: {
+    "thought": "Alice's move at [8, 7] strengthens her diagonal formation from [5, 6] through [8, 7]. To disrupt this strategy and set up a potential counter-diagonal, I should place my piece at [7, 6]. This move blocks Alice's diagonal progression and creates opportunities for me to build a diagonal line in either direction from my pieces at [6, 5] and [5, 4].",
+    "move": [
+        7,
+        6
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xoooo00000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xoooo00000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xooooo0000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xooooo0000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Alice's move at [9, 7] further reinforces her diagonal formation from [5, 6] through [9, 7]. To counteract this strategy and continue developing my own diagonal potential, I should place my piece at [8, 5]. This move blocks Alice's diagonal expansion and sets the stage for me to construct a diagonal line in either direction from my pieces at [7, 6], [6, 5], and [5, 4].",
+    "move": [
+        8,
+        5
+    ]
+}
+Bob: {
+    "thought": "Alice's move at [9, 7] further reinforces her diagonal formation from [5, 6] through [9, 7]. To counteract this strategy and continue developing my own diagonal potential, I should place my piece at [8, 5]. This move blocks Alice's diagonal expansion and sets the stage for me to construct a diagonal line in either direction from my pieces at [7, 6], [6, 5], and [5, 4].",
+    "move": [
+        8,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x0000000000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000o0000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000o0000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Alice's move at [6, 5] aims to support her diagonal line from [5, 6] and potentially create a new vertical threat. To counteract these developments and fortify my own diagonal prospects, I should place my piece at [9, 6]. This move blocks Alice's diagonal extension, neutralizes the emerging vertical threat, and continues building my diagonal line in either direction from [7, 6], [8, 5], and [5, 4].",
+    "move": [
+        9,
+        6
+    ]
+}
+Bob: {
+    "thought": "Alice's move at [6, 5] aims to support her diagonal line from [5, 6] and potentially create a new vertical threat. To counteract these developments and fortify my own diagonal prospects, I should place my piece at [9, 6]. This move blocks Alice's diagonal extension, neutralizes the emerging vertical threat, and continues building my diagonal line in either direction from [7, 6], [8, 5], and [5, 4].",
+    "move": [
+        9,
+        6
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000o0000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000o0000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000oo000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000oo000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Alice's move at [7, 5] adds another piece to her diagonal line and introduces a potential vertical threat. To counteract these developments and protect my own diagonal formation, I should place my piece at [10, 5]. This move blocks Alice's diagonal continuation, negates the emerging vertical threat, and sustains my diagonal line in either direction from [9, 6], [8, 5], and [5, 4].",
+    "move": [
+        10,
+        5
+    ]
+}
+Bob: {
+    "thought": "Alice's move at [7, 5] adds another piece to her diagonal line and introduces a potential vertical threat. To counteract these developments and protect my own diagonal formation, I should place my piece at [10, 5]. This move blocks Alice's diagonal continuation, negates the emerging vertical threat, and sustains my diagonal line in either direction from [9, 6], [8, 5], and [5, 4].",
+    "move": [
+        10,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000oo000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000x00000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000xx000000000
+0000x00000oo000
+00000xooooo0000
+000000x00000000
+00000x000000000
+000000x00000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!

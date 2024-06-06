@@ -1,0 +1,114 @@
+2024-04-12 13:56:17.581 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 13:56:17.583 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 13:56:17.583 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 13:56:17.583 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-135614_6nsz08/agentscope.db]
+2024-04-12 13:56:17.592 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:17.592 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 13:56:17.593 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 13:56:17.594 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 13:56:17.595 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 13:56:17.595 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:17.595 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:17.596 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:17.597 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:17.597 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:17.604 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 13:56:17.605 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 13:56:17.604 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 13:56:17.605 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 13:56:37.340 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 13:56:37.340 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 13:56:37.342 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 13:56:37.342 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 13:56:37.340 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 13:56:37.342 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 13:56:37.342 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 13:56:37.342 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 13:56:37.342 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 13:56:37.355 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.355 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.355 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.357 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.357 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.357 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.358 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.358 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.358 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.360 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.360 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.360 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.361 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.361 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.361 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.364 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.364 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.364 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.371 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.371 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.371 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.373 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.373 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.373 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.377 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.377 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.377 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.383 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.383 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.383 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.384 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.384 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.384 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.385 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.385 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 13:56:37.385 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到“推理汤面”游戏！您将根据我提供的线索，推理出一个故事的真相。请先选择汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请回复数字选择汤底类型。
+host: 欢迎来到“推理汤面”游戏！您将根据我提供的线索，推理出一个故事的真相。请先选择汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请回复数字选择汤底类型。
+host: 欢迎来到“推理汤面”游戏！您将根据我提供的线索，推理出一个故事的真相。请先选择汤底类型：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请回复数字选择汤底类型。
+host: 您选择了红汤类型。接下来，我将为您呈现汤面（案件线索）：
+
+**汤面：**
+
+在一个寒冷的冬夜，一位著名小说家在自家书房中被发现身亡。书房门从内部反锁，窗户紧闭且完好无损，屋内无打斗痕迹。小说家坐在书桌前，手握未完成的手稿，桌上有一杯已冷掉的咖啡和一个空药瓶，药瓶标签显示为安眠药。法医鉴定死因为药物过量，但奇怪的是，小说家平时并无服药习惯。此外，书桌抽屉里有一封未寄出的信，收件人是小说家的好友兼竞争对手，信中透露出强烈的竞争情绪和对好友才华的嫉妒。
+
+您有三次提问机会来揭示真相。请开始您的推理提问。剩余提问次数：3次。
+host: 您选择了红汤类型。接下来，我将为您呈现汤面（案件线索）：
+
+**汤面：**
+
+在一个寒冷的冬夜，一位著名小说家在自家书房中被发现身亡。书房门从内部反锁，窗户紧闭且完好无损，屋内无打斗痕迹。小说家坐在书桌前，手握未完成的手稿，桌上有一杯已冷掉的咖啡和一个空药瓶，药瓶标签显示为安眠药。法医鉴定死因为药物过量，但奇怪的是，小说家平时并无服药习惯。此外，书桌抽屉里有一封未寄出的信，收件人是小说家的好友兼竞争对手，信中透露出强烈的竞争情绪和对好友才华的嫉妒。
+
+您有三次提问机会来揭示真相。请开始您的推理提问。剩余提问次数：3次。
+host: 您选择了红汤类型。接下来，我将为您呈现汤面（案件线索）：
+
+**汤面：**
+
+在一个寒冷的冬夜，一位著名小说家在自家书房中被发现身亡。书房门从内部反锁，窗户紧闭且完好无损，屋内无打斗痕迹。小说家坐在书桌前，手握未完成的手稿，桌上有一杯已冷掉的咖啡和一个空药瓶，药瓶标签显示为安眠药。法医鉴定死因为药物过量，但奇怪的是，小说家平时并无服药习惯。此外，书桌抽屉里有一封未寄出的信，收件人是小说家的好友兼竞争对手，信中透露出强烈的竞争情绪和对好友才华的嫉妒。
+
+您有三次提问机会来揭示真相。请开始您的推理提问。剩余提问次数：3次。
+imgmaker1: {'thought': 'The case description consists of several key elements that can be divided into distinct scenes.', 'scripts': ['Scene 1: The deceased novelist is discovered in his locked study on a cold winter night. The room exhibits no signs of forced entry or struggle, indicating an isolated incident within the confines of the space.', 'Scene 2: The novelist is depicted seated at his desk, clutching an incomplete manuscript, with a now-cold cup of coffee and an empty bottle of sleeping pills nearby. The forensic examination concludes that the cause of death was an overdose of these pills, despite there being no known history of the novelist using such medication.', "Scene 3: An unsent letter is found in the desk drawer, addressed to the novelist's friend and rival. The contents reveal intense professional rivalry and jealousy towards the recipient's literary talent, adding a layer of intrigue and potential motive to the investigation."]}
+imgmaker1: {'thought': 'The case description consists of several key elements that can be divided into distinct scenes.', 'scripts': ['Scene 1: The deceased novelist is discovered in his locked study on a cold winter night. The room exhibits no signs of forced entry or struggle, indicating an isolated incident within the confines of the space.', 'Scene 2: The novelist is depicted seated at his desk, clutching an incomplete manuscript, with a now-cold cup of coffee and an empty bottle of sleeping pills nearby. The forensic examination concludes that the cause of death was an overdose of these pills, despite there being no known history of the novelist using such medication.', "Scene 3: An unsent letter is found in the desk drawer, addressed to the novelist's friend and rival. The contents reveal intense professional rivalry and jealousy towards the recipient's literary talent, adding a layer of intrigue and potential motive to the investigation."]}
+imgmaker1: {'thought': 'The case description consists of several key elements that can be divided into distinct scenes.', 'scripts': ['Scene 1: The deceased novelist is discovered in his locked study on a cold winter night. The room exhibits no signs of forced entry or struggle, indicating an isolated incident within the confines of the space.', 'Scene 2: The novelist is depicted seated at his desk, clutching an incomplete manuscript, with a now-cold cup of coffee and an empty bottle of sleeping pills nearby. The forensic examination concludes that the cause of death was an overdose of these pills, despite there being no known history of the novelist using such medication.', "Scene 3: An unsent letter is found in the desk drawer, addressed to the novelist's friend and rival. The contents reveal intense professional rivalry and jealousy towards the recipient's literary talent, adding a layer of intrigue and potential motive to the investigation."]}

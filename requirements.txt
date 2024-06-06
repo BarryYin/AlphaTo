@@ -1,0 +1,10 @@
+#gradio
+#gradio==4.22.0
+python-dotenv==1.0.0
+python-dotenv==1.0.0
+json5
+jieba
+jupyter_client
+opencv-python
+torch==2.1.2
+lmdeploy[all]==0.3.0

@@ -1,0 +1,10 @@
+2024-04-03 12:01:15.849 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-03 12:01:15.851 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-03 12:01:15.851 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-03 12:01:15.851 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240403-120115_qymg86/agentscope.db]
+2024-04-03 12:01:15.852 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-03 12:01:15.853 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-03 12:01:15.853 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-03 12:01:15.854 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-03 12:01:15.855 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-03 12:01:15.855 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]

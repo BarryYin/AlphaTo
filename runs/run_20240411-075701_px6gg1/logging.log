@@ -1,0 +1,313 @@
+2024-04-11 07:57:01.865 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:01.867 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-11 07:57:01.867 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-11 07:57:01.867 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240411-075701_px6gg1/agentscope.db]
+2024-04-11 07:57:01.873 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:01.874 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-11 07:57:01.874 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 07:57:01.875 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 07:57:01.876 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 07:57:01.876 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:01.877 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:01.885 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:01.885 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:01.885 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:01.885 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:09.477 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:09.477 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:09.477 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:09.478 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:09.478 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:09.478 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:09.485 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.485 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.485 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.486 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.486 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.486 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.487 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.487 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.487 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.488 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.488 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.488 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.489 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.489 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.489 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.495 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.495 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.495 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:09.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:10.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:10.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:10.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:10.746 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 07:57:10.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:10.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:10.747 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 07:57:10.753 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.753 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.753 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.753 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.770 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.771 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.772 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.772 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.772 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 07:57:10.772 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 好的，欢迎来到推理汤面游戏！规则如下：
+
+您将从以下四种汤底类型中选择一种：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指没有人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指有超自然现象（灵异、科幻、超能力、妖怪等）。
+
+请您输入数字选择汤底类型。选好后，我将为您提供一个汤面（即案件背景），并告知您拥有几次提问次数。您将通过提问来推理案件情况，我会回答“是”、“否”或“与此无关”，同时更新剩余提问次数。如果您认为已知晓汤底真相，可以回复“还原事件”，尝试详细描述事件过程。我会根据您的回答与实际汤底的一致性以及回答的完整性给出评分（满分10分）。请注意，每道汤底的答题轮次有限制，超出次数仍未揭示真相则视为游戏失败，届时我将公布汤底内容。您准备好了吗？
+
+请做出您的选择：1/2/3/4
+host: 好的，欢迎来到推理汤面游戏！规则如下：
+
+您将从以下四种汤底类型中选择一种：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指没有人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指有超自然现象（灵异、科幻、超能力、妖怪等）。
+
+请您输入数字选择汤底类型。选好后，我将为您提供一个汤面（即案件背景），并告知您拥有几次提问次数。您将通过提问来推理案件情况，我会回答“是”、“否”或“与此无关”，同时更新剩余提问次数。如果您认为已知晓汤底真相，可以回复“还原事件”，尝试详细描述事件过程。我会根据您的回答与实际汤底的一致性以及回答的完整性给出评分（满分10分）。请注意，每道汤底的答题轮次有限制，超出次数仍未揭示真相则视为游戏失败，届时我将公布汤底内容。您准备好了吗？
+
+请做出您的选择：1/2/3/4
+host: 好的，欢迎来到推理汤面游戏！规则如下：
+
+您将从以下四种汤底类型中选择一种：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指没有人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指有超自然现象（灵异、科幻、超能力、妖怪等）。
+
+请您输入数字选择汤底类型。选好后，我将为您提供一个汤面（即案件背景），并告知您拥有几次提问次数。您将通过提问来推理案件情况，我会回答“是”、“否”或“与此无关”，同时更新剩余提问次数。如果您认为已知晓汤底真相，可以回复“还原事件”，尝试详细描述事件过程。我会根据您的回答与实际汤底的一致性以及回答的完整性给出评分（满分10分）。请注意，每道汤底的答题轮次有限制，超出次数仍未揭示真相则视为游戏失败，届时我将公布汤底内容。您准备好了吗？
+
+请做出您的选择：1/2/3/4
+host: 好的，欢迎来到推理汤面游戏！规则如下：
+
+您将从以下四种汤底类型中选择一种：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指没有人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指有超自然现象（灵异、科幻、超能力、妖怪等）。
+
+请您输入数字选择汤底类型。选好后，我将为您提供一个汤面（即案件背景），并告知您拥有几次提问次数。您将通过提问来推理案件情况，我会回答“是”、“否”或“与此无关”，同时更新剩余提问次数。如果您认为已知晓汤底真相，可以回复“还原事件”，尝试详细描述事件过程。我会根据您的回答与实际汤底的一致性以及回答的完整性给出评分（满分10分）。请注意，每道汤底的答题轮次有限制，超出次数仍未揭示真相则视为游戏失败，届时我将公布汤底内容。您准备好了吗？
+
+请做出您的选择：1/2/3/4
+host: 好的，游戏开始。您将扮演一名侦探，通过提问来推理一桩神秘事件的真相。以下为本次游戏的规则：
+
+1. 您可以选择四种汤底类型：红汤（有死亡情节）、清汤（无人死亡）、本格（无超自然现象）、变格（有超自然现象）。
+2. 选择汤底后，我将为您描述一个事件概况（汤面），并告知您拥有几次提问机会。
+3. 您需根据事件概况进行推理，并向我提问。您可以询问关于事件的各种细节，包括人物关系、时间、地点、动机、手法等。
+4. 我将根据您的提问，回答“是”、“否”或“与此无关”。每次回答后，我会提醒您剩余的提问次数。
+5. 当您认为已掌握事件真相时，回复“还原事件”，并详细阐述您推理出的事件经过。我将根据您的回答与实际汤底的一致性进行评分（满分10分）。
+6. 您回答的轮次有限制，具体次数由汤底难度决定。超过限制次数仍未还原真相，游戏将以“失败”告终。若您未能在规定轮次内给出答案，我将揭示汤底。
+
+请现在选择汤底类型：
+1-红汤
+2-清汤
+3-本格
+4-变格
+host: 好的，游戏开始。您将扮演一名侦探，通过提问来推理一桩神秘事件的真相。以下为本次游戏的规则：
+
+1. 您可以选择四种汤底类型：红汤（有死亡情节）、清汤（无人死亡）、本格（无超自然现象）、变格（有超自然现象）。
+2. 选择汤底后，我将为您描述一个事件概况（汤面），并告知您拥有几次提问机会。
+3. 您需根据事件概况进行推理，并向我提问。您可以询问关于事件的各种细节，包括人物关系、时间、地点、动机、手法等。
+4. 我将根据您的提问，回答“是”、“否”或“与此无关”。每次回答后，我会提醒您剩余的提问次数。
+5. 当您认为已掌握事件真相时，回复“还原事件”，并详细阐述您推理出的事件经过。我将根据您的回答与实际汤底的一致性进行评分（满分10分）。
+6. 您回答的轮次有限制，具体次数由汤底难度决定。超过限制次数仍未还原真相，游戏将以“失败”告终。若您未能在规定轮次内给出答案，我将揭示汤底。
+
+请现在选择汤底类型：
+1-红汤
+2-清汤
+3-本格
+4-变格
+host: 好的，游戏开始。您将扮演一名侦探，通过提问来推理一桩神秘事件的真相。以下为本次游戏的规则：
+
+1. 您可以选择四种汤底类型：红汤（有死亡情节）、清汤（无人死亡）、本格（无超自然现象）、变格（有超自然现象）。
+2. 选择汤底后，我将为您描述一个事件概况（汤面），并告知您拥有几次提问机会。
+3. 您需根据事件概况进行推理，并向我提问。您可以询问关于事件的各种细节，包括人物关系、时间、地点、动机、手法等。
+4. 我将根据您的提问，回答“是”、“否”或“与此无关”。每次回答后，我会提醒您剩余的提问次数。
+5. 当您认为已掌握事件真相时，回复“还原事件”，并详细阐述您推理出的事件经过。我将根据您的回答与实际汤底的一致性进行评分（满分10分）。
+6. 您回答的轮次有限制，具体次数由汤底难度决定。超过限制次数仍未还原真相，游戏将以“失败”告终。若您未能在规定轮次内给出答案，我将揭示汤底。
+
+请现在选择汤底类型：
+1-红汤
+2-清汤
+3-本格
+4-变格
+host: 好的，游戏开始。您将扮演一名侦探，通过提问来推理一桩神秘事件的真相。以下为本次游戏的规则：
+
+1. 您可以选择四种汤底类型：红汤（有死亡情节）、清汤（无人死亡）、本格（无超自然现象）、变格（有超自然现象）。
+2. 选择汤底后，我将为您描述一个事件概况（汤面），并告知您拥有几次提问机会。
+3. 您需根据事件概况进行推理，并向我提问。您可以询问关于事件的各种细节，包括人物关系、时间、地点、动机、手法等。
+4. 我将根据您的提问，回答“是”、“否”或“与此无关”。每次回答后，我会提醒您剩余的提问次数。
+5. 当您认为已掌握事件真相时，回复“还原事件”，并详细阐述您推理出的事件经过。我将根据您的回答与实际汤底的一致性进行评分（满分10分）。
+6. 您回答的轮次有限制，具体次数由汤底难度决定。超过限制次数仍未还原真相，游戏将以“失败”告终。若您未能在规定轮次内给出答案，我将揭示汤底。
+
+请现在选择汤底类型：
+1-红汤
+2-清汤
+3-本格
+4-变格
+host: 您选择了清汤（无人死亡）类型。接下来，我将提供事件概况（汤面）及您的提问次数：
+
+**汤面**：
+在一所古老宅邸中，主人家举办了一场盛大的晚宴，邀请了众多亲朋好友参加。晚宴期间，主人突然宣布了一项震惊全场的遗产分配方案，引发了宾客间的激烈争论。然而，尽管气氛紧张，晚宴最终和平结束，所有人在午夜前各自离去。次日清晨，宅邸女仆发现书房内一幅价值连城的名画不翼而飞，主人对此极为震怒，立即报警。警方调查后发现，宅邸门窗紧闭且无明显破坏痕迹，而宅邸内的监控录像在晚宴期间因故中断，未能捕捉到任何可疑行为。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问。
+host: 您选择了清汤（无人死亡）类型。接下来，我将提供事件概况（汤面）及您的提问次数：
+
+**汤面**：
+在一所古老宅邸中，主人家举办了一场盛大的晚宴，邀请了众多亲朋好友参加。晚宴期间，主人突然宣布了一项震惊全场的遗产分配方案，引发了宾客间的激烈争论。然而，尽管气氛紧张，晚宴最终和平结束，所有人在午夜前各自离去。次日清晨，宅邸女仆发现书房内一幅价值连城的名画不翼而飞，主人对此极为震怒，立即报警。警方调查后发现，宅邸门窗紧闭且无明显破坏痕迹，而宅邸内的监控录像在晚宴期间因故中断，未能捕捉到任何可疑行为。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问。
+host: 您选择了清汤（无人死亡）类型。接下来，我将提供事件概况（汤面）及您的提问次数：
+
+**汤面**：
+在一所古老宅邸中，主人家举办了一场盛大的晚宴，邀请了众多亲朋好友参加。晚宴期间，主人突然宣布了一项震惊全场的遗产分配方案，引发了宾客间的激烈争论。然而，尽管气氛紧张，晚宴最终和平结束，所有人在午夜前各自离去。次日清晨，宅邸女仆发现书房内一幅价值连城的名画不翼而飞，主人对此极为震怒，立即报警。警方调查后发现，宅邸门窗紧闭且无明显破坏痕迹，而宅邸内的监控录像在晚宴期间因故中断，未能捕捉到任何可疑行为。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问。
+host: 您选择了清汤（无人死亡）类型。接下来，我将提供事件概况（汤面）及您的提问次数：
+
+**汤面**：
+在一所古老宅邸中，主人家举办了一场盛大的晚宴，邀请了众多亲朋好友参加。晚宴期间，主人突然宣布了一项震惊全场的遗产分配方案，引发了宾客间的激烈争论。然而，尽管气氛紧张，晚宴最终和平结束，所有人在午夜前各自离去。次日清晨，宅邸女仆发现书房内一幅价值连城的名画不翼而飞，主人对此极为震怒，立即报警。警方调查后发现，宅邸门窗紧闭且无明显破坏痕迹，而宅邸内的监控录像在晚宴期间因故中断，未能捕捉到任何可疑行为。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问。
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+深夜，一家名为“月影”的酒吧里，调酒师小李正在为寥寥无几的顾客调制鸡尾酒。突然，一位戴着黑色礼帽、身穿风衣的神秘男子闯入，他径直走向吧台，点了一杯名为“血色黄昏”的特调饮品。小李按其要求调制完毕后，男子一饮而尽，不久便倒地不起，口吐白沫，显然是中毒身亡。现场除了那杯“血色黄昏”外，未发现其他可疑物品。小李和在场的几位顾客均表示对此事毫不知情。
+
+您有5次提问机会来揭开真相。请问：
+
+1. 小李是否知道“血色黄昏”中的有毒成分？
+2. 神秘男子是否事先知道自己会中毒？
+3. 酒吧内是否有监控摄像头记录下事件经过？
+4. “血色黄昏”中的毒药是否为常见的鸡尾酒配料之一？
+5. 在场的顾客中，有人在男子进入酒吧前曾与其有过接触吗？
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+深夜，一家名为“月影”的酒吧里，调酒师小李正在为寥寥无几的顾客调制鸡尾酒。突然，一位戴着黑色礼帽、身穿风衣的神秘男子闯入，他径直走向吧台，点了一杯名为“血色黄昏”的特调饮品。小李按其要求调制完毕后，男子一饮而尽，不久便倒地不起，口吐白沫，显然是中毒身亡。现场除了那杯“血色黄昏”外，未发现其他可疑物品。小李和在场的几位顾客均表示对此事毫不知情。
+
+您有5次提问机会来揭开真相。请问：
+
+1. 小李是否知道“血色黄昏”中的有毒成分？
+2. 神秘男子是否事先知道自己会中毒？
+3. 酒吧内是否有监控摄像头记录下事件经过？
+4. “血色黄昏”中的毒药是否为常见的鸡尾酒配料之一？
+5. 在场的顾客中，有人在男子进入酒吧前曾与其有过接触吗？
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+深夜，一家名为“月影”的酒吧里，调酒师小李正在为寥寥无几的顾客调制鸡尾酒。突然，一位戴着黑色礼帽、身穿风衣的神秘男子闯入，他径直走向吧台，点了一杯名为“血色黄昏”的特调饮品。小李按其要求调制完毕后，男子一饮而尽，不久便倒地不起，口吐白沫，显然是中毒身亡。现场除了那杯“血色黄昏”外，未发现其他可疑物品。小李和在场的几位顾客均表示对此事毫不知情。
+
+您有5次提问机会来揭开真相。请问：
+
+1. 小李是否知道“血色黄昏”中的有毒成分？
+2. 神秘男子是否事先知道自己会中毒？
+3. 酒吧内是否有监控摄像头记录下事件经过？
+4. “血色黄昏”中的毒药是否为常见的鸡尾酒配料之一？
+5. 在场的顾客中，有人在男子进入酒吧前曾与其有过接触吗？
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+深夜，一家名为“月影”的酒吧里，调酒师小李正在为寥寥无几的顾客调制鸡尾酒。突然，一位戴着黑色礼帽、身穿风衣的神秘男子闯入，他径直走向吧台，点了一杯名为“血色黄昏”的特调饮品。小李按其要求调制完毕后，男子一饮而尽，不久便倒地不起，口吐白沫，显然是中毒身亡。现场除了那杯“血色黄昏”外，未发现其他可疑物品。小李和在场的几位顾客均表示对此事毫不知情。
+
+您有5次提问机会来揭开真相。请问：
+
+1. 小李是否知道“血色黄昏”中的有毒成分？
+2. 神秘男子是否事先知道自己会中毒？
+3. 酒吧内是否有监控摄像头记录下事件经过？
+4. “血色黄昏”中的毒药是否为常见的鸡尾酒配料之一？
+5. 在场的顾客中，有人在男子进入酒吧前曾与其有过接触吗？
+host: 是
+host: 是
+host: 是
+host: 是
+assi: {"thought": "目前了解到的情况是神秘男子在喝完调酒师小李制作的名为“血色黄昏”的特调饮品后中毒身亡，酒吧内无明显可疑物品，小李和其他顾客均称对此毫不知情。已知的问题是“血色黄昏”确实有毒。接下来，我需要继续提问以收集更多信息，尤其是关于毒药来源、调酒师小李是否涉及谋杀、神秘男子的动机等方面的信息。",
+"speak": "请问在制作“血色黄昏”时，小李是否使用了非酒吧常规提供的配料？@host"}
+assi: {"thought": "目前了解到的情况是神秘男子在喝完调酒师小李制作的名为“血色黄昏”的特调饮品后中毒身亡，酒吧内无明显可疑物品，小李和其他顾客均称对此毫不知情。已知的问题是“血色黄昏”确实有毒。接下来，我需要继续提问以收集更多信息，尤其是关于毒药来源、调酒师小李是否涉及谋杀、神秘男子的动机等方面的信息。",
+"speak": "请问在制作“血色黄昏”时，小李是否使用了非酒吧常规提供的配料？@host"}
+assi: {"thought": "目前了解到的情况是神秘男子在喝完调酒师小李制作的名为“血色黄昏”的特调饮品后中毒身亡，酒吧内无明显可疑物品，小李和其他顾客均称对此毫不知情。已知的问题是“血色黄昏”确实有毒。接下来，我需要继续提问以收集更多信息，尤其是关于毒药来源、调酒师小李是否涉及谋杀、神秘男子的动机等方面的信息。",
+"speak": "请问在制作“血色黄昏”时，小李是否使用了非酒吧常规提供的配料？@host"}
+assi: {"thought": "目前了解到的情况是神秘男子在喝完调酒师小李制作的名为“血色黄昏”的特调饮品后中毒身亡，酒吧内无明显可疑物品，小李和其他顾客均称对此毫不知情。已知的问题是“血色黄昏”确实有毒。接下来，我需要继续提问以收集更多信息，尤其是关于毒药来源、调酒师小李是否涉及谋杀、神秘男子的动机等方面的信息。",
+"speak": "请问在制作“血色黄昏”时，小李是否使用了非酒吧常规提供的配料？@host"}
+host: 是
+host: 是
+host: 是
+host: 是

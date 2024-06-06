@@ -1,0 +1,769 @@
+2024-06-06 16:21:45.230 | INFO     | agentscope.models:read_model_configs:174 - Load configs for model wrapper: qwen, wanx, gpt-4, InternLM2
+2024-06-06 16:21:45.232 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-06-06 16:21:45.232 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-06-06 16:21:45.232 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240606-162142_qapimu/agentscope.db]
+2024-06-06 16:21:45.236 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:45.284 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:45.284 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:45.284 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:45.285 | INFO     | agentscope.utils.monitor:register:362 - Register metric [internlm2.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-06-06 16:21:45.285 | INFO     | agentscope.utils.monitor:register:362 - Register metric [internlm2.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-06 16:21:45.286 | INFO     | agentscope.utils.monitor:register:362 - Register metric [internlm2.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-06 16:21:45.287 | INFO     | agentscope.utils.monitor:register:362 - Register metric [internlm2.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-06 16:21:45.287 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:45.332 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:45.332 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:45.332 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:45.333 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:45.377 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:45.377 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:45.377 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:45.378 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-06 16:21:45.378 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-06-06 16:21:45.379 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-06 16:21:45.380 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-06 16:21:45.380 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-06-06 16:21:45.381 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-06 16:21:45.382 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-06 16:21:45.389 | WARNING  | agentscope.models:read_model_configs:167 - config_name [qwen] already exists.
+2024-06-06 16:21:45.389 | WARNING  | agentscope.models:read_model_configs:167 - config_name [qwen] already exists.
+2024-06-06 16:21:45.389 | INFO     | agentscope.models:read_model_configs:174 - Load configs for model wrapper: qwen, wanx, gpt-4, InternLM2
+2024-06-06 16:21:45.389 | INFO     | agentscope.models:read_model_configs:174 - Load configs for model wrapper: qwen, wanx, gpt-4, InternLM2
+2024-06-06 16:21:48.919 | WARNING  | agentscope.models:read_model_configs:167 - config_name [qwen] already exists.
+2024-06-06 16:21:48.919 | WARNING  | agentscope.models:read_model_configs:167 - config_name [qwen] already exists.
+2024-06-06 16:21:48.919 | WARNING  | agentscope.models:read_model_configs:167 - config_name [qwen] already exists.
+2024-06-06 16:21:48.919 | WARNING  | agentscope.models:read_model_configs:167 - config_name [wanx] already exists.
+2024-06-06 16:21:48.920 | WARNING  | agentscope.models:read_model_configs:167 - config_name [gpt-4] already exists.
+2024-06-06 16:21:48.919 | WARNING  | agentscope.models:read_model_configs:167 - config_name [wanx] already exists.
+2024-06-06 16:21:48.920 | WARNING  | agentscope.models:read_model_configs:167 - config_name [gpt-4] already exists.
+2024-06-06 16:21:48.919 | WARNING  | agentscope.models:read_model_configs:167 - config_name [wanx] already exists.
+2024-06-06 16:21:48.920 | WARNING  | agentscope.models:read_model_configs:167 - config_name [InternLM2] already exists.
+2024-06-06 16:21:48.920 | INFO     | agentscope.models:read_model_configs:174 - Load configs for model wrapper: qwen, wanx, gpt-4, InternLM2
+2024-06-06 16:21:48.920 | WARNING  | agentscope.models:read_model_configs:167 - config_name [InternLM2] already exists.
+2024-06-06 16:21:48.920 | WARNING  | agentscope.models:read_model_configs:167 - config_name [gpt-4] already exists.
+2024-06-06 16:21:48.920 | WARNING  | agentscope.models:read_model_configs:167 - config_name [InternLM2] already exists.
+2024-06-06 16:21:48.920 | INFO     | agentscope.models:read_model_configs:174 - Load configs for model wrapper: qwen, wanx, gpt-4, InternLM2
+2024-06-06 16:21:48.920 | INFO     | agentscope.models:read_model_configs:174 - Load configs for model wrapper: qwen, wanx, gpt-4, InternLM2
+2024-06-06 16:21:48.922 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:48.922 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:48.922 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:48.973 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:48.973 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:48.973 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:48.974 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:48.974 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:48.974 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:48.974 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:48.974 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:48.974 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:48.975 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:48.975 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:48.975 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.022 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.022 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.022 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.022 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.022 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.022 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.022 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.022 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.022 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.023 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.023 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.023 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.070 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.070 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.070 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.070 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.070 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.070 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.070 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.070 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.070 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.072 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.072 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.072 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.116 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.116 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.116 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.116 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.116 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.116 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.116 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.116 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.116 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-06 16:21:49.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-06 16:21:49.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-06-06 16:21:49.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.118 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.165 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.165 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.165 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.165 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.165 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.165 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.165 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.165 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.165 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.167 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.167 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.167 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.214 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.214 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.214 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.214 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.214 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.214 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.214 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.214 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.214 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.216 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.216 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.216 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.269 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.269 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.269 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.269 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.269 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.269 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.269 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.269 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.269 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.271 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.271 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.271 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.321 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.321 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.321 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.321 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.321 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.321 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.321 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.321 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.321 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.330 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.330 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.330 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.384 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.384 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.384 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.385 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.385 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.385 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.385 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.385 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.385 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.386 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.386 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.386 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.431 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.431 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.432 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.432 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.432 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.431 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.432 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.432 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.432 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.433 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.433 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.433 | INFO     | agentscope.models.model:__init__:257 - Initialize model [InternLM2]
+2024-06-06 16:21:49.478 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.478 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.478 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for internlm2: 'Model [internlm2] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-06-06 16:21:49.478 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.478 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.478 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.478 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+2024-06-06 16:21:49.478 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to internlm2
+2024-06-06 16:21:49.478 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [internlm2] is not supported
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 红汤：一个年轻的女孩独自在家中准备晚餐，突然听到了敲门声，她打开门后发现门外没有人。她继续烹饪，但不久之后，她感觉有人在她背后，并听到了脚步声。她转过身，却看到了她的母亲站在门口，但是她母亲声称自己并没有来过。
+
+host: 红汤：一个年轻的女孩独自在家中准备晚餐，突然听到了敲门声，她打开门后发现门外没有人。她继续烹饪，但不久之后，她感觉有人在她背后，并听到了脚步声。她转过身，却看到了她的母亲站在门口，但是她母亲声称自己并没有来过。
+
+host: 红汤：一个年轻的女孩独自在家中准备晚餐，突然听到了敲门声，她打开门后发现门外没有人。她继续烹饪，但不久之后，她感觉有人在她背后，并听到了脚步声。她转过身，却看到了她的母亲站在门口，但是她母亲声称自己并没有来过。
+
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+host: 是
+host: 是
+host: 是
+host: 是
+host: 是
+host: 是
+assi: {"thought": "根据目前的故事情节和之前的回答，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+assi: {"thought": "根据目前的故事情节和之前的回答，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+assi: {"thought": "根据目前的故事情节和之前的回答，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+host: 是
+host: 是
+host: 是
+host: 是
+host: 是
+host: 是
+assi: {"thought": "根据目前的故事情节和之前的回答，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+assi: {"thought": "根据目前的故事情节和之前的回答，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+assi: {"thought": "根据目前的故事情节和之前的回答，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+host: 是
+host: 是
+host: 是
+host: 由于您已经猜出汤底，下面是汤底的还原事件：
+
+一个年轻的女孩独自在家中准备晚餐，突然听到了敲门声，她打开门后发现门外没有人。她继续烹饪，但不久之后，她感觉有人在她背后，并听到了脚步声。她转过身，却看到了她的母亲站在门口，但她母亲声称自己并没有来过。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？
+
+以下是评分：
+- 事件还原：7分（因为您没有提供完整的还原，只提供了一些线索）
+- 回答完整程度：5分（虽然您没有给出完整的答案，但您的问题和猜测与汤底相关）
+
+希望您喜欢这个游戏！现在您可以继续游戏或者结束。
+host: 由于您已经猜出汤底，下面是汤底的还原事件：
+
+一个年轻的女孩独自在家中准备晚餐，突然听到了敲门声，她打开门后发现门外没有人。她继续烹饪，但不久之后，她感觉有人在她背后，并听到了脚步声。她转过身，却看到了她的母亲站在门口，但她母亲声称自己并没有来过。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？
+
+以下是评分：
+- 事件还原：7分（因为您没有提供完整的还原，只提供了一些线索）
+- 回答完整程度：5分（虽然您没有给出完整的答案，但您的问题和猜测与汤底相关）
+
+希望您喜欢这个游戏！现在您可以继续游戏或者结束。
+host: 由于您已经猜出汤底，下面是汤底的还原事件：
+
+一个年轻的女孩独自在家中准备晚餐，突然听到了敲门声，她打开门后发现门外没有人。她继续烹饪，但不久之后，她感觉有人在她背后，并听到了脚步声。她转过身，却看到了她的母亲站在门口，但她母亲声称自己并没有来过。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？
+
+以下是评分：
+- 事件还原：7分（因为您没有提供完整的还原，只提供了一些线索）
+- 回答完整程度：5分（虽然您没有给出完整的答案，但您的问题和猜测与汤底相关）
+
+希望您喜欢这个游戏！现在您可以继续游戏或者结束。
+assi: {"thought": "根据目前的情况，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+assi: {"thought": "根据目前的情况，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+assi: {"thought": "根据目前的情况，可以判断这是一个变格（有超自然现象）的汤底。女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常，这也是一个值得探究的问题。",
+"speak": "女孩的母亲声称自己没有来过，但出现在了房内，这可能是一种超自然现象。女孩在听到敲门声之前是否有感觉到异常？@"}
+host: 是
+host: 是
+host: 是
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+host: 是
+host: 是
+host: 是
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 欢迎来到推理游戏！现在您需要选择一个汤底类型：
+
+1. 红汤（有死亡情节的汤）
+2. 清汤（没人死亡的汤）
+3. 本格（没有超自然现象）
+4. 变格（有超自然现象，如灵异、科幻、超能力、妖怪等）
+
+请选择一个汤底类型，并告诉我您的选择。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+host: 好的，您选择了红汤。现在轮到您提问了。请告诉我您的问题，我有4次机会回答您的问题。
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+assi: {"thought": "根据目前的故事情节，我推测这个女孩可能遇到了超自然现象。我还有一个问题：女孩在听到敲门声之前，是否感觉到有什么异常？",
+"speak": "女孩在听到敲门声之前，是否感觉到有什么异常？@"}
+host: 是
+host: 是
+host: 是
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-06-06 16:28:51.782 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Here's the completed code:\n\n```python\nimport json\n\ndef play_gomoku(board, player):\n    # Check if the board is filled and no player has won\n    if all_move_possible(board):\n        return draw_game()\n\n    # Find a valid move for the player\n    valid_moves = find_valid_moves(board, player)\n\n    # Sort the valid moves based on strategic value\n    sorted_moves = sort_moves(valid_moves, player)\n\n    # Choose the move with the highest strategic value\n    move = sorted_moves[0]\n\n    # Make the move on the board\n    board[move[0]][move[1]] = player\n\n    return board\n\n\ndef all_move_possible(board):\n    # Check if there are any empty spots left on the board\n    return any([row.count('0') > 0 for row in board])\n\n\ndef find_valid_moves(board, player):\n    valid_moves = []\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == '0':\n                valid_moves.append([i, j])\n    return valid_moves\n\n\ndef sort_moves(valid_moves, player):\n    # Strategy: Defense comes first, then look for opportunities to create lines\n    sorted_moves = []\n    for move in valid_moves:\n        board = copy.deepcopy(board)\n        board[move[0]][move[1]] = player\n\n        # Check if the opponent's two pieces are connected\n        connected = check_connection(board, player)\n\n        # If connected, evaluate the threat and add the move to the sorted list\n        if connected:\n            sorted_moves.append(move)\n        else:\n            # If not connected, evaluate the opportunity to create lines\n            opportunities = evaluate_opportunities(board, player)\n            sorted_moves.append((move, opportunities))\n\n    # Sort the moves based on strategic value\n    sorted_moves.sort(key=lambda x: x[1], reverse=True)\n    return [move for move, _ in sorted_moves]\n\n\ndef check_connection(board, player):\n    # Check horizontal, vertical, and diagonal connections\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal connections\n                if check_horizontal_connection(board, i, j, player):\n                    return True\n\n                # Check vertical connections\n                if check_vertical_connection(board, i, j, player):\n                    return True\n\n                # Check diagonal connections\n                if check_diagonal_connection(board, i, j, player):\n                    return True\n\n    return False\n\n\ndef check_horizontal_connection(board, row, col, player):\n    # Check horizontal connections\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n    return False\n\n\ndef check_vertical_connection(board, row, col, player):\n    # Check vertical connections\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n    return False\n\n\ndef check_diagonal_connection(board, row, col, player):\n    # Check diagonal connections\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n    return False\n\n\ndef evaluate_opportunities(board, player):\n    # Evaluate opportunities to create lines\n    opportunities = 0\n\n    # Check horizontal, vertical, and diagonal opportunities\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal opportunities\n                if check_horizontal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check vertical opportunities\n                if check_vertical_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check diagonal opportunities\n                if check_diagonal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n    return opportunities\n\n\ndef check_horizontal_opportunity(board, row, col, player):\n    # Check horizontal opportunities\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n\n    return False\n\n\ndef check_vertical_opportunity(board, row, col, player):\n    # Check vertical opportunities\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n\n    return False\n\n\ndef check_diagonal_opportunity(board, row, col, player):\n    # Check diagonal opportunities\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n\n    return False\n\n\ndef draw_game():\n    # Create a board for the draw game\n    board = [['0' for _ in range(15)] for _ in range(15)]\n\n    # Add some pieces to the board\n    board[7][7] = 'x'\n    board[7][8] = 'o'\n    board[8][7] = 'o'\n    board[8][8] = 'x'\n\n    return board\n```\n\nThe code above includes a complete implementation of the Gomoku game logic, including functionalities such as checking for valid moves, sorting moves based on strategic value, and evaluating opportunities to create lines. The code also includes helper functions for checking connections and opportunities in different directions.\n\nTo use the code, you can call the `play_gomoku` function with the current board state and the player's turn. The function will return the updated board state after the player has made their move.\n\nNote that the code assumes a 15x15 board and uses the symbols 'x' and 'o' to represent the two players. Feel free to modify the code as needed to fit your specific requirements.\n\nTo run the code, you can use a Python environment and execute the `play_gomoku` function with the appropriate arguments.\n\nHere's an example of how to use the code:\n\n```python\nboard = [['0' for _ in range(15)] for _ in range(15)]\nboard = play_gomoku(board, 'x')\n```\n\nThis will create an empty board and make a move for player 'x'. The resulting board state will be returned.\n\nPlease let me know if you need any further assistance or if you have any questions about the code.",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "100",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Here's the completed code:\n\n```python\nimport json\n\ndef play_gomoku(board, player):\n    # Check if the board is filled and no player has won\n    if all_move_possible(board):\n        return draw_game()\n\n    # Find a valid move for the player\n    valid_moves = find_valid_moves(board, player)\n\n    # Sort the valid moves based on strategic value\n    sorted_moves = sort_moves(valid_moves, player)\n\n    # Choose the move with the highest strategic value\n    move = sorted_moves[0]\n\n    # Make the move on the board\n    board[move[0]][move[1]] = player\n\n    return board\n\n\ndef all_move_possible(board):\n    # Check if there are any empty spots left on the board\n    return any([row.count('0') > 0 for row in board])\n\n\ndef find_valid_moves(board, player):\n    valid_moves = []\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == '0':\n                valid_moves.append([i, j])\n    return valid_moves\n\n\ndef sort_moves(valid_moves, player):\n    # Strategy: Defense comes first, then look for opportunities to create lines\n    sorted_moves = []\n    for move in valid_moves:\n        board = copy.deepcopy(board)\n        board[move[0]][move[1]] = player\n\n        # Check if the opponent's two pieces are connected\n        connected = check_connection(board, player)\n\n        # If connected, evaluate the threat and add the move to the sorted list\n        if connected:\n            sorted_moves.append(move)\n        else:\n            # If not connected, evaluate the opportunity to create lines\n            opportunities = evaluate_opportunities(board, player)\n            sorted_moves.append((move, opportunities))\n\n    # Sort the moves based on strategic value\n    sorted_moves.sort(key=lambda x: x[1], reverse=True)\n    return [move for move, _ in sorted_moves]\n\n\ndef check_connection(board, player):\n    # Check horizontal, vertical, and diagonal connections\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal connections\n                if check_horizontal_connection(board, i, j, player):\n                    return True\n\n                # Check vertical connections\n                if check_vertical_connection(board, i, j, player):\n                    return True\n\n                # Check diagonal connections\n                if check_diagonal_connection(board, i, j, player):\n                    return True\n\n    return False\n\n\ndef check_horizontal_connection(board, row, col, player):\n    # Check horizontal connections\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n    return False\n\n\ndef check_vertical_connection(board, row, col, player):\n    # Check vertical connections\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n    return False\n\n\ndef check_diagonal_connection(board, row, col, player):\n    # Check diagonal connections\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n    return False\n\n\ndef evaluate_opportunities(board, player):\n    # Evaluate opportunities to create lines\n    opportunities = 0\n\n    # Check horizontal, vertical, and diagonal opportunities\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal opportunities\n                if check_horizontal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check vertical opportunities\n                if check_vertical_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check diagonal opportunities\n                if check_diagonal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n    return opportunities\n\n\ndef check_horizontal_opportunity(board, row, col, player):\n    # Check horizontal opportunities\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n\n    return False\n\n\ndef check_vertical_opportunity(board, row, col, player):\n    # Check vertical opportunities\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n\n    return False\n\n\ndef check_diagonal_opportunity(board, row, col, player):\n    # Check diagonal opportunities\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n\n    return False\n\n\ndef draw_game():\n    # Create a board for the draw game\n    board = [['0' for _ in range(15)] for _ in range(15)]\n\n    # Add some pieces to the board\n    board[7][7] = 'x'\n    board[7][8] = 'o'\n    board[8][7] = 'o'\n    board[8][8] = 'x'\n\n    return board\n```\n\nThe code above includes a complete implementation of the Gomoku game logic, including functionalities such as checking for valid moves, sorting moves based on strategic value, and evaluating opportunities to create lines. The code also includes helper functions for checking connections and opportunities in different directions.\n\nTo use the code, you can call the `play_gomoku` function with the current board state and the player's turn. The function will return the updated board state after the player has made their move.\n\nNote that the code assumes a 15x15 board and uses the symbols 'x' and 'o' to represent the two players. Feel free to modify the code as needed to fit your specific requirements.\n\nTo run the code, you can use a Python environment and execute the `play_gomoku` function with the appropriate arguments.\n\nHere's an example of how to use the code:\n\n```python\nboard = [['0' for _ in range(15)] for _ in range(15)]\nboard = play_gomoku(board, 'x')\n```\n\nThis will create an empty board and make a move for player 'x'. The resulting board state will be returned.\n\nPlease let me know if you need any further assistance or if you have any questions about the code.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662512,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 1540,
+            "prompt_tokens": 1281,
+            "total_tokens": 2821
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 6
+2024-06-06 16:28:51.782 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Here's the completed code:\n\n```python\nimport json\n\ndef play_gomoku(board, player):\n    # Check if the board is filled and no player has won\n    if all_move_possible(board):\n        return draw_game()\n\n    # Find a valid move for the player\n    valid_moves = find_valid_moves(board, player)\n\n    # Sort the valid moves based on strategic value\n    sorted_moves = sort_moves(valid_moves, player)\n\n    # Choose the move with the highest strategic value\n    move = sorted_moves[0]\n\n    # Make the move on the board\n    board[move[0]][move[1]] = player\n\n    return board\n\n\ndef all_move_possible(board):\n    # Check if there are any empty spots left on the board\n    return any([row.count('0') > 0 for row in board])\n\n\ndef find_valid_moves(board, player):\n    valid_moves = []\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == '0':\n                valid_moves.append([i, j])\n    return valid_moves\n\n\ndef sort_moves(valid_moves, player):\n    # Strategy: Defense comes first, then look for opportunities to create lines\n    sorted_moves = []\n    for move in valid_moves:\n        board = copy.deepcopy(board)\n        board[move[0]][move[1]] = player\n\n        # Check if the opponent's two pieces are connected\n        connected = check_connection(board, player)\n\n        # If connected, evaluate the threat and add the move to the sorted list\n        if connected:\n            sorted_moves.append(move)\n        else:\n            # If not connected, evaluate the opportunity to create lines\n            opportunities = evaluate_opportunities(board, player)\n            sorted_moves.append((move, opportunities))\n\n    # Sort the moves based on strategic value\n    sorted_moves.sort(key=lambda x: x[1], reverse=True)\n    return [move for move, _ in sorted_moves]\n\n\ndef check_connection(board, player):\n    # Check horizontal, vertical, and diagonal connections\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal connections\n                if check_horizontal_connection(board, i, j, player):\n                    return True\n\n                # Check vertical connections\n                if check_vertical_connection(board, i, j, player):\n                    return True\n\n                # Check diagonal connections\n                if check_diagonal_connection(board, i, j, player):\n                    return True\n\n    return False\n\n\ndef check_horizontal_connection(board, row, col, player):\n    # Check horizontal connections\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n    return False\n\n\ndef check_vertical_connection(board, row, col, player):\n    # Check vertical connections\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n    return False\n\n\ndef check_diagonal_connection(board, row, col, player):\n    # Check diagonal connections\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n    return False\n\n\ndef evaluate_opportunities(board, player):\n    # Evaluate opportunities to create lines\n    opportunities = 0\n\n    # Check horizontal, vertical, and diagonal opportunities\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal opportunities\n                if check_horizontal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check vertical opportunities\n                if check_vertical_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check diagonal opportunities\n                if check_diagonal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n    return opportunities\n\n\ndef check_horizontal_opportunity(board, row, col, player):\n    # Check horizontal opportunities\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n\n    return False\n\n\ndef check_vertical_opportunity(board, row, col, player):\n    # Check vertical opportunities\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n\n    return False\n\n\ndef check_diagonal_opportunity(board, row, col, player):\n    # Check diagonal opportunities\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n\n    return False\n\n\ndef draw_game():\n    # Create a board for the draw game\n    board = [['0' for _ in range(15)] for _ in range(15)]\n\n    # Add some pieces to the board\n    board[7][7] = 'x'\n    board[7][8] = 'o'\n    board[8][7] = 'o'\n    board[8][8] = 'x'\n\n    return board\n```\n\nThe code above includes a complete implementation of the Gomoku game logic, including functionalities such as checking for valid moves, sorting moves based on strategic value, and evaluating opportunities to create lines. The code also includes helper functions for checking connections and opportunities in different directions.\n\nTo use the code, you can call the `play_gomoku` function with the current board state and the player's turn. The function will return the updated board state after the player has made their move.\n\nNote that the code assumes a 15x15 board and uses the symbols 'x' and 'o' to represent the two players. Feel free to modify the code as needed to fit your specific requirements.\n\nTo run the code, you can use a Python environment and execute the `play_gomoku` function with the appropriate arguments.\n\nHere's an example of how to use the code:\n\n```python\nboard = [['0' for _ in range(15)] for _ in range(15)]\nboard = play_gomoku(board, 'x')\n```\n\nThis will create an empty board and make a move for player 'x'. The resulting board state will be returned.\n\nPlease let me know if you need any further assistance or if you have any questions about the code.",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "100",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Here's the completed code:\n\n```python\nimport json\n\ndef play_gomoku(board, player):\n    # Check if the board is filled and no player has won\n    if all_move_possible(board):\n        return draw_game()\n\n    # Find a valid move for the player\n    valid_moves = find_valid_moves(board, player)\n\n    # Sort the valid moves based on strategic value\n    sorted_moves = sort_moves(valid_moves, player)\n\n    # Choose the move with the highest strategic value\n    move = sorted_moves[0]\n\n    # Make the move on the board\n    board[move[0]][move[1]] = player\n\n    return board\n\n\ndef all_move_possible(board):\n    # Check if there are any empty spots left on the board\n    return any([row.count('0') > 0 for row in board])\n\n\ndef find_valid_moves(board, player):\n    valid_moves = []\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == '0':\n                valid_moves.append([i, j])\n    return valid_moves\n\n\ndef sort_moves(valid_moves, player):\n    # Strategy: Defense comes first, then look for opportunities to create lines\n    sorted_moves = []\n    for move in valid_moves:\n        board = copy.deepcopy(board)\n        board[move[0]][move[1]] = player\n\n        # Check if the opponent's two pieces are connected\n        connected = check_connection(board, player)\n\n        # If connected, evaluate the threat and add the move to the sorted list\n        if connected:\n            sorted_moves.append(move)\n        else:\n            # If not connected, evaluate the opportunity to create lines\n            opportunities = evaluate_opportunities(board, player)\n            sorted_moves.append((move, opportunities))\n\n    # Sort the moves based on strategic value\n    sorted_moves.sort(key=lambda x: x[1], reverse=True)\n    return [move for move, _ in sorted_moves]\n\n\ndef check_connection(board, player):\n    # Check horizontal, vertical, and diagonal connections\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal connections\n                if check_horizontal_connection(board, i, j, player):\n                    return True\n\n                # Check vertical connections\n                if check_vertical_connection(board, i, j, player):\n                    return True\n\n                # Check diagonal connections\n                if check_diagonal_connection(board, i, j, player):\n                    return True\n\n    return False\n\n\ndef check_horizontal_connection(board, row, col, player):\n    # Check horizontal connections\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n    return False\n\n\ndef check_vertical_connection(board, row, col, player):\n    # Check vertical connections\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n    return False\n\n\ndef check_diagonal_connection(board, row, col, player):\n    # Check diagonal connections\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n    return False\n\n\ndef evaluate_opportunities(board, player):\n    # Evaluate opportunities to create lines\n    opportunities = 0\n\n    # Check horizontal, vertical, and diagonal opportunities\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal opportunities\n                if check_horizontal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check vertical opportunities\n                if check_vertical_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check diagonal opportunities\n                if check_diagonal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n    return opportunities\n\n\ndef check_horizontal_opportunity(board, row, col, player):\n    # Check horizontal opportunities\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n\n    return False\n\n\ndef check_vertical_opportunity(board, row, col, player):\n    # Check vertical opportunities\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n\n    return False\n\n\ndef check_diagonal_opportunity(board, row, col, player):\n    # Check diagonal opportunities\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n\n    return False\n\n\ndef draw_game():\n    # Create a board for the draw game\n    board = [['0' for _ in range(15)] for _ in range(15)]\n\n    # Add some pieces to the board\n    board[7][7] = 'x'\n    board[7][8] = 'o'\n    board[8][7] = 'o'\n    board[8][8] = 'x'\n\n    return board\n```\n\nThe code above includes a complete implementation of the Gomoku game logic, including functionalities such as checking for valid moves, sorting moves based on strategic value, and evaluating opportunities to create lines. The code also includes helper functions for checking connections and opportunities in different directions.\n\nTo use the code, you can call the `play_gomoku` function with the current board state and the player's turn. The function will return the updated board state after the player has made their move.\n\nNote that the code assumes a 15x15 board and uses the symbols 'x' and 'o' to represent the two players. Feel free to modify the code as needed to fit your specific requirements.\n\nTo run the code, you can use a Python environment and execute the `play_gomoku` function with the appropriate arguments.\n\nHere's an example of how to use the code:\n\n```python\nboard = [['0' for _ in range(15)] for _ in range(15)]\nboard = play_gomoku(board, 'x')\n```\n\nThis will create an empty board and make a move for player 'x'. The resulting board state will be returned.\n\nPlease let me know if you need any further assistance or if you have any questions about the code.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662512,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 1540,
+            "prompt_tokens": 1281,
+            "total_tokens": 2821
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 6
+2024-06-06 16:28:51.782 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Here's the completed code:\n\n```python\nimport json\n\ndef play_gomoku(board, player):\n    # Check if the board is filled and no player has won\n    if all_move_possible(board):\n        return draw_game()\n\n    # Find a valid move for the player\n    valid_moves = find_valid_moves(board, player)\n\n    # Sort the valid moves based on strategic value\n    sorted_moves = sort_moves(valid_moves, player)\n\n    # Choose the move with the highest strategic value\n    move = sorted_moves[0]\n\n    # Make the move on the board\n    board[move[0]][move[1]] = player\n\n    return board\n\n\ndef all_move_possible(board):\n    # Check if there are any empty spots left on the board\n    return any([row.count('0') > 0 for row in board])\n\n\ndef find_valid_moves(board, player):\n    valid_moves = []\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == '0':\n                valid_moves.append([i, j])\n    return valid_moves\n\n\ndef sort_moves(valid_moves, player):\n    # Strategy: Defense comes first, then look for opportunities to create lines\n    sorted_moves = []\n    for move in valid_moves:\n        board = copy.deepcopy(board)\n        board[move[0]][move[1]] = player\n\n        # Check if the opponent's two pieces are connected\n        connected = check_connection(board, player)\n\n        # If connected, evaluate the threat and add the move to the sorted list\n        if connected:\n            sorted_moves.append(move)\n        else:\n            # If not connected, evaluate the opportunity to create lines\n            opportunities = evaluate_opportunities(board, player)\n            sorted_moves.append((move, opportunities))\n\n    # Sort the moves based on strategic value\n    sorted_moves.sort(key=lambda x: x[1], reverse=True)\n    return [move for move, _ in sorted_moves]\n\n\ndef check_connection(board, player):\n    # Check horizontal, vertical, and diagonal connections\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal connections\n                if check_horizontal_connection(board, i, j, player):\n                    return True\n\n                # Check vertical connections\n                if check_vertical_connection(board, i, j, player):\n                    return True\n\n                # Check diagonal connections\n                if check_diagonal_connection(board, i, j, player):\n                    return True\n\n    return False\n\n\ndef check_horizontal_connection(board, row, col, player):\n    # Check horizontal connections\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n    return False\n\n\ndef check_vertical_connection(board, row, col, player):\n    # Check vertical connections\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n    return False\n\n\ndef check_diagonal_connection(board, row, col, player):\n    # Check diagonal connections\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n    return False\n\n\ndef evaluate_opportunities(board, player):\n    # Evaluate opportunities to create lines\n    opportunities = 0\n\n    # Check horizontal, vertical, and diagonal opportunities\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal opportunities\n                if check_horizontal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check vertical opportunities\n                if check_vertical_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check diagonal opportunities\n                if check_diagonal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n    return opportunities\n\n\ndef check_horizontal_opportunity(board, row, col, player):\n    # Check horizontal opportunities\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n\n    return False\n\n\ndef check_vertical_opportunity(board, row, col, player):\n    # Check vertical opportunities\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n\n    return False\n\n\ndef check_diagonal_opportunity(board, row, col, player):\n    # Check diagonal opportunities\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n\n    return False\n\n\ndef draw_game():\n    # Create a board for the draw game\n    board = [['0' for _ in range(15)] for _ in range(15)]\n\n    # Add some pieces to the board\n    board[7][7] = 'x'\n    board[7][8] = 'o'\n    board[8][7] = 'o'\n    board[8][8] = 'x'\n\n    return board\n```\n\nThe code above includes a complete implementation of the Gomoku game logic, including functionalities such as checking for valid moves, sorting moves based on strategic value, and evaluating opportunities to create lines. The code also includes helper functions for checking connections and opportunities in different directions.\n\nTo use the code, you can call the `play_gomoku` function with the current board state and the player's turn. The function will return the updated board state after the player has made their move.\n\nNote that the code assumes a 15x15 board and uses the symbols 'x' and 'o' to represent the two players. Feel free to modify the code as needed to fit your specific requirements.\n\nTo run the code, you can use a Python environment and execute the `play_gomoku` function with the appropriate arguments.\n\nHere's an example of how to use the code:\n\n```python\nboard = [['0' for _ in range(15)] for _ in range(15)]\nboard = play_gomoku(board, 'x')\n```\n\nThis will create an empty board and make a move for player 'x'. The resulting board state will be returned.\n\nPlease let me know if you need any further assistance or if you have any questions about the code.",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "100",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Here's the completed code:\n\n```python\nimport json\n\ndef play_gomoku(board, player):\n    # Check if the board is filled and no player has won\n    if all_move_possible(board):\n        return draw_game()\n\n    # Find a valid move for the player\n    valid_moves = find_valid_moves(board, player)\n\n    # Sort the valid moves based on strategic value\n    sorted_moves = sort_moves(valid_moves, player)\n\n    # Choose the move with the highest strategic value\n    move = sorted_moves[0]\n\n    # Make the move on the board\n    board[move[0]][move[1]] = player\n\n    return board\n\n\ndef all_move_possible(board):\n    # Check if there are any empty spots left on the board\n    return any([row.count('0') > 0 for row in board])\n\n\ndef find_valid_moves(board, player):\n    valid_moves = []\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == '0':\n                valid_moves.append([i, j])\n    return valid_moves\n\n\ndef sort_moves(valid_moves, player):\n    # Strategy: Defense comes first, then look for opportunities to create lines\n    sorted_moves = []\n    for move in valid_moves:\n        board = copy.deepcopy(board)\n        board[move[0]][move[1]] = player\n\n        # Check if the opponent's two pieces are connected\n        connected = check_connection(board, player)\n\n        # If connected, evaluate the threat and add the move to the sorted list\n        if connected:\n            sorted_moves.append(move)\n        else:\n            # If not connected, evaluate the opportunity to create lines\n            opportunities = evaluate_opportunities(board, player)\n            sorted_moves.append((move, opportunities))\n\n    # Sort the moves based on strategic value\n    sorted_moves.sort(key=lambda x: x[1], reverse=True)\n    return [move for move, _ in sorted_moves]\n\n\ndef check_connection(board, player):\n    # Check horizontal, vertical, and diagonal connections\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal connections\n                if check_horizontal_connection(board, i, j, player):\n                    return True\n\n                # Check vertical connections\n                if check_vertical_connection(board, i, j, player):\n                    return True\n\n                # Check diagonal connections\n                if check_diagonal_connection(board, i, j, player):\n                    return True\n\n    return False\n\n\ndef check_horizontal_connection(board, row, col, player):\n    # Check horizontal connections\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n    return False\n\n\ndef check_vertical_connection(board, row, col, player):\n    # Check vertical connections\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n    return False\n\n\ndef check_diagonal_connection(board, row, col, player):\n    # Check diagonal connections\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n    return False\n\n\ndef evaluate_opportunities(board, player):\n    # Evaluate opportunities to create lines\n    opportunities = 0\n\n    # Check horizontal, vertical, and diagonal opportunities\n    for i in range(len(board)):\n        for j in range(len(board[i])):\n            if board[i][j] == player:\n                # Check horizontal opportunities\n                if check_horizontal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check vertical opportunities\n                if check_vertical_opportunity(board, i, j, player):\n                    opportunities += 1\n\n                # Check diagonal opportunities\n                if check_diagonal_opportunity(board, i, j, player):\n                    opportunities += 1\n\n    return opportunities\n\n\ndef check_horizontal_opportunity(board, row, col, player):\n    # Check horizontal opportunities\n    for i in range(len(board[row])):\n        if board[row][i] == player:\n            return True\n        elif board[row][i] == '0':\n            break\n\n    return False\n\n\ndef check_vertical_opportunity(board, row, col, player):\n    # Check vertical opportunities\n    for i in range(len(board)):\n        if board[i][col] == player:\n            return True\n        elif board[i][col] == '0':\n            break\n\n    return False\n\n\ndef check_diagonal_opportunity(board, row, col, player):\n    # Check diagonal opportunities\n    directions = [(1, 1), (-1, -1), (1, -1), (-1, 1)]\n    for dr, dc in directions:\n        r, c = row, col\n        while 0 <= r + dr < len(board) and 0 <= c + dc < len(board[0]):\n            if board[r][c] == player:\n                return True\n            elif board[r][c] == '0':\n                break\n            r += dr\n            c += dc\n\n    return False\n\n\ndef draw_game():\n    # Create a board for the draw game\n    board = [['0' for _ in range(15)] for _ in range(15)]\n\n    # Add some pieces to the board\n    board[7][7] = 'x'\n    board[7][8] = 'o'\n    board[8][7] = 'o'\n    board[8][8] = 'x'\n\n    return board\n```\n\nThe code above includes a complete implementation of the Gomoku game logic, including functionalities such as checking for valid moves, sorting moves based on strategic value, and evaluating opportunities to create lines. The code also includes helper functions for checking connections and opportunities in different directions.\n\nTo use the code, you can call the `play_gomoku` function with the current board state and the player's turn. The function will return the updated board state after the player has made their move.\n\nNote that the code assumes a 15x15 board and uses the symbols 'x' and 'o' to represent the two players. Feel free to modify the code as needed to fit your specific requirements.\n\nTo run the code, you can use a Python environment and execute the `play_gomoku` function with the appropriate arguments.\n\nHere's an example of how to use the code:\n\n```python\nboard = [['0' for _ in range(15)] for _ in range(15)]\nboard = play_gomoku(board, 'x')\n```\n\nThis will create an empty board and make a move for player 'x'. The resulting board state will be returned.\n\nPlease let me know if you need any further assistance or if you have any questions about the code.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662512,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 1540,
+            "prompt_tokens": 1281,
+            "total_tokens": 2821
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 6
+2024-06-06 16:28:58.016 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"The current board is as follows:\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000o00000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\nBob, it's your turn.\\n\\nI have analyzed the current situation and determined a strategy.\\n1. Defense comes first. Determine whether the opponent's previous moves have formed two connected lines, and whether there are two pieces closely attached in the vertical, horizontal, left diagonal, and right diagonal directions on the board, in the form of OO. If so, place a piece next to the edge of the opponent's piece, such as OOX.\\n2. The highest probability of winning is to find a way to form a situation where three chess pieces are closely packed together vertically, horizontally, left diagonally, and right diagonally on the chessboard, i.e. XXX.\\n\\nAfter considering all possible moves, I have determined that the move [7, 7] is the best choice.\\n\\nThought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\",\n    \"move\": [\n        6,\n        6\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "101",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "{\n    \"thought\": \"The current board is as follows:\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000o00000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\nBob, it's your turn.\\n\\nI have analyzed the current situation and determined a strategy.\\n1. Defense comes first. Determine whether the opponent's previous moves have formed two connected lines, and whether there are two pieces closely attached in the vertical, horizontal, left diagonal, and right diagonal directions on the board, in the form of OO. If so, place a piece next to the edge of the opponent's piece, such as OOX.\\n2. The highest probability of winning is to find a way to form a situation where three chess pieces are closely packed together vertically, horizontally, left diagonally, and right diagonally on the chessboard, i.e. XXX.\\n\\nAfter considering all possible moves, I have determined that the move [7, 7] is the best choice.\\n\\nThought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\",\n    \"move\": [\n        6,\n        6\n    ]\n}",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662533,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 409,
+            "prompt_tokens": 1281,
+            "total_tokens": 1690
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 49 (char 50), 	 Attempt 2 / 6
+2024-06-06 16:28:58.016 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"The current board is as follows:\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000o00000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\nBob, it's your turn.\\n\\nI have analyzed the current situation and determined a strategy.\\n1. Defense comes first. Determine whether the opponent's previous moves have formed two connected lines, and whether there are two pieces closely attached in the vertical, horizontal, left diagonal, and right diagonal directions on the board, in the form of OO. If so, place a piece next to the edge of the opponent's piece, such as OOX.\\n2. The highest probability of winning is to find a way to form a situation where three chess pieces are closely packed together vertically, horizontally, left diagonally, and right diagonally on the chessboard, i.e. XXX.\\n\\nAfter considering all possible moves, I have determined that the move [7, 7] is the best choice.\\n\\nThought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\",\n    \"move\": [\n        6,\n        6\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "101",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "{\n    \"thought\": \"The current board is as follows:\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000o00000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\nBob, it's your turn.\\n\\nI have analyzed the current situation and determined a strategy.\\n1. Defense comes first. Determine whether the opponent's previous moves have formed two connected lines, and whether there are two pieces closely attached in the vertical, horizontal, left diagonal, and right diagonal directions on the board, in the form of OO. If so, place a piece next to the edge of the opponent's piece, such as OOX.\\n2. The highest probability of winning is to find a way to form a situation where three chess pieces are closely packed together vertically, horizontally, left diagonally, and right diagonally on the chessboard, i.e. XXX.\\n\\nAfter considering all possible moves, I have determined that the move [7, 7] is the best choice.\\n\\nThought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\",\n    \"move\": [\n        6,\n        6\n    ]\n}",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662533,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 409,
+            "prompt_tokens": 1281,
+            "total_tokens": 1690
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 49 (char 50), 	 Attempt 2 / 6
+2024-06-06 16:28:58.016 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"The current board is as follows:\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000o00000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\nBob, it's your turn.\\n\\nI have analyzed the current situation and determined a strategy.\\n1. Defense comes first. Determine whether the opponent's previous moves have formed two connected lines, and whether there are two pieces closely attached in the vertical, horizontal, left diagonal, and right diagonal directions on the board, in the form of OO. If so, place a piece next to the edge of the opponent's piece, such as OOX.\\n2. The highest probability of winning is to find a way to form a situation where three chess pieces are closely packed together vertically, horizontally, left diagonally, and right diagonally on the chessboard, i.e. XXX.\\n\\nAfter considering all possible moves, I have determined that the move [7, 7] is the best choice.\\n\\nThought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\",\n    \"move\": [\n        6,\n        6\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "101",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "{\n    \"thought\": \"The current board is as follows:\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000o00000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\n000000000000000\nBob, it's your turn.\\n\\nI have analyzed the current situation and determined a strategy.\\n1. Defense comes first. Determine whether the opponent's previous moves have formed two connected lines, and whether there are two pieces closely attached in the vertical, horizontal, left diagonal, and right diagonal directions on the board, in the form of OO. If so, place a piece next to the edge of the opponent's piece, such as OOX.\\n2. The highest probability of winning is to find a way to form a situation where three chess pieces are closely packed together vertically, horizontally, left diagonally, and right diagonally on the chessboard, i.e. XXX.\\n\\nAfter considering all possible moves, I have determined that the move [7, 7] is the best choice.\\n\\nThought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\",\n    \"move\": [\n        6,\n        6\n    ]\n}",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662533,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 409,
+            "prompt_tokens": 1281,
+            "total_tokens": 1690
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 49 (char 50), 	 Attempt 2 / 6
+2024-06-06 16:29:04.129 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Here are my thoughts:\n1. According to the current board and the opponent's previous move, there is a potential threat from the opponent's piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n2. I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n3. I need to analyze the current situation and determine the best move to make. The opponent has recently placed a piece at [5, 6], which could potentially form a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nPlease let me know the row index and column index of the best move for me to make. The row index and column index must be integers.",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "102",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Here are my thoughts:\n1. According to the current board and the opponent's previous move, there is a potential threat from the opponent's piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n2. I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n3. I need to analyze the current situation and determine the best move to make. The opponent has recently placed a piece at [5, 6], which could potentially form a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nPlease let me know the row index and column index of the best move for me to make. The row index and column index must be integers.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662540,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 286,
+            "prompt_tokens": 1281,
+            "total_tokens": 1567
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 6
+2024-06-06 16:29:04.129 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Here are my thoughts:\n1. According to the current board and the opponent's previous move, there is a potential threat from the opponent's piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n2. I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n3. I need to analyze the current situation and determine the best move to make. The opponent has recently placed a piece at [5, 6], which could potentially form a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nPlease let me know the row index and column index of the best move for me to make. The row index and column index must be integers.",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "102",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Here are my thoughts:\n1. According to the current board and the opponent's previous move, there is a potential threat from the opponent's piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n2. I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n3. I need to analyze the current situation and determine the best move to make. The opponent has recently placed a piece at [5, 6], which could potentially form a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nPlease let me know the row index and column index of the best move for me to make. The row index and column index must be integers.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662540,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 286,
+            "prompt_tokens": 1281,
+            "total_tokens": 1567
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 6
+2024-06-06 16:29:04.129 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Here are my thoughts:\n1. According to the current board and the opponent's previous move, there is a potential threat from the opponent's piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n2. I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n3. I need to analyze the current situation and determine the best move to make. The opponent has recently placed a piece at [5, 6], which could potentially form a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nPlease let me know the row index and column index of the best move for me to make. The row index and column index must be integers.",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "id": "102",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Here are my thoughts:\n1. According to the current board and the opponent's previous move, there is a potential threat from the opponent's piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n2. I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n3. I need to analyze the current situation and determine the best move to make. The opponent has recently placed a piece at [5, 6], which could potentially form a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nPlease let me know the row index and column index of the best move for me to make. The row index and column index must be integers.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1717662540,
+        "model": "internlm2",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 286,
+            "prompt_tokens": 1281,
+            "total_tokens": 1567
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 6
+Bob: {
+    "thought": "Based on the current board and the information provided, I have determined the following steps for my next move:",
+    "move": [
+        10,
+        1
+    ]
+}
+Bob: {
+    "thought": "Based on the current board and the information provided, I have determined the following steps for my next move:",
+    "move": [
+        10,
+        1
+    ]
+}
+Bob: {
+    "thought": "Based on the current board and the information provided, I have determined the following steps for my next move:",
+    "move": [
+        10,
+        1
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+0x0000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+0x0000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+0x0000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.

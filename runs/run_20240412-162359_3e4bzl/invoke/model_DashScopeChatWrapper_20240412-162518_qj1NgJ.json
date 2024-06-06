@@ -1,0 +1,44 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240412-162518",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "system",
+                "content": "\nPlease extract the case description from the text given to you. It is a description of the case, and only the case description needs to be processed. Content unrelated to the case does not need to be processed.\nPlease break down the case description into 1-2 small sub-scenes, describing the content of the text\nYou should respond in the json format, which can be loaded by json in Python(pleas don't show 'json'):\n{\n    \"thought\": \"analyze the present situation, and what move you should make\",\n    \"scripts\": [script1, script2]\n}\nPlease ensure that your response follows the specified format and includes the necessary fields.\n{\n    \"thought\": \"Analyzing the given content can be broken down into three parts\",\n    \"scripts\": ['script1 is The novelist sits at his desk, with a distorted face and a painful expression, showing the struggle before death; his hand is gripping a pen, and the window behind him is closed and undamaged, emphasizing that the events occurring in the room were not caused by external intrusion.', 'script2 is The unfinished manuscript is laid out, with the pen resting on the paper and the ink still wet, suggesting that the novelist was writing a chapter closely related to his last work before his death.']\n}\n# forbitten\nthis format is forbitten, don't show 'json'\n"
+            },
+            {
+                "name": "system",
+                "role": "user",
+                "content": "\u60a8\u9009\u62e9\u4e86\u7ea2\u6c64\u7c7b\u578b\u3002\u63a5\u4e0b\u6765\uff0c\u6211\u5c06\u4e3a\u60a8\u5448\u73b0\u6848\u4ef6\u6982\u8ff0\uff0c\u5373\u201c\u6c64\u9762\u201d\u3002\u60a8\u67095\u8f6e\u63d0\u95ee\u673a\u4f1a\u6765\u63a8\u7406\u5e76\u63d0\u95ee\u3002\u8bf7\u542c\u9898\uff1a\n\n**\u6c64\u9762\uff1a**\n\u5728\u4e00\u5ea7\u53e4\u8001\u7684\u5b85\u90b8\u4e2d\uff0c\u4e3b\u4eba\u4e3e\u529e\u4e86\u4e00\u573a\u76db\u5927\u7684\u665a\u5bb4\u3002\u665a\u5bb4\u4e0a\uff0c\u5bbe\u5ba2\u4eec\u4eab\u7528\u7f8e\u98df\u3001\u7545\u8c08\u751a\u6b22\u3002\u7136\u800c\uff0c\u5f53\u591c\u6df1\u4eba\u9759\u4e4b\u65f6\uff0c\u4e3b\u4eba\u88ab\u53d1\u73b0\u6b7b\u5728\u4e86\u4e66\u623f\u5185\uff0c\u4e00\u628a\u6cbe\u8840\u7684\u9910\u5200\u63d2\u5728\u4ed6\u7684\u80f8\u53e3\u3002\u4e66\u623f\u95e8\u7a97\u7d27\u95ed\uff0c\u5185\u90e8\u5e76\u65e0\u6253\u6597\u75d5\u8ff9\uff0c\u4ec5\u6709\u4e00\u6247\u6697\u95e8\u901a\u5411\u5b85\u90b8\u7684\u5bc6\u9053\u7cfb\u7edf\u3002\u5728\u573a\u7684\u6240\u6709\u4eba\u90fd\u58f0\u79f0\u81ea\u5df1\u5728\u6848\u53d1\u65f6\u6709\u4e0d\u5728\u573a\u8bc1\u660e\u3002\n\n\u73b0\u5728\uff0c\u8bf7\u60a8\u63d0\u51fa\u4e00\u4e2a\u95ee\u9898\u6765\u5e2e\u52a9\u63a8\u7406\u6b64\u6848\u3002\uff08\u5269\u4f59\u63d0\u95ee\u8f6e\u6570\uff1a5\uff09"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "fabaa95a-431f-9644-98e8-288b04f92589",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"The case involves a grand dinner party at an old mansion where the host is found murdered in his study with a bloodied dining knife. The room has no signs of struggle, only a secret passage connected to the mansion's network. All guests claim alibis during the time of the crime.\",\n    \"scripts\": [\"Scene 1: The opulent dinner soir\u00e9e at the historic mansion is underway. Guests clad in elegant attire engage in lively conversation over sumptuous fare, unaware of the tragedy\u5373\u5c06\u53d1\u751f.\", \"Scene 2: As the night deepens, the host is discovered lifeless in his secluded study, a bloodstained dinner knife protruding from his chest. The room, its windows and doors securely fastened, bears no traces of struggle, except for a hidden door granting access to the mansion's labyrinthine secret tunnels. Each guest steadfastly maintains their innocence, presenting seemingly watertight alibis for the time of the murder.\"]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 443,
+            "output_tokens": 199,
+            "total_tokens": 642
+        }
+    }
+}

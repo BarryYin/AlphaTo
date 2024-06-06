@@ -1,0 +1,111 @@
+2024-04-12 14:51:43.582 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:51:43.584 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 14:51:43.584 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 14:51:43.584 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-145140_a8x7xj/agentscope.db]
+2024-04-12 14:51:43.591 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:43.592 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 14:51:43.594 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:51:43.595 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:51:43.597 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:51:43.598 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:43.600 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:43.601 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:43.602 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:43.602 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:43.609 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:51:43.609 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:51:43.610 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:51:43.610 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:51:46.021 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:51:46.021 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:51:46.021 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:51:46.021 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:51:46.021 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:51:46.022 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:51:46.022 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:51:46.021 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:51:46.022 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:51:46.027 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.027 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.027 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.029 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.029 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.029 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.035 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.035 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.035 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.036 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.036 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.036 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.037 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.037 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.037 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.041 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.041 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.041 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.042 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.042 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:51:46.042 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到“推理汤面”游戏！游戏规则如下：
+
+您需要从以下四种汤底类型中选择一种作为您即将推理的案件背景：
+1-红汤：指有死亡情节的汤；
+2-清汤：指没有人死亡的汤；
+3-本格：指没有超自然现象的案件；
+4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择一个汤底类型，输入对应的数字即可。
+host: 欢迎来到“推理汤面”游戏！游戏规则如下：
+
+您需要从以下四种汤底类型中选择一种作为您即将推理的案件背景：
+1-红汤：指有死亡情节的汤；
+2-清汤：指没有人死亡的汤；
+3-本格：指没有超自然现象的案件；
+4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择一个汤底类型，输入对应的数字即可。
+host: 欢迎来到“推理汤面”游戏！游戏规则如下：
+
+您需要从以下四种汤底类型中选择一种作为您即将推理的案件背景：
+1-红汤：指有死亡情节的汤；
+2-清汤：指没有人死亡的汤；
+3-本格：指没有超自然现象的案件；
+4-变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择一个汤底类型，输入对应的数字即可。
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+**汤面描述：**
+在一座偏僻的山林小屋中，五位互不认识的陌生人应一则神秘广告之邀前来聚会。当夜，一场突如其来的暴雪切断了小屋与外界的联系。第二天早晨，众人发现其中一位名叫李明的男子死于房间内，死因疑似中毒。屋内搜寻后发现，每个人的餐具和酒杯上都残留着相同的有毒物质痕迹。更为诡异的是，每个参与者都声称自己昨夜曾单独离开过房间，且无法提供不在场证明。
+
+您有三次提问机会来推理此案。请开始您的第一次提问。剩余提问次数：3。
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+**汤面描述：**
+在一座偏僻的山林小屋中，五位互不认识的陌生人应一则神秘广告之邀前来聚会。当夜，一场突如其来的暴雪切断了小屋与外界的联系。第二天早晨，众人发现其中一位名叫李明的男子死于房间内，死因疑似中毒。屋内搜寻后发现，每个人的餐具和酒杯上都残留着相同的有毒物质痕迹。更为诡异的是，每个参与者都声称自己昨夜曾单独离开过房间，且无法提供不在场证明。
+
+您有三次提问机会来推理此案。请开始您的第一次提问。剩余提问次数：3。
+host: 您选择了红汤汤底。现在为您呈上汤面：
+
+**汤面描述：**
+在一座偏僻的山林小屋中，五位互不认识的陌生人应一则神秘广告之邀前来聚会。当夜，一场突如其来的暴雪切断了小屋与外界的联系。第二天早晨，众人发现其中一位名叫李明的男子死于房间内，死因疑似中毒。屋内搜寻后发现，每个人的餐具和酒杯上都残留着相同的有毒物质痕迹。更为诡异的是，每个参与者都声称自己昨夜曾单独离开过房间，且无法提供不在场证明。
+
+您有三次提问机会来推理此案。请开始您的第一次提问。剩余提问次数：3。

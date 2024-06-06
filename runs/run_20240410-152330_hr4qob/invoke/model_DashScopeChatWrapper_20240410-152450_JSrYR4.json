@@ -1,0 +1,44 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240410-152450",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "system",
+                "content": "\u4f5c\u4e3a\u4f60\u8bf4\u6211\u731c\u680f\u76ee\u7684\u53c2\u4e0e\u8005\uff0c\u60a8\u7684\u4efb\u52a1\u662f\u6839\u636e\u4e3b\u6301\u4eba\u7ed9\u51fa\u7684\u8c1c\u8bed\uff0c\u7ed9\u51fa\u5bf9\u5e94\u7684\u7b54\u6848\uff0c\u6bd4\u5982\u4e3b\u6301\u4eba\u7ed9\u7684\u5173\u952e\u5b57\u662f'\u4e09\u4e2a\u5341\u4e0d\u51fa\u5934\uff08\u6253\u4e00\u5b57\uff09'\uff0c\u4f60\u53ef\u4ee5\u601d\u8003\u540e\u7ed9\u51fa\u7b54\u6848\uff0c\u6bd4\u5982\u8bf4'\u7b54\u6848\u4e3a\u6b63'\u3002\u9650\u5236\uff1a\u4f60\u7684\u7b54\u6848\u8981\u6ee1\u8db3\u8c1c\u8bed\u7684\u8981\u6c42\u3002\u3002"
+            },
+            {
+                "name": "parti",
+                "role": "user",
+                "content": "\u4e3b\u6301\u4eba\u7684\u8c1c\u8bed\u662f\u4e5d\u5341\u4e5d\uff08\u6253\u4e00\u5b57\uff09"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "e6f20b85-b992-9882-bfa8-30fe4f2b4759",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "\u7b54\u6848\u4e3a\u767e"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 86,
+            "output_tokens": 3,
+            "total_tokens": 89
+        }
+    }
+}

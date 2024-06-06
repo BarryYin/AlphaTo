@@ -1,0 +1,142 @@
+2024-04-07 20:49:15.457 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:49:15.459 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-07 20:49:15.459 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-07 20:49:15.459 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240407-204915_0qdexz/agentscope.db]
+2024-04-07 20:49:15.462 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.463 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-07 20:49:15.464 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-07 20:49:15.465 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-07 20:49:15.466 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-07 20:49:15.466 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.467 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.468 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.475 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:49:15.475 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:49:15.475 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:49:15.475 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:49:15.477 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.477 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.478 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.478 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.479 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.479 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.479 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.479 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.480 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.480 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.482 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.482 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.482 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.482 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.490 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:49:15.490 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:49:15.490 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:49:15.491 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:49:15.491 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:49:15.491 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:49:15.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:49:15.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 好的，欢迎参加本次推理游戏！您将扮演一名侦探，通过提问和推理来揭开隐藏的事件真相。
+
+游戏规则如下：
+
+1. 请首先选择汤底类型：
+   1-红汤：指有死亡情节的汤；
+   2-清汤：指没有人死亡的汤；
+   3-本格：指没有超自然现象；
+   4-变格：指有超自然现象（灵异、科幻、超能力、妖怪等）
+
+请您输入所选汤底类型的数字序号。
+
+选择完毕后，我将为您提供案件概述（汤面），并告知您拥有几次提问次数。您需利用提问机会逐步推理出事件真相。当您认为已掌握事件全貌时，请回复“还原事件”，随后详细阐述您的推理结果。我会根据您推理的准确度给出评分（满分10分）。
+
+游戏开始，请选择汤底类型。
+host: 好的，欢迎参加本次推理游戏！您将扮演一名侦探，通过提问和推理来揭开隐藏的事件真相。
+
+游戏规则如下：
+
+1. 请首先选择汤底类型：
+   1-红汤：指有死亡情节的汤；
+   2-清汤：指没有人死亡的汤；
+   3-本格：指没有超自然现象；
+   4-变格：指有超自然现象（灵异、科幻、超能力、妖怪等）
+
+请您输入所选汤底类型的数字序号。
+
+选择完毕后，我将为您提供案件概述（汤面），并告知您拥有几次提问次数。您需利用提问机会逐步推理出事件真相。当您认为已掌握事件全貌时，请回复“还原事件”，随后详细阐述您的推理结果。我会根据您推理的准确度给出评分（满分10分）。
+
+游戏开始，请选择汤底类型。
+host: 好的，欢迎参加本次推理游戏！您将扮演一名侦探，通过提问和推理来揭开隐藏的事件真相。
+
+游戏规则如下：
+
+1. 请首先选择汤底类型：
+   1-红汤：指有死亡情节的汤；
+   2-清汤：指没有人死亡的汤；
+   3-本格：指没有超自然现象；
+   4-变格：指有超自然现象（灵异、科幻、超能力、妖怪等）
+
+请您输入所选汤底类型的数字序号。
+
+选择完毕后，我将为您提供案件概述（汤面），并告知您拥有几次提问次数。您需利用提问机会逐步推理出事件真相。当您认为已掌握事件全貌时，请回复“还原事件”，随后详细阐述您的推理结果。我会根据您推理的准确度给出评分（满分10分）。
+
+游戏开始，请选择汤底类型。
+host: 您选择了红汤类型。接下来为您呈现案件概述（汤面）：
+
+**汤面：**
+在一所历史悠久的私立学校中，一名年轻教师于深夜被发现死在学校图书馆内，死因疑似中毒。案发现场门窗紧闭，无明显外力侵入痕迹。据调查，当晚仅有包括死者在内的四名教职员工曾进入图书馆。这四人分别是：严厉的校长、死者的好友兼同事、对死者怀有敌意的竞争对手，以及一位性格孤僻、痴迷于毒物学研究的老教师。他们各自声称在案发时间段内独自在图书馆内阅读，且都有不在凶杀现场的证据。
+
+您有5次提问机会来揭示事件真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 您选择了红汤类型。接下来为您呈现案件概述（汤面）：
+
+**汤面：**
+在一所历史悠久的私立学校中，一名年轻教师于深夜被发现死在学校图书馆内，死因疑似中毒。案发现场门窗紧闭，无明显外力侵入痕迹。据调查，当晚仅有包括死者在内的四名教职员工曾进入图书馆。这四人分别是：严厉的校长、死者的好友兼同事、对死者怀有敌意的竞争对手，以及一位性格孤僻、痴迷于毒物学研究的老教师。他们各自声称在案发时间段内独自在图书馆内阅读，且都有不在凶杀现场的证据。
+
+您有5次提问机会来揭示事件真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 您选择了红汤类型。接下来为您呈现案件概述（汤面）：
+
+**汤面：**
+在一所历史悠久的私立学校中，一名年轻教师于深夜被发现死在学校图书馆内，死因疑似中毒。案发现场门窗紧闭，无明显外力侵入痕迹。据调查，当晚仅有包括死者在内的四名教职员工曾进入图书馆。这四人分别是：严厉的校长、死者的好友兼同事、对死者怀有敌意的竞争对手，以及一位性格孤僻、痴迷于毒物学研究的老教师。他们各自声称在案发时间段内独自在图书馆内阅读，且都有不在凶杀现场的证据。
+
+您有5次提问机会来揭示事件真相。请开始您的第一次提问。剩余提问次数：5次。
+host: 否
+host: 否
+host: 否
+assi: {"thought": "根据现有的信息，我们正在处理一起发生于私立学校图书馆内的年轻教师中毒死亡案件。目前有四位嫌疑人：严厉的校长、死者的好友兼同事、对死者怀有敌意的竞争对手，以及一位痴迷于毒物学研究的老教师。他们都声称在案发时间段内独自在图书馆内阅读，并且有不在凶杀现场的证据。虽然对死者怀有敌意的竞争对手看似可疑，但仅凭此无法断定其为凶手，需要进一步调查和提问以获取更多线索。我接下来应继续围绕案情和嫌疑人提问，寻找可能的破绽或动机。", "speak": "请问在案发现场发现了哪些与死者中毒有关的物品或痕迹？@host"}
+assi: {"thought": "根据现有的信息，我们正在处理一起发生于私立学校图书馆内的年轻教师中毒死亡案件。目前有四位嫌疑人：严厉的校长、死者的好友兼同事、对死者怀有敌意的竞争对手，以及一位痴迷于毒物学研究的老教师。他们都声称在案发时间段内独自在图书馆内阅读，并且有不在凶杀现场的证据。虽然对死者怀有敌意的竞争对手看似可疑，但仅凭此无法断定其为凶手，需要进一步调查和提问以获取更多线索。我接下来应继续围绕案情和嫌疑人提问，寻找可能的破绽或动机。", "speak": "请问在案发现场发现了哪些与死者中毒有关的物品或痕迹？@host"}
+assi: {"thought": "根据现有的信息，我们正在处理一起发生于私立学校图书馆内的年轻教师中毒死亡案件。目前有四位嫌疑人：严厉的校长、死者的好友兼同事、对死者怀有敌意的竞争对手，以及一位痴迷于毒物学研究的老教师。他们都声称在案发时间段内独自在图书馆内阅读，并且有不在凶杀现场的证据。虽然对死者怀有敌意的竞争对手看似可疑，但仅凭此无法断定其为凶手，需要进一步调查和提问以获取更多线索。我接下来应继续围绕案情和嫌疑人提问，寻找可能的破绽或动机。", "speak": "请问在案发现场发现了哪些与死者中毒有关的物品或痕迹？@host"}
+host: 否
+host: 否
+host: 否
+host: 否
+host: 否
+host: 否
+assi: {"thought": "根据之前的信息，年轻教师的死亡并非自杀，且现场未发现直接与死者中毒相关的物品或痕迹。考虑到案发现场门窗紧闭，无明显外力侵入迹象，推测凶手可能是当晚进入图书馆的四名教职员工之一。接下来，我需要关注的是如何在没有直接物证的情况下，通过逻辑推理找出凶手。从已知信息来看，每个嫌疑人都提供了不在凶杀现场的证据，这意味着我们需要找出这些证据中的矛盾或不合理之处，或者寻找他们在案发时具备行凶条件的可能性。", "speak": "能否详细描述每位嫌疑人提供的不在凶杀现场的证据？@host"}
+assi: {"thought": "根据之前的信息，年轻教师的死亡并非自杀，且现场未发现直接与死者中毒相关的物品或痕迹。考虑到案发现场门窗紧闭，无明显外力侵入迹象，推测凶手可能是当晚进入图书馆的四名教职员工之一。接下来，我需要关注的是如何在没有直接物证的情况下，通过逻辑推理找出凶手。从已知信息来看，每个嫌疑人都提供了不在凶杀现场的证据，这意味着我们需要找出这些证据中的矛盾或不合理之处，或者寻找他们在案发时具备行凶条件的可能性。", "speak": "能否详细描述每位嫌疑人提供的不在凶杀现场的证据？@host"}
+assi: {"thought": "根据之前的信息，年轻教师的死亡并非自杀，且现场未发现直接与死者中毒相关的物品或痕迹。考虑到案发现场门窗紧闭，无明显外力侵入迹象，推测凶手可能是当晚进入图书馆的四名教职员工之一。接下来，我需要关注的是如何在没有直接物证的情况下，通过逻辑推理找出凶手。从已知信息来看，每个嫌疑人都提供了不在凶杀现场的证据，这意味着我们需要找出这些证据中的矛盾或不合理之处，或者寻找他们在案发时具备行凶条件的可能性。", "speak": "能否详细描述每位嫌疑人提供的不在凶杀现场的证据？@host"}
+host: 否
+host: 否
+host: 否
+host: 否
+host: 否
+host: 否
+assi: {"thought": "根据之前的提问和回答，我们已经排除了年轻教师自杀的可能性，现场也没有找到与死者中毒相关的物品或痕迹。每位嫌疑人声称在案发时间段内独自在图书馆内阅读，并且都提供了不在凶杀现场的证据。然而，针对这些证据的详细描述请求并未得到肯定回应，这可能意味着这些证据的细节对推理过程并不重要，或者主持人希望玩家通过其他途径推导出真相。此外，询问毒物研究老教师是否丢失毒物也得到了否定答复。
+
+鉴于当前情况，我注意到案件中提到图书馆门窗紧闭，无明显外力侵入痕迹。这意味着凶手极有可能是当晚进入图书馆的四人之一。既然直接询问证据详情和毒物丢失问题均未获得有效线索，我决定转向对嫌疑人行为模式和动机的探究，以期发现可能的破绽或关联。", "speak": "请问这四名教职员工在案发当晚进入图书馆的具体时间点及离开时间点是什么？他们是否有相互之间的交叉时段？@host"}
+assi: {"thought": "根据之前的提问和回答，我们已经排除了年轻教师自杀的可能性，现场也没有找到与死者中毒相关的物品或痕迹。每位嫌疑人声称在案发时间段内独自在图书馆内阅读，并且都提供了不在凶杀现场的证据。然而，针对这些证据的详细描述请求并未得到肯定回应，这可能意味着这些证据的细节对推理过程并不重要，或者主持人希望玩家通过其他途径推导出真相。此外，询问毒物研究老教师是否丢失毒物也得到了否定答复。
+
+鉴于当前情况，我注意到案件中提到图书馆门窗紧闭，无明显外力侵入痕迹。这意味着凶手极有可能是当晚进入图书馆的四人之一。既然直接询问证据详情和毒物丢失问题均未获得有效线索，我决定转向对嫌疑人行为模式和动机的探究，以期发现可能的破绽或关联。", "speak": "请问这四名教职员工在案发当晚进入图书馆的具体时间点及离开时间点是什么？他们是否有相互之间的交叉时段？@host"}
+assi: {"thought": "根据之前的提问和回答，我们已经排除了年轻教师自杀的可能性，现场也没有找到与死者中毒相关的物品或痕迹。每位嫌疑人声称在案发时间段内独自在图书馆内阅读，并且都提供了不在凶杀现场的证据。然而，针对这些证据的详细描述请求并未得到肯定回应，这可能意味着这些证据的细节对推理过程并不重要，或者主持人希望玩家通过其他途径推导出真相。此外，询问毒物研究老教师是否丢失毒物也得到了否定答复。
+
+鉴于当前情况，我注意到案件中提到图书馆门窗紧闭，无明显外力侵入痕迹。这意味着凶手极有可能是当晚进入图书馆的四人之一。既然直接询问证据详情和毒物丢失问题均未获得有效线索，我决定转向对嫌疑人行为模式和动机的探究，以期发现可能的破绽或关联。", "speak": "请问这四名教职员工在案发当晚进入图书馆的具体时间点及离开时间点是什么？他们是否有相互之间的交叉时段？@host"}

@@ -1,0 +1,106 @@
+2024-04-04 15:10:03.486 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:10:03.488 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-04 15:10:03.488 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-04 15:10:03.488 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240404-151002_qs21z1/agentscope.db]
+2024-04-04 15:10:03.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:03.491 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-04 15:10:03.492 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:10:03.493 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:10:03.493 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:10:03.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.370 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 15:10:06.370 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 15:10:06.371 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:10:06.371 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:10:06.373 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.373 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.374 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.374 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.374 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.374 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.375 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:10:06.375 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [8, 9] which could lead to a diagonal line. To counter this threat and potentially create my own line, I should place my piece at [9, 9]. This move will block the opponent's diagonal line and create a potential horizontal line for me.",
+    "move": [
+        9,
+        9
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [8, 9] which could lead to a diagonal line. To counter this threat and potentially create my own line, I should place my piece at [9, 9]. This move will block the opponent's diagonal line and create a potential horizontal line for me.",
+    "move": [
+        9,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.

@@ -1,0 +1,139 @@
+2024-04-07 20:43:55.769 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:43:55.771 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-07 20:43:55.771 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-07 20:43:55.771 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240407-204355_tbvi7m/agentscope.db]
+2024-04-07 20:43:55.773 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.773 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-07 20:43:55.774 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-07 20:43:55.775 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-07 20:43:55.776 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-07 20:43:55.776 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.777 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.778 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.785 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:43:55.785 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:43:55.785 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:43:55.785 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:43:55.787 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.787 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.788 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.788 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.789 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.789 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.789 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.789 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.790 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.790 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.791 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.791 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.792 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.792 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.792 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.792 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.793 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.793 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.801 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:43:55.801 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:43:55.801 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-07 20:43:55.802 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:43:55.802 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:43:55.802 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-07 20:43:55.803 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.803 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.803 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.804 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.804 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-07 20:43:55.804 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 好的，欢迎参加推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，汤底类型决定了案件的基本设定。可选类型如下：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请您选择一个汤底类型（回复数字即可），我将为您准备对应的汤面。您在获取汤面后，有若干次提问机会，用于推理案件详情。提问时，请直接描述您想要了解的信息。我会回答“是”、“否”或“与此无关”，以确认您的猜测是否符合案件事实。同时，每次回答后，我会告知您剩余的提问次数。
+
+当您认为已经掌握汤底真相时，回复“还原事件”，并详细阐述您推理出的案件情况。我会根据您的回答与实际汤底的一致性，以及回答的完整程度进行评分，满分10分。游戏设有回答轮次限制，超过限制仍未还原真相，则游戏失败。若您未能给出答案，我将揭示汤底。
+
+现在，请您选择汤底类型。
+host: 好的，欢迎参加推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，汤底类型决定了案件的基本设定。可选类型如下：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请您选择一个汤底类型（回复数字即可），我将为您准备对应的汤面。您在获取汤面后，有若干次提问机会，用于推理案件详情。提问时，请直接描述您想要了解的信息。我会回答“是”、“否”或“与此无关”，以确认您的猜测是否符合案件事实。同时，每次回答后，我会告知您剩余的提问次数。
+
+当您认为已经掌握汤底真相时，回复“还原事件”，并详细阐述您推理出的案件情况。我会根据您的回答与实际汤底的一致性，以及回答的完整程度进行评分，满分10分。游戏设有回答轮次限制，超过限制仍未还原真相，则游戏失败。若您未能给出答案，我将揭示汤底。
+
+现在，请您选择汤底类型。
+host: 好的，欢迎参加推理汤面游戏！游戏规则如下：
+
+您将选择一种汤底类型，汤底类型决定了案件的基本设定。可选类型如下：
+
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请您选择一个汤底类型（回复数字即可），我将为您准备对应的汤面。您在获取汤面后，有若干次提问机会，用于推理案件详情。提问时，请直接描述您想要了解的信息。我会回答“是”、“否”或“与此无关”，以确认您的猜测是否符合案件事实。同时，每次回答后，我会告知您剩余的提问次数。
+
+当您认为已经掌握汤底真相时，回复“还原事件”，并详细阐述您推理出的案件情况。我会根据您的回答与实际汤底的一致性，以及回答的完整程度进行评分，满分10分。游戏设有回答轮次限制，超过限制仍未还原真相，则游戏失败。若您未能给出答案，我将揭示汤底。
+
+现在，请您选择汤底类型。
+host: 您选择了红汤类型。已为您准备好一则包含死亡情节的汤面，请仔细思考并提问。
+
+【汤面】：
+在一家封闭的私人图书馆内，发现馆长倒在地上，手中紧握一张泛黄的藏书单，上面标注着一串神秘符号。现场门窗紧闭，无明显破坏痕迹，室内温度异常低。馆长身边散落着几本书，其中一本打开的古籍中夹着一张陌生人的照片，照片背面写着一行小字：“真相，就在被遗忘的角落。”
+
+您有5次提问机会。请问您想了解哪方面的信息？
+host: 您选择了红汤类型。已为您准备好一则包含死亡情节的汤面，请仔细思考并提问。
+
+【汤面】：
+在一家封闭的私人图书馆内，发现馆长倒在地上，手中紧握一张泛黄的藏书单，上面标注着一串神秘符号。现场门窗紧闭，无明显破坏痕迹，室内温度异常低。馆长身边散落着几本书，其中一本打开的古籍中夹着一张陌生人的照片，照片背面写着一行小字：“真相，就在被遗忘的角落。”
+
+您有5次提问机会。请问您想了解哪方面的信息？
+host: 您选择了红汤类型。已为您准备好一则包含死亡情节的汤面，请仔细思考并提问。
+
+【汤面】：
+在一家封闭的私人图书馆内，发现馆长倒在地上，手中紧握一张泛黄的藏书单，上面标注着一串神秘符号。现场门窗紧闭，无明显破坏痕迹，室内温度异常低。馆长身边散落着几本书，其中一本打开的古籍中夹着一张陌生人的照片，照片背面写着一行小字：“真相，就在被遗忘的角落。”
+
+您有5次提问机会。请问您想了解哪方面的信息？
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 您已经开始了游戏。当前汤底为红汤类型，案件背景如下：
+
+【汤面】：
+在一家封闭的私人图书馆内，发现馆长倒在地上，手中紧握一张泛黄的藏书单，上面标注着一串神秘符号。现场门窗紧闭，无明显破坏痕迹，室内温度异常低。馆长身边散落着几本书，其中一本打开的古籍中夹着一张陌生人的照片，照片背面写着一行小字：“真相，就在被遗忘的角落。”
+
+您有5次提问机会。请问您想了解哪方面的信息？您可以提问关于现场状况、馆长身份、神秘符号含义、照片人物关系、古籍内容等相关线索的问题。请描述您想要了解的具体内容。
+host: 您已经开始了游戏。当前汤底为红汤类型，案件背景如下：
+
+【汤面】：
+在一家封闭的私人图书馆内，发现馆长倒在地上，手中紧握一张泛黄的藏书单，上面标注着一串神秘符号。现场门窗紧闭，无明显破坏痕迹，室内温度异常低。馆长身边散落着几本书，其中一本打开的古籍中夹着一张陌生人的照片，照片背面写着一行小字：“真相，就在被遗忘的角落。”
+
+您有5次提问机会。请问您想了解哪方面的信息？您可以提问关于现场状况、馆长身份、神秘符号含义、照片人物关系、古籍内容等相关线索的问题。请描述您想要了解的具体内容。
+host: 您已经开始了游戏。当前汤底为红汤类型，案件背景如下：
+
+【汤面】：
+在一家封闭的私人图书馆内，发现馆长倒在地上，手中紧握一张泛黄的藏书单，上面标注着一串神秘符号。现场门窗紧闭，无明显破坏痕迹，室内温度异常低。馆长身边散落着几本书，其中一本打开的古籍中夹着一张陌生人的照片，照片背面写着一行小字：“真相，就在被遗忘的角落。”
+
+您有5次提问机会。请问您想了解哪方面的信息？您可以提问关于现场状况、馆长身份、神秘符号含义、照片人物关系、古籍内容等相关线索的问题。请描述您想要了解的具体内容。
+host: 否
+host: 否
+host: 否
+host: 是
+host: 是
+host: 是
+assi: {"thought": "从已知信息来看，这是一个红汤类型的案件，即存在死亡情节。目前馆长被发现在封闭的私人图书馆内倒地身亡，手中紧握一张标注神秘符号的藏书单，室内温度异常低，现场有几本书，其中一本打开的古籍中夹着陌生人的照片，照片背面写着暗示性的文字。我的上一个问题“室内温度异常低 是馆长死亡的关键”得到了肯定的回答，这表明低温环境与馆长的死因直接相关。接下来，我应该继续深入探究低温是如何导致馆长死亡的，以及它与其他线索（如神秘符号、藏书单、陌生人的照片和古籍内容）之间的关联。", "speak": "馆长是否有冻伤或其他与低温相关的生理反应？@host"}
+assi: {"thought": "从已知信息来看，这是一个红汤类型的案件，即存在死亡情节。目前馆长被发现在封闭的私人图书馆内倒地身亡，手中紧握一张标注神秘符号的藏书单，室内温度异常低，现场有几本书，其中一本打开的古籍中夹着陌生人的照片，照片背面写着暗示性的文字。我的上一个问题“室内温度异常低 是馆长死亡的关键”得到了肯定的回答，这表明低温环境与馆长的死因直接相关。接下来，我应该继续深入探究低温是如何导致馆长死亡的，以及它与其他线索（如神秘符号、藏书单、陌生人的照片和古籍内容）之间的关联。", "speak": "馆长是否有冻伤或其他与低温相关的生理反应？@host"}
+assi: {"thought": "从已知信息来看，这是一个红汤类型的案件，即存在死亡情节。目前馆长被发现在封闭的私人图书馆内倒地身亡，手中紧握一张标注神秘符号的藏书单，室内温度异常低，现场有几本书，其中一本打开的古籍中夹着陌生人的照片，照片背面写着暗示性的文字。我的上一个问题“室内温度异常低 是馆长死亡的关键”得到了肯定的回答，这表明低温环境与馆长的死因直接相关。接下来，我应该继续深入探究低温是如何导致馆长死亡的，以及它与其他线索（如神秘符号、藏书单、陌生人的照片和古籍内容）之间的关联。", "speak": "馆长是否有冻伤或其他与低温相关的生理反应？@host"}

@@ -1,0 +1,54 @@
+2024-04-05 09:12:53.555 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 09:12:53.556 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-05 09:12:53.557 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-05 09:12:53.557 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240405-091253_pq3ywm/agentscope.db]
+2024-04-05 09:12:53.559 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.559 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-05 09:12:53.560 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-05 09:12:53.561 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-05 09:12:53.562 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-05 09:12:53.562 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.563 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.564 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.564 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.565 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [54535] as the port number.
+2024-04-05 09:12:53.565 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.566 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [54536] as the port number.
+2024-04-05 09:12:53.566 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.567 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [54537] as the port number.
+2024-04-05 09:12:53.567 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.568 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [54538] as the port number.
+2024-04-05 09:12:53.574 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 09:12:53.574 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 09:12:53.574 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 09:12:53.574 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 09:12:53.576 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.576 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.577 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 09:12:53.577 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 蔬菜类
+Moderator: 蔬菜类
+2024-04-05 09:13:00.694 | INFO     | agentscope.agents.rpc_agent:_launch_in_sub:394 - Launch [DictDialogAgent] server at [localhost:54538] success
+2024-04-05 09:13:00.694 | INFO     | agentscope.agents.rpc_agent:_launch_in_sub:394 - Launch [DictDialogAgent] server at [localhost:54538] success
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家1，当前的时间是2024-04-05, 你上一位玩家的发言内容是一种蔬菜。
+                    你收到的词语是:白菜
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家1，当前的时间是2024-04-05, 你上一位玩家的发言内容是一种蔬菜。
+                    你收到的词语是:白菜
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+2024-04-05 09:13:12.174 | INFO     | agentscope.agents.rpc_agent:_launch_in_sub:394 - Launch [DictDialogAgent] server at [localhost:54535] success
+2024-04-05 09:13:12.174 | INFO     | agentscope.agents.rpc_agent:_launch_in_sub:394 - Launch [DictDialogAgent] server at [localhost:54535] success

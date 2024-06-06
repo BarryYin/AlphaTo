@@ -1,0 +1,561 @@
+2024-04-12 22:53:07.381 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 22:53:07.387 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 22:53:07.387 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 22:53:07.388 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-225304_4lp9pt/agentscope.db]
+2024-04-12 22:53:07.396 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:07.412 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 22:53:07.413 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 22:53:07.414 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 22:53:07.414 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 22:53:07.415 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:07.415 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:07.416 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:07.416 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:07.417 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:07.424 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 22:53:07.424 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 22:53:07.424 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 22:53:07.424 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 22:53:33.781 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 22:53:33.781 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 22:53:33.781 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 22:53:33.782 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 22:53:33.782 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 22:53:33.782 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 22:53:33.782 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 22:53:33.782 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 22:53:33.782 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 22:53:33.795 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.795 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.795 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.804 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.804 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.804 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.811 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.811 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.811 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.812 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.812 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.812 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.813 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.813 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.813 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.814 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.814 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.814 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.815 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.815 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 22:53:33.815 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "As per the defense-first strategy, I should check if the opponent's single 'o' piece at [6, 7] forms any three-connected lines. However, it does not. Therefore, I'll shift my focus to creating a three-piece formation of my own. I'll place my first piece at the center of the board, [7, 7], which provides the most flexibility for further strategic development.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "As per the defense-first strategy, I should check if the opponent's single 'o' piece at [6, 7] forms any three-connected lines. However, it does not. Therefore, I'll shift my focus to creating a three-piece formation of my own. I'll place my first piece at the center of the board, [7, 7], which provides the most flexibility for further strategic development.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "As per the defense-first strategy, I should check if the opponent's single 'o' piece at [6, 7] forms any three-connected lines. However, it does not. Therefore, I'll shift my focus to creating a three-piece formation of my own. I'll place my first piece at the center of the board, [7, 7], which provides the most flexibility for further strategic development.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oo0000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oo0000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oo0000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "After analyzing the current board state, I see that Alice has placed two 'o' pieces in a vertical alignment at [6, 6] and [6, 7]. This creates a potential threat of a vertical line. In order to block this formation and simultaneously initiate the creation of a horizontal line for myself, I will place my next piece at [7, 8]. This move effectively obstructs Alice's vertical progression and sets up a possible horizontal connection for my 'x' pieces.",
+    "move": [
+        7,
+        8
+    ]
+}
+Bob: {
+    "thought": "After analyzing the current board state, I see that Alice has placed two 'o' pieces in a vertical alignment at [6, 6] and [6, 7]. This creates a potential threat of a vertical line. In order to block this formation and simultaneously initiate the creation of a horizontal line for myself, I will place my next piece at [7, 8]. This move effectively obstructs Alice's vertical progression and sets up a possible horizontal connection for my 'x' pieces.",
+    "move": [
+        7,
+        8
+    ]
+}
+Bob: {
+    "thought": "After analyzing the current board state, I see that Alice has placed two 'o' pieces in a vertical alignment at [6, 6] and [6, 7]. This creates a potential threat of a vertical line. In order to block this formation and simultaneously initiate the creation of a horizontal line for myself, I will place my next piece at [7, 8]. This move effectively obstructs Alice's vertical progression and sets up a possible horizontal connection for my 'x' pieces.",
+    "move": [
+        7,
+        8
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000ooo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000ooo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000ooo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Considering the opponent's formation of three 'o' pieces in a vertical line at [6, 5], [6, 6], and [6, 7], it is crucial to block their potential win. I will do this by placing my 'x' piece at [5, 9], effectively obstructing their vertical progression while simultaneously laying the groundwork for a diagonal line in my favor.",
+    "move": [
+        5,
+        9
+    ]
+}
+Bob: {
+    "thought": "Considering the opponent's formation of three 'o' pieces in a vertical line at [6, 5], [6, 6], and [6, 7], it is crucial to block their potential win. I will do this by placing my 'x' piece at [5, 9], effectively obstructing their vertical progression while simultaneously laying the groundwork for a diagonal line in my favor.",
+    "move": [
+        5,
+        9
+    ]
+}
+Bob: {
+    "thought": "Considering the opponent's formation of three 'o' pieces in a vertical line at [6, 5], [6, 6], and [6, 7], it is crucial to block their potential win. I will do this by placing my 'x' piece at [5, 9], effectively obstructing their vertical progression while simultaneously laying the groundwork for a diagonal line in my favor.",
+    "move": [
+        5,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000ooo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000ooo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000ooo0000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000oooo000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000oooo000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000oooo000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Upon examining the current board, I notice that the opponent has created a cluster of four 'o' pieces in a vertical line at [6, 5], [6, 6], [6, 7], and [6, 8]. It is imperative to block this potential winning configuration. Additionally, I aim to continue developing my own offensive strategy. By placing my 'x' piece at [5, .png], I effectively block the opponent's vertical line while also establishing a strong diagonal formation for myself. This move safeguards against immediate defeat and maintains the potential for a future winning sequence.",
+    "move": [
+        5,
+        10
+    ]
+}
+Bob: {
+    "thought": "Upon examining the current board, I notice that the opponent has created a cluster of four 'o' pieces in a vertical line at [6, 5], [6, 6], [6, 7], and [6, 8]. It is imperative to block this potential winning configuration. Additionally, I aim to continue developing my own offensive strategy. By placing my 'x' piece at [5, .png], I effectively block the opponent's vertical line while also establishing a strong diagonal formation for myself. This move safeguards against immediate defeat and maintains the potential for a future winning sequence.",
+    "move": [
+        5,
+        10
+    ]
+}
+Bob: {
+    "thought": "Upon examining the current board, I notice that the opponent has created a cluster of four 'o' pieces in a vertical line at [6, 5], [6, 6], [6, 7], and [6, 8]. It is imperative to block this potential winning configuration. Additionally, I aim to continue developing my own offensive strategy. By placing my 'x' piece at [5, .png], I effectively block the opponent's vertical line while also establishing a strong diagonal formation for myself. This move safeguards against immediate defeat and maintains the potential for a future winning sequence.",
+    "move": [
+        5,
+        10
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+00000oooo000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+00000oooo000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+00000oooo000000
+0000000xx000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!

@@ -1,0 +1,24 @@
+2024-04-04 14:49:03.890 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 14:49:03.891 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-04 14:49:03.892 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-04 14:49:03.892 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240404-144903_18p25r/agentscope.db]
+2024-04-04 14:49:03.894 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:03.894 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-04 14:49:03.895 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 14:49:03.896 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 14:49:03.896 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 14:49:03.897 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.680 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 14:49:07.680 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 14:49:07.680 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 14:49:07.680 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 14:49:07.683 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.683 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.684 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.684 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.685 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.685 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.686 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 14:49:07.686 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.

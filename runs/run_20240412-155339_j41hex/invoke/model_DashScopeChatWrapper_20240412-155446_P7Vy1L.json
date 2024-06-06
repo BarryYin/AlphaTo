@@ -1,0 +1,44 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240412-155446",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "system",
+                "content": "\nPlease extract the case description from the text given to you. It is a description of the case, and only the case description needs to be processed. Content unrelated to the case does not need to be processed.\nPlease break down the case description into 1-2 small sub-scenes, describing the content of the text\nYou should respond in the json format, which can be loaded by json in Python(pleas don't show 'json'):\n{\n    \"thought\": \"analyze the present situation, and what move you should make\",\n    \"scripts\": [script1, script2]\n}\nPlease ensure that your response follows the specified format and includes the necessary fields.\n{\n    \"thought\": \"Analyzing the given content can be broken down into three parts\",\n    \"scripts\": ['script1 is The novelist sits at his desk, with a distorted face and a painful expression, showing the struggle before death; his hand is gripping a pen, and the window behind him is closed and undamaged, emphasizing that the events occurring in the room were not caused by external intrusion.', 'script2 is The unfinished manuscript is laid out, with the pen resting on the paper and the ink still wet, suggesting that the novelist was writing a chapter closely related to his last work before his death.']\n}\n# forbitten\nthis format is forbitten, don't show 'json'\n"
+            },
+            {
+                "name": "system",
+                "role": "user",
+                "content": "\u60a8\u9009\u62e9\u4e86\u7ea2\u6c64\u7c7b\u578b\u3002\u63a5\u4e0b\u6765\uff0c\u6211\u5c06\u4e3a\u60a8\u5448\u73b0\u6848\u4ef6\u7684\u6c64\u9762\uff08\u7b80\u8981\u63cf\u8ff0\uff09\uff0c\u7136\u540e\u60a8\u5c06\u6709\u82e5\u5e72\u6b21\u63d0\u95ee\u673a\u4f1a\uff0c\u7528\u4e8e\u63a8\u7406\u6848\u4ef6\u8be6\u60c5\u3002\u8bf7\u6ce8\u610f\uff0c\u60a8\u7684\u63d0\u95ee\u5e94\u4e0e\u6848\u4ef6\u76f8\u5173\u3002\n\n**\u6c64\u9762**\uff1a\u5728\u4e00\u5bb6\u504f\u50fb\u7684\u522b\u5885\u5185\uff0c\u4e3b\u4eba\u88ab\u53d1\u73b0\u6b7b\u4e8e\u4e66\u623f\uff0c\u73b0\u573a\u95e8\u7a97\u7d27\u95ed\uff0c\u65e0\u660e\u663e\u5916\u4eba\u4fb5\u5165\u8ff9\u8c61\u3002\u5c38\u4f53\u65c1\u8fb9\u6709\u4e00\u53ea\u6253\u7ffb\u7684\u5496\u5561\u676f\u548c\u4e00\u672c\u7ffb\u5f00\u7684\u8bd7\u96c6\u3002\u521d\u6b65\u5c38\u68c0\u663e\u793a\uff0c\u6b7b\u8005\u6b7b\u56e0\u7591\u4f3c\u4e2d\u6bd2\u3002\n\n\u60a8\u6709 **5** \u6b21\u63d0\u95ee\u673a\u4f1a\uff0c\u8bf7\u5f00\u59cb\u60a8\u7684\u63a8\u7406\u4e4b\u65c5\u3002\u60a8\u53ef\u4ee5\u63d0\u95ee\u5173\u4e8e\u6848\u4ef6\u7684\u76f8\u5173\u7ec6\u8282\uff0c\u4f8b\u5982\uff1a\n- \u6b7b\u8005\u8eab\u4efd\u53ca\u80cc\u666f\u4fe1\u606f\u3002\n- \u522b\u5885\u5185\u7684\u5176\u4ed6\u4eba\u5458\u60c5\u51b5\u3002\n- \u5496\u5561\u676f\u4e0e\u8bd7\u96c6\u6709\u4f55\u7279\u522b\u4e4b\u5904\u3002\n- \u6b7b\u8005\u662f\u5426\u6709\u4ec7\u5bb6\u6216\u52a8\u673a\u7ebf\u7d22\u3002\n- \u6bd2\u836f\u6027\u8d28\u53ca\u6765\u6e90\u7b49\u3002\n\n\u8bf7\u63d0\u51fa\u60a8\u7684\u7b2c\u4e00\u4e2a\u95ee\u9898\u3002"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "9ccc6f58-80cf-9a0e-b97e-8358b153a580",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"The case description can be divided into two main scenes\",\n    \"scripts\": [\n        \"Scene 1: A secluded villa where the owner was found deceased in their study. The doors and windows were securely shut, indicating no apparent forced entry from an outsider. A toppled coffee cup and an open poetry book lay beside the body.\",\n        \"Scene 2: The preliminary autopsy suggests that poisoning is the likely cause of death.\"\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 476,
+            "output_tokens": 95,
+            "total_tokens": 571
+        }
+    }
+}

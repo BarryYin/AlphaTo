@@ -1,0 +1,106 @@
+2024-04-09 16:29:22.008 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 16:29:22.011 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-09 16:29:22.011 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-09 16:29:22.011 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240409-162921_rdchqo/agentscope.db]
+2024-04-09 16:29:22.020 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.021 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-09 16:29:22.024 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 16:29:22.027 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 16:29:22.028 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 16:29:22.028 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.029 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.039 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 16:29:22.039 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 16:29:22.040 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 16:29:22.040 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 16:29:22.042 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.042 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.043 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.043 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.044 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.044 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.044 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.044 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.045 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.045 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.046 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.046 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.047 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.047 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.047 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.047 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.048 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.048 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.056 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 16:29:22.056 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 16:29:22.056 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 16:29:22.056 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 16:29:22.056 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 16:29:22.056 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 16:29:22.059 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.059 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.059 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 16:29:22.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到神秘的“推理汤面”游戏！规则如下：
+
+您将选择一种汤底类型，根据所选类型，我将为您准备一个独特的汤面（即案件背景）。您将有有限的提问次数来推理出汤底的具体内容。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤。
+2. 清汤：指无人死亡的汤。
+3. 本格：指无超自然现象的汤。
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请您选择心仪的汤底类型（输入数字即可），随后我将提供汤面及您拥有的提问次数，您可以开始推理并提问。
+
+请做出您的选择：
+host: 欢迎来到神秘的“推理汤面”游戏！规则如下：
+
+您将选择一种汤底类型，根据所选类型，我将为您准备一个独特的汤面（即案件背景）。您将有有限的提问次数来推理出汤底的具体内容。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤。
+2. 清汤：指无人死亡的汤。
+3. 本格：指无超自然现象的汤。
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请您选择心仪的汤底类型（输入数字即可），随后我将提供汤面及您拥有的提问次数，您可以开始推理并提问。
+
+请做出您的选择：
+host: 欢迎来到神秘的“推理汤面”游戏！规则如下：
+
+您将选择一种汤底类型，根据所选类型，我将为您准备一个独特的汤面（即案件背景）。您将有有限的提问次数来推理出汤底的具体内容。您可以选择以下四种汤底类型：
+
+1. 红汤：指有死亡情节的汤。
+2. 清汤：指无人死亡的汤。
+3. 本格：指无超自然现象的汤。
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请您选择心仪的汤底类型（输入数字即可），随后我将提供汤面及您拥有的提问次数，您可以开始推理并提问。
+
+请做出您的选择：
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 请您选择汤底类型（输入数字即可）：
+
+1. 红汤
+2. 清汤
+3. 本格
+4. 变格
+host: 请您选择汤底类型（输入数字即可）：
+
+1. 红汤
+2. 清汤
+3. 本格
+4. 变格
+host: 请您选择汤底类型（输入数字即可）：
+
+1. 红汤
+2. 清汤
+3. 本格
+4. 变格

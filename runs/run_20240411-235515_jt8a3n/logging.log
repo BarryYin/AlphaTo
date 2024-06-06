@@ -1,0 +1,825 @@
+2024-04-11 23:55:16.261 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:55:16.263 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-11 23:55:16.263 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-11 23:55:16.263 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240411-235515_jt8a3n/agentscope.db]
+2024-04-11 23:55:16.268 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:16.271 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-11 23:55:16.271 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 23:55:16.272 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 23:55:16.273 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 23:55:16.273 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:16.274 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:16.282 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:55:16.282 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:55:16.282 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:55:16.282 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:55:17.270 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:55:17.270 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:55:17.270 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:55:17.270 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:55:17.270 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:55:17.270 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:55:17.273 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.273 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.273 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.275 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.275 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.275 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.276 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.276 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.276 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.277 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.277 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.277 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.279 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.279 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.279 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.280 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.280 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.280 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.281 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.281 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.281 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.282 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.282 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.282 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.283 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.283 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.283 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.283 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.283 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:55:17.283 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-11 23:55:48.929 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [6, 6]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "1c5cfef7-9aaa-9dbd-8560-99c9c4ab1945",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [6, 6]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1056,
+            "output_tokens": 99,
+            "total_tokens": 1155
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-11 23:55:48.929 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [6, 6]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "1c5cfef7-9aaa-9dbd-8560-99c9c4ab1945",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [6, 6]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1056,
+            "output_tokens": 99,
+            "total_tokens": 1155
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-11 23:55:48.929 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [6, 6]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "1c5cfef7-9aaa-9dbd-8560-99c9c4ab1945",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [6, 6]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1056,
+            "output_tokens": 99,
+            "total_tokens": 1155
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has just played a defensive move at [5, 8], blocking a potential horizontal line for me. However, they have created a new opportunity for a diagonal line. I should seize this chance by placing my piece at [9, 7], extending the diagonal and simultaneously threatening two possible winning scenarios: one along the main diagonal and another along the anti-diagonal. Additionally, this move maintains a strong central position, exerting control over key intersections.",
+    "move": [
+        9,
+        7
+    ]
+}
+Bob: {
+    "thought": "The opponent has just played a defensive move at [5, 8], blocking a potential horizontal line for me. However, they have created a new opportunity for a diagonal line. I should seize this chance by placing my piece at [9, 7], extending the diagonal and simultaneously threatening two possible winning scenarios: one along the main diagonal and another along the anti-diagonal. Additionally, this move maintains a strong central position, exerting control over key intersections.",
+    "move": [
+        9,
+        7
+    ]
+}
+Bob: {
+    "thought": "The opponent has just played a defensive move at [5, 8], blocking a potential horizontal line for me. However, they have created a new opportunity for a diagonal line. I should seize this chance by placing my piece at [9, 7], extending the diagonal and simultaneously threatening two possible winning scenarios: one along the main diagonal and another along the anti-diagonal. Additionally, this move maintains a strong central position, exerting control over key intersections.",
+    "move": [
+        9,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000ooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000ooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000ooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-11 23:56:33.142 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"The opponent has extended their line horizontally at [5, 9], creating a potential threat. To counter this, I should focus on securing a strategic position where I can both defend against their potential lines and set up multiple winning opportunities for myself. I choose to place my piece at [.jpg] to form a dual-threat diagonal, targeting both the main diagonal and anti-diagonal. This move not only obstructs the opponent's horizontal progression but also initiates two separate paths towards a winning diagonal formation.\",\n    \"move\": [\n        ½,\n        ½\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "54210adb-6f9c-937e-ae49-d714facf5d03",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"The opponent has extended their line horizontally at [5, 9], creating a potential threat. To counter this, I should focus on securing a strategic position where I can both defend against their potential lines and set up multiple winning opportunities for myself. I choose to place my piece at [.jpg] to form a dual-threat diagonal, targeting both the main diagonal and anti-diagonal. This move not only obstructs the opponent's horizontal progression but also initiates two separate paths towards a winning diagonal formation.\",\n    \"move\": [\n        ½,\n        ½\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2896,
+            "output_tokens": 122,
+            "total_tokens": 3018
+        }
+    }
+}.
+ Exception: Expecting value: line 4 column 9 (char 569), 	 Attempt 1 / 3
+2024-04-11 23:56:33.142 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"The opponent has extended their line horizontally at [5, 9], creating a potential threat. To counter this, I should focus on securing a strategic position where I can both defend against their potential lines and set up multiple winning opportunities for myself. I choose to place my piece at [.jpg] to form a dual-threat diagonal, targeting both the main diagonal and anti-diagonal. This move not only obstructs the opponent's horizontal progression but also initiates two separate paths towards a winning diagonal formation.\",\n    \"move\": [\n        ½,\n        ½\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "54210adb-6f9c-937e-ae49-d714facf5d03",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"The opponent has extended their line horizontally at [5, 9], creating a potential threat. To counter this, I should focus on securing a strategic position where I can both defend against their potential lines and set up multiple winning opportunities for myself. I choose to place my piece at [.jpg] to form a dual-threat diagonal, targeting both the main diagonal and anti-diagonal. This move not only obstructs the opponent's horizontal progression but also initiates two separate paths towards a winning diagonal formation.\",\n    \"move\": [\n        ½,\n        ½\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2896,
+            "output_tokens": 122,
+            "total_tokens": 3018
+        }
+    }
+}.
+ Exception: Expecting value: line 4 column 9 (char 569), 	 Attempt 1 / 3
+2024-04-11 23:56:33.142 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"The opponent has extended their line horizontally at [5, 9], creating a potential threat. To counter this, I should focus on securing a strategic position where I can both defend against their potential lines and set up multiple winning opportunities for myself. I choose to place my piece at [.jpg] to form a dual-threat diagonal, targeting both the main diagonal and anti-diagonal. This move not only obstructs the opponent's horizontal progression but also initiates two separate paths towards a winning diagonal formation.\",\n    \"move\": [\n        ½,\n        ½\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "54210adb-6f9c-937e-ae49-d714facf5d03",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"The opponent has extended their line horizontally at [5, 9], creating a potential threat. To counter this, I should focus on securing a strategic position where I can both defend against their potential lines and set up multiple winning opportunities for myself. I choose to place my piece at [.jpg] to form a dual-threat diagonal, targeting both the main diagonal and anti-diagonal. This move not only obstructs the opponent's horizontal progression but also initiates two separate paths towards a winning diagonal formation.\",\n    \"move\": [\n        ½,\n        ½\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2896,
+            "output_tokens": 122,
+            "total_tokens": 3018
+        }
+    }
+}.
+ Exception: Expecting value: line 4 column 9 (char 569), 	 Attempt 1 / 3
+2024-04-11 23:56:38.383 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{ \"thought\": \"The opponent has created a diagonal cluster with their last move. To disrupt their potential diagonal line, I should place my piece at [6, .jpg] to block it. Additionally, this move strengthens my central position and opens up possibilities for my own diagonal formations.\", \"move\": [6, .jpg] }",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "0088deec-9886-971f-9bb5-dd705940169a",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{ \"thought\": \"The opponent has created a diagonal cluster with their last move. To disrupt their potential diagonal line, I should place my piece at [6, .jpg] to block it. Additionally, this move strengthens my central position and opens up possibilities for my own diagonal formations.\", \"move\": [6, .jpg] }"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2896,
+            "output_tokens": 68,
+            "total_tokens": 2964
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 302 (char 301), 	 Attempt 2 / 3
+2024-04-11 23:56:38.383 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{ \"thought\": \"The opponent has created a diagonal cluster with their last move. To disrupt their potential diagonal line, I should place my piece at [6, .jpg] to block it. Additionally, this move strengthens my central position and opens up possibilities for my own diagonal formations.\", \"move\": [6, .jpg] }",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "0088deec-9886-971f-9bb5-dd705940169a",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{ \"thought\": \"The opponent has created a diagonal cluster with their last move. To disrupt their potential diagonal line, I should place my piece at [6, .jpg] to block it. Additionally, this move strengthens my central position and opens up possibilities for my own diagonal formations.\", \"move\": [6, .jpg] }"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2896,
+            "output_tokens": 68,
+            "total_tokens": 2964
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 302 (char 301), 	 Attempt 2 / 3
+2024-04-11 23:56:38.383 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{ \"thought\": \"The opponent has created a diagonal cluster with their last move. To disrupt their potential diagonal line, I should place my piece at [6, .jpg] to block it. Additionally, this move strengthens my central position and opens up possibilities for my own diagonal formations.\", \"move\": [6, .jpg] }",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "0088deec-9886-971f-9bb5-dd705940169a",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{ \"thought\": \"The opponent has created a diagonal cluster with their last move. To disrupt their potential diagonal line, I should place my piece at [6, .jpg] to block it. Additionally, this move strengthens my central position and opens up possibilities for my own diagonal formations.\", \"move\": [6, .jpg] }"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2896,
+            "output_tokens": 68,
+            "total_tokens": 2964
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 302 (char 301), 	 Attempt 2 / 3
+Bob: {
+    "thought": "Analyze the present situation, my opponent's last move has strengthened their diagonal formation. To counteract this, I should focus on securing a strategic point that not only hampers their progress but also sets up potential lines for myself. I choose to place my piece at [10, ⅘], which blocks their diagonal advancement and initiates a parallel diagonal for me. Additionally, it occupies a central position, exerting influence over multiple directions.",
+    "move": [
+        10,
+        5
+    ]
+}
+Bob: {
+    "thought": "Analyze the present situation, my opponent's last move has strengthened their diagonal formation. To counteract this, I should focus on securing a strategic point that not only hampers their progress but also sets up potential lines for myself. I choose to place my piece at [10, ⅘], which blocks their diagonal advancement and initiates a parallel diagonal for me. Additionally, it occupies a central position, exerting influence over multiple directions.",
+    "move": [
+        10,
+        5
+    ]
+}
+Bob: {
+    "thought": "Analyze the present situation, my opponent's last move has strengthened their diagonal formation. To counteract this, I should focus on securing a strategic point that not only hampers their progress but also sets up potential lines for myself. I choose to place my piece at [10, ⅘], which blocks their diagonal advancement and initiates a parallel diagonal for me. Additionally, it occupies a central position, exerting influence over multiple directions.",
+    "move": [
+        10,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000ooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000ooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000ooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "Analyze the current situation: my opponent has reinforced their diagonal formation. To counter this, I plan to block their advance and create opportunities for my own winning lines. I decide to place my piece at [11, 6], effectively obstructing their diagonal progression while simultaneously establishing a parallel diagonal for myself. Moreover, this move strengthens my presence in the center, exerting influence across multiple directions.",
+    "move": [
+        11,
+        6
+    ]
+}
+Bob: {
+    "thought": "Analyze the current situation: my opponent has reinforced their diagonal formation. To counter this, I plan to block their advance and create opportunities for my own winning lines. I decide to place my piece at [11, 6], effectively obstructing their diagonal progression while simultaneously establishing a parallel diagonal for myself. Moreover, this move strengthens my presence in the center, exerting influence across multiple directions.",
+    "move": [
+        11,
+        6
+    ]
+}
+Bob: {
+    "thought": "Analyze the current situation: my opponent has reinforced their diagonal formation. To counter this, I plan to block their advance and create opportunities for my own winning lines. I decide to place my piece at [11, 6], effectively obstructing their diagonal progression while simultaneously establishing a parallel diagonal for myself. Moreover, this move strengthens my presence in the center, exerting influence across multiple directions.",
+    "move": [
+        11,
+        6
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000oooo00000
+000000000000000
+0000000x0000000
+000000000000000
+0000000x0000000
+00000x000000000
+000000x00000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!

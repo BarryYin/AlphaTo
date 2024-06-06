@@ -1,0 +1,312 @@
+2024-04-11 23:33:37.005 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:33:37.009 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-11 23:33:37.009 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-11 23:33:37.009 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240411-233336_7mbmgs/agentscope.db]
+2024-04-11 23:33:37.014 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:37.015 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-11 23:33:37.016 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 23:33:37.017 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 23:33:37.017 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-11 23:33:37.018 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:37.019 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:37.028 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:33:37.028 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:33:37.028 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:33:37.028 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:33:40.603 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:33:40.603 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:33:40.603 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-11 23:33:40.604 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:33:40.604 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:33:40.604 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-11 23:33:40.607 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.607 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.607 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.608 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.608 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.608 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.609 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.609 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.609 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.610 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.610 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.610 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.611 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.611 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.611 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.612 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.612 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.612 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.613 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.613 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.613 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.615 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.615 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.615 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.615 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.615 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.615 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.616 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.616 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.616 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.617 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.617 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.617 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.618 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.618 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-11 23:33:40.618 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-11 23:34:36.670 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\nMove: [8, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bef58b1b-62ad-951c-803b-8a9b61acf228",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\nMove: [8, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1045,
+            "output_tokens": 99,
+            "total_tokens": 1144
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-11 23:34:36.670 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\nMove: [8, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bef58b1b-62ad-951c-803b-8a9b61acf228",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\nMove: [8, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1045,
+            "output_tokens": 99,
+            "total_tokens": 1144
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-11 23:34:36.670 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\nMove: [8, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bef58b1b-62ad-951c-803b-8a9b61acf228",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\nMove: [8, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1045,
+            "output_tokens": 99,
+            "total_tokens": 1144
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-11 23:34:44.250 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [8, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "91e44eb7-bb01-9484-828f-efffc7912968",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [8, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1045,
+            "output_tokens": 99,
+            "total_tokens": 1144
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-11 23:34:44.250 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [8, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "91e44eb7-bb01-9484-828f-efffc7912968",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [8, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1045,
+            "output_tokens": 99,
+            "total_tokens": 1144
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-11 23:34:44.250 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [8, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "91e44eb7-bb01-9484-828f-efffc7912968",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.\n\nMove: [8, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1045,
+            "output_tokens": 99,
+            "total_tokens": 1144
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        8,
+        9
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        8,
+        9
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [7, 9] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [8, 9]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        8,
+        9
+    ]
+}

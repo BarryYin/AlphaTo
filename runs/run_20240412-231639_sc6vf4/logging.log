@@ -1,0 +1,279 @@
+2024-04-12 23:16:42.869 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:16:42.871 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 23:16:42.871 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 23:16:42.871 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-231639_sc6vf4/agentscope.db]
+2024-04-12 23:16:42.880 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:16:42.881 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 23:16:42.882 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:16:42.883 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:16:42.883 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:16:42.884 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:16:42.885 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:16:42.886 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:16:42.888 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:16:42.892 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:16:42.900 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:16:42.900 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:16:42.900 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:16:42.900 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:17:23.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:17:23.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:17:23.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:17:23.434 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:17:23.434 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:17:23.435 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:17:23.434 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:17:23.435 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:17:23.435 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:17:23.442 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.442 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.442 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.443 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.443 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.443 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.445 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.445 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.445 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.445 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.445 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.445 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.447 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.447 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.447 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.450 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.450 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.450 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.451 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.451 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.451 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.452 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.452 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.452 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.452 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.452 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:17:23.452 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-12 23:17:47.598 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"As per the defensive-first strategy, I'm checking for any instances of three consecutive opponent 'o' pieces that might pose a risk of forming a line. However, currently there's only one 'o' piece on the board at [5, 6], which does not create any immediate threats. Therefore, I'll shift focus to creating opportunities for my own 'x' pieces.\n\nThe board is still largely open, providing ample room for strategic placement. I'll choose to play at [5, 8], a position that's diagonally adjacent to the opponent's piece. This move sets up a potential diagonal line for 'x', initiating a strong offensive stance while maintaining a safe distance from the single 'o' piece. It also allows for future flexibility in establishing horizontal or vertical lines as the game progresses.\",\n    \"move\": [\n        5,\n        8\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "b44860f5-be0d-9b7f-8991-a961db0d56b5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"As per the defensive-first strategy, I'm checking for any instances of three consecutive opponent 'o' pieces that might pose a risk of forming a line. However, currently there's only one 'o' piece on the board at [5, 6], which does not create any immediate threats. Therefore, I'll shift focus to creating opportunities for my own 'x' pieces.\n\nThe board is still largely open, providing ample room for strategic placement. I'll choose to play at [5, 8], a position that's diagonally adjacent to the opponent's piece. This move sets up a potential diagonal line for 'x', initiating a strong offensive stance while maintaining a safe distance from the single 'o' piece. It also allows for future flexibility in establishing horizontal or vertical lines as the game progresses.\",\n    \"move\": [\n        5,\n        8\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1388,
+            "output_tokens": 185,
+            "total_tokens": 1573
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 359 (char 360), 	 Attempt 1 / 3
+2024-04-12 23:17:47.598 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"As per the defensive-first strategy, I'm checking for any instances of three consecutive opponent 'o' pieces that might pose a risk of forming a line. However, currently there's only one 'o' piece on the board at [5, 6], which does not create any immediate threats. Therefore, I'll shift focus to creating opportunities for my own 'x' pieces.\n\nThe board is still largely open, providing ample room for strategic placement. I'll choose to play at [5, 8], a position that's diagonally adjacent to the opponent's piece. This move sets up a potential diagonal line for 'x', initiating a strong offensive stance while maintaining a safe distance from the single 'o' piece. It also allows for future flexibility in establishing horizontal or vertical lines as the game progresses.\",\n    \"move\": [\n        5,\n        8\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "b44860f5-be0d-9b7f-8991-a961db0d56b5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"As per the defensive-first strategy, I'm checking for any instances of three consecutive opponent 'o' pieces that might pose a risk of forming a line. However, currently there's only one 'o' piece on the board at [5, 6], which does not create any immediate threats. Therefore, I'll shift focus to creating opportunities for my own 'x' pieces.\n\nThe board is still largely open, providing ample room for strategic placement. I'll choose to play at [5, 8], a position that's diagonally adjacent to the opponent's piece. This move sets up a potential diagonal line for 'x', initiating a strong offensive stance while maintaining a safe distance from the single 'o' piece. It also allows for future flexibility in establishing horizontal or vertical lines as the game progresses.\",\n    \"move\": [\n        5,\n        8\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1388,
+            "output_tokens": 185,
+            "total_tokens": 1573
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 359 (char 360), 	 Attempt 1 / 3
+2024-04-12 23:17:47.598 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"As per the defensive-first strategy, I'm checking for any instances of three consecutive opponent 'o' pieces that might pose a risk of forming a line. However, currently there's only one 'o' piece on the board at [5, 6], which does not create any immediate threats. Therefore, I'll shift focus to creating opportunities for my own 'x' pieces.\n\nThe board is still largely open, providing ample room for strategic placement. I'll choose to play at [5, 8], a position that's diagonally adjacent to the opponent's piece. This move sets up a potential diagonal line for 'x', initiating a strong offensive stance while maintaining a safe distance from the single 'o' piece. It also allows for future flexibility in establishing horizontal or vertical lines as the game progresses.\",\n    \"move\": [\n        5,\n        8\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "b44860f5-be0d-9b7f-8991-a961db0d56b5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"As per the defensive-first strategy, I'm checking for any instances of three consecutive opponent 'o' pieces that might pose a risk of forming a line. However, currently there's only one 'o' piece on the board at [5, 6], which does not create any immediate threats. Therefore, I'll shift focus to creating opportunities for my own 'x' pieces.\n\nThe board is still largely open, providing ample room for strategic placement. I'll choose to play at [5, 8], a position that's diagonally adjacent to the opponent's piece. This move sets up a potential diagonal line for 'x', initiating a strong offensive stance while maintaining a safe distance from the single 'o' piece. It also allows for future flexibility in establishing horizontal or vertical lines as the game progresses.\",\n    \"move\": [\n        5,\n        8\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 1388,
+            "output_tokens": 185,
+            "total_tokens": 1573
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 359 (char 360), 	 Attempt 1 / 3
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "I should aim to create a line of my pieces while also blocking my opponent from forming a line. Currently, there is a potential threat from the 'o' piece at [5, 6] which could lead to a vertical line. To counter this threat and potentially create my own line, I should place my piece at [6, 6]. This move will block the opponent's vertical line and create a potential horizontal line for me.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.

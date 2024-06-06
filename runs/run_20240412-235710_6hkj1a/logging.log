@@ -1,0 +1,510 @@
+2024-04-12 23:57:13.259 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:57:13.261 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 23:57:13.262 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 23:57:13.262 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-235710_6hkj1a/agentscope.db]
+2024-04-12 23:57:13.271 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:13.272 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 23:57:13.273 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:57:13.273 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:57:13.274 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:57:13.274 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:13.275 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:13.275 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:13.277 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:13.278 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:13.287 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:57:13.288 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:57:13.287 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:57:13.288 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:57:21.159 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:57:21.159 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:57:21.159 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:57:21.159 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:57:21.159 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:57:21.160 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:57:21.159 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:57:21.160 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:57:21.160 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:57:21.165 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.165 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.165 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.167 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.167 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.167 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.168 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.168 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.168 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.169 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.169 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.169 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.170 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.170 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.170 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.171 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.171 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.171 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.172 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.172 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.172 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.173 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.173 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.173 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.174 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.174 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.174 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.175 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.175 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.175 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.176 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.176 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.176 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.177 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.177 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:57:21.177 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "As the game just started, there is no immediate threat from the opponent's single 'o' piece. My initial strategy is to occupy a central position to control more potential winning lines and restrict the opponent's mobility. I choose to place my first piece at [7, 7], which is the center of the board.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "As the game just started, there is no immediate threat from the opponent's single 'o' piece. My initial strategy is to occupy a central position to control more potential winning lines and restrict the opponent's mobility. I choose to place my first piece at [7, 7], which is the center of the board.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "As the game just started, there is no immediate threat from the opponent's single 'o' piece. My initial strategy is to occupy a central position to control more potential winning lines and restrict the opponent's mobility. I choose to place my first piece at [7, 7], which is the center of the board.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000oo000000
+000000000000000
+0000000x0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-12 23:58:07.329 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a pair of adjacent 'o' pieces in the sixth row, creating a potential threat for a vertical line. I should place my piece at [6, 9] to block this threat and simultaneously establish a strong position in the center column, allowing for multiple potential winning configurations.\n\nMove: [6, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "2b3217b7-3bac-9d09-8ae0-b66747a57c22",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a pair of adjacent 'o' pieces in the sixth row, creating a potential threat for a vertical line. I should place my piece at [6, 9] to block this threat and simultaneously establish a strong position in the center column, allowing for multiple potential winning configurations.\n\nMove: [6, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 70,
+            "total_tokens": 2548
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 23:58:07.329 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a pair of adjacent 'o' pieces in the sixth row, creating a potential threat for a vertical line. I should place my piece at [6, 9] to block this threat and simultaneously establish a strong position in the center column, allowing for multiple potential winning configurations.\n\nMove: [6, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "2b3217b7-3bac-9d09-8ae0-b66747a57c22",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a pair of adjacent 'o' pieces in the sixth row, creating a potential threat for a vertical line. I should place my piece at [6, 9] to block this threat and simultaneously establish a strong position in the center column, allowing for multiple potential winning configurations.\n\nMove: [6, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 70,
+            "total_tokens": 2548
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 23:58:07.329 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a pair of adjacent 'o' pieces in the sixth row, creating a potential threat for a vertical line. I should place my piece at [6, 9] to block this threat and simultaneously establish a strong position in the center column, allowing for multiple potential winning configurations.\n\nMove: [6, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "2b3217b7-3bac-9d09-8ae0-b66747a57c22",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a pair of adjacent 'o' pieces in the sixth row, creating a potential threat for a vertical line. I should place my piece at [6, 9] to block this threat and simultaneously establish a strong position in the center column, allowing for multiple potential winning configurations.\n\nMove: [6, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 70,
+            "total_tokens": 2548
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 23:58:13.953 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, I notice that Alice has formed a two-piece diagonal line with her latest move at [5, 8]. In order to block her potential diagonal threat and simultaneously create opportunities for my own winning lines, I decide to place my piece at [9, ½]. This move obstructs Alice's diagonal progression while allowing me to establish a two-piece horizontal line, setting up potential future connections along the same row or in the adjacent columns.\n\nMove: [9, ½]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d672e5bf-26bc-9198-9b33-dc1fa36c25fc",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, I notice that Alice has formed a two-piece diagonal line with her latest move at [5, 8]. In order to block her potential diagonal threat and simultaneously create opportunities for my own winning lines, I decide to place my piece at [9, ½]. This move obstructs Alice's diagonal progression while allowing me to establish a two-piece horizontal line, setting up potential future connections along the same row or in the adjacent columns.\n\nMove: [9, ½]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 103,
+            "total_tokens": 2581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 23:58:13.953 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, I notice that Alice has formed a two-piece diagonal line with her latest move at [5, 8]. In order to block her potential diagonal threat and simultaneously create opportunities for my own winning lines, I decide to place my piece at [9, ½]. This move obstructs Alice's diagonal progression while allowing me to establish a two-piece horizontal line, setting up potential future connections along the same row or in the adjacent columns.\n\nMove: [9, ½]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d672e5bf-26bc-9198-9b33-dc1fa36c25fc",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, I notice that Alice has formed a two-piece diagonal line with her latest move at [5, 8]. In order to block her potential diagonal threat and simultaneously create opportunities for my own winning lines, I decide to place my piece at [9, ½]. This move obstructs Alice's diagonal progression while allowing me to establish a two-piece horizontal line, setting up potential future connections along the same row or in the adjacent columns.\n\nMove: [9, ½]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 103,
+            "total_tokens": 2581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 23:58:13.953 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, I notice that Alice has formed a two-piece diagonal line with her latest move at [5, 8]. In order to block her potential diagonal threat and simultaneously create opportunities for my own winning lines, I decide to place my piece at [9, ½]. This move obstructs Alice's diagonal progression while allowing me to establish a two-piece horizontal line, setting up potential future connections along the same row or in the adjacent columns.\n\nMove: [9, ½]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d672e5bf-26bc-9198-9b33-dc1fa36c25fc",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, I notice that Alice has formed a two-piece diagonal line with her latest move at [5, 8]. In order to block her potential diagonal threat and simultaneously create opportunities for my own winning lines, I decide to place my piece at [9, ½]. This move obstructs Alice's diagonal progression while allowing me to establish a two-piece horizontal line, setting up potential future connections along the same row or in the adjacent columns.\n\nMove: [9, ½]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 103,
+            "total_tokens": 2581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 23:58:36.413 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"After analyzing the current board state, I observe that the opponent has placed two 'o' pieces in a vertical line at [5, 7] and [5, 8]. Although they haven't yet formed a three-in-a-row, this placement suggests an intention to establish control over the center column. In response, I should focus on both disrupting their plan and creating potential winning opportunities for myself.\n\nTo achieve these objectives, I consider placing my next 'x' piece at [9, ½], where ½ indicates either 6 or 7 (depending on availability). This move serves several strategic purposes:\n\n1. **Block Vertical Threat**: By occupying [9, 7] or [9, 6], I effectively block the opponent's direct path to forming a vertical line using the existing 'o' pieces. This move ensures that they cannot easily extend their vertical control without being immediately countered.\n\n2. **Establish Central Influence**: Placing my piece at [9, 7] or [9, 6] strengthens my presence in the central area of the board, which is crucial for controlling multiple potential winning lines. It allows me to influence both the central column and the adjacent diagonal and horizontal lines.\n\n3. **Create Counterplay**: By positioning my piece adjacent to the opponent's 'o' pieces, I set up the possibility for a quick counterattack. If the opponent does not respond defensively, I might be able to form a three-in-a-row on the next move, putting pressure on them to block or risk losing the game.\n\nConsidering these factors, I choose to place my next piece at [9, ½], depending on the availability of the respective squares. If both [9, 6] and [9, 7] are occupied, I will select an alternative strategic move following the principles outlined above.\",\n    \"move\": [\n        9,\n        6\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "a8e5be14-ad78-93e2-8eac-b08c4c3e4a7b",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"After analyzing the current board state, I observe that the opponent has placed two 'o' pieces in a vertical line at [5, 7] and [5, 8]. Although they haven't yet formed a three-in-a-row, this placement suggests an intention to establish control over the center column. In response, I should focus on both disrupting their plan and creating potential winning opportunities for myself.\n\nTo achieve these objectives, I consider placing my next 'x' piece at [9, ½], where ½ indicates either 6 or 7 (depending on availability). This move serves several strategic purposes:\n\n1. **Block Vertical Threat**: By occupying [9, 7] or [9, 6], I effectively block the opponent's direct path to forming a vertical line using the existing 'o' pieces. This move ensures that they cannot easily extend their vertical control without being immediately countered.\n\n2. **Establish Central Influence**: Placing my piece at [9, 7] or [9, 6] strengthens my presence in the central area of the board, which is crucial for controlling multiple potential winning lines. It allows me to influence both the central column and the adjacent diagonal and horizontal lines.\n\n3. **Create Counterplay**: By positioning my piece adjacent to the opponent's 'o' pieces, I set up the possibility for a quick counterattack. If the opponent does not respond defensively, I might be able to form a three-in-a-row on the next move, putting pressure on them to block or risk losing the game.\n\nConsidering these factors, I choose to place my next piece at [9, ½], depending on the availability of the respective squares. If both [9, 6] and [9, 7] are occupied, I will select an alternative strategic move following the principles outlined above.\",\n    \"move\": [\n        9,\n        6\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 394,
+            "total_tokens": 2872
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 400 (char 401), 	 Attempt 3 / 3
+2024-04-12 23:58:36.413 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"After analyzing the current board state, I observe that the opponent has placed two 'o' pieces in a vertical line at [5, 7] and [5, 8]. Although they haven't yet formed a three-in-a-row, this placement suggests an intention to establish control over the center column. In response, I should focus on both disrupting their plan and creating potential winning opportunities for myself.\n\nTo achieve these objectives, I consider placing my next 'x' piece at [9, ½], where ½ indicates either 6 or 7 (depending on availability). This move serves several strategic purposes:\n\n1. **Block Vertical Threat**: By occupying [9, 7] or [9, 6], I effectively block the opponent's direct path to forming a vertical line using the existing 'o' pieces. This move ensures that they cannot easily extend their vertical control without being immediately countered.\n\n2. **Establish Central Influence**: Placing my piece at [9, 7] or [9, 6] strengthens my presence in the central area of the board, which is crucial for controlling multiple potential winning lines. It allows me to influence both the central column and the adjacent diagonal and horizontal lines.\n\n3. **Create Counterplay**: By positioning my piece adjacent to the opponent's 'o' pieces, I set up the possibility for a quick counterattack. If the opponent does not respond defensively, I might be able to form a three-in-a-row on the next move, putting pressure on them to block or risk losing the game.\n\nConsidering these factors, I choose to place my next piece at [9, ½], depending on the availability of the respective squares. If both [9, 6] and [9, 7] are occupied, I will select an alternative strategic move following the principles outlined above.\",\n    \"move\": [\n        9,\n        6\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "a8e5be14-ad78-93e2-8eac-b08c4c3e4a7b",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"After analyzing the current board state, I observe that the opponent has placed two 'o' pieces in a vertical line at [5, 7] and [5, 8]. Although they haven't yet formed a three-in-a-row, this placement suggests an intention to establish control over the center column. In response, I should focus on both disrupting their plan and creating potential winning opportunities for myself.\n\nTo achieve these objectives, I consider placing my next 'x' piece at [9, ½], where ½ indicates either 6 or 7 (depending on availability). This move serves several strategic purposes:\n\n1. **Block Vertical Threat**: By occupying [9, 7] or [9, 6], I effectively block the opponent's direct path to forming a vertical line using the existing 'o' pieces. This move ensures that they cannot easily extend their vertical control without being immediately countered.\n\n2. **Establish Central Influence**: Placing my piece at [9, 7] or [9, 6] strengthens my presence in the central area of the board, which is crucial for controlling multiple potential winning lines. It allows me to influence both the central column and the adjacent diagonal and horizontal lines.\n\n3. **Create Counterplay**: By positioning my piece adjacent to the opponent's 'o' pieces, I set up the possibility for a quick counterattack. If the opponent does not respond defensively, I might be able to form a three-in-a-row on the next move, putting pressure on them to block or risk losing the game.\n\nConsidering these factors, I choose to place my next piece at [9, ½], depending on the availability of the respective squares. If both [9, 6] and [9, 7] are occupied, I will select an alternative strategic move following the principles outlined above.\",\n    \"move\": [\n        9,\n        6\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 394,
+            "total_tokens": 2872
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 400 (char 401), 	 Attempt 3 / 3
+2024-04-12 23:58:36.413 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"After analyzing the current board state, I observe that the opponent has placed two 'o' pieces in a vertical line at [5, 7] and [5, 8]. Although they haven't yet formed a three-in-a-row, this placement suggests an intention to establish control over the center column. In response, I should focus on both disrupting their plan and creating potential winning opportunities for myself.\n\nTo achieve these objectives, I consider placing my next 'x' piece at [9, ½], where ½ indicates either 6 or 7 (depending on availability). This move serves several strategic purposes:\n\n1. **Block Vertical Threat**: By occupying [9, 7] or [9, 6], I effectively block the opponent's direct path to forming a vertical line using the existing 'o' pieces. This move ensures that they cannot easily extend their vertical control without being immediately countered.\n\n2. **Establish Central Influence**: Placing my piece at [9, 7] or [9, 6] strengthens my presence in the central area of the board, which is crucial for controlling multiple potential winning lines. It allows me to influence both the central column and the adjacent diagonal and horizontal lines.\n\n3. **Create Counterplay**: By positioning my piece adjacent to the opponent's 'o' pieces, I set up the possibility for a quick counterattack. If the opponent does not respond defensively, I might be able to form a three-in-a-row on the next move, putting pressure on them to block or risk losing the game.\n\nConsidering these factors, I choose to place my next piece at [9, ½], depending on the availability of the respective squares. If both [9, 6] and [9, 7] are occupied, I will select an alternative strategic move following the principles outlined above.\",\n    \"move\": [\n        9,\n        6\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "a8e5be14-ad78-93e2-8eac-b08c4c3e4a7b",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"After analyzing the current board state, I observe that the opponent has placed two 'o' pieces in a vertical line at [5, 7] and [5, 8]. Although they haven't yet formed a three-in-a-row, this placement suggests an intention to establish control over the center column. In response, I should focus on both disrupting their plan and creating potential winning opportunities for myself.\n\nTo achieve these objectives, I consider placing my next 'x' piece at [9, ½], where ½ indicates either 6 or 7 (depending on availability). This move serves several strategic purposes:\n\n1. **Block Vertical Threat**: By occupying [9, 7] or [9, 6], I effectively block the opponent's direct path to forming a vertical line using the existing 'o' pieces. This move ensures that they cannot easily extend their vertical control without being immediately countered.\n\n2. **Establish Central Influence**: Placing my piece at [9, 7] or [9, 6] strengthens my presence in the central area of the board, which is crucial for controlling multiple potential winning lines. It allows me to influence both the central column and the adjacent diagonal and horizontal lines.\n\n3. **Create Counterplay**: By positioning my piece adjacent to the opponent's 'o' pieces, I set up the possibility for a quick counterattack. If the opponent does not respond defensively, I might be able to form a three-in-a-row on the next move, putting pressure on them to block or risk losing the game.\n\nConsidering these factors, I choose to place my next piece at [9, ½], depending on the availability of the respective squares. If both [9, 6] and [9, 7] are occupied, I will select an alternative strategic move following the principles outlined above.\",\n    \"move\": [\n        9,\n        6\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2478,
+            "output_tokens": 394,
+            "total_tokens": 2872
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 400 (char 401), 	 Attempt 3 / 3

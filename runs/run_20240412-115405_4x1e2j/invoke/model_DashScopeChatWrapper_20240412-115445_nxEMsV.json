@@ -1,0 +1,44 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240412-115445",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "system",
+                "content": "\n# Background B:\nThe text describes a complex scene or event, involving multiple elements and details, potentially suitable for creating a sketch image.\nThe target audience includes directors, animators, graphic designers, and other visual artists.\n# Role R:\nYou are a content creation consultant specializing in converting text into visual content, assisting visual artists in understanding and realizing the visual elements in the text.\n#Objective O:\nTo dismantle the original text into easily understandable visual shots, facilitating the creation of visual works.\n#Key Result KR:\nEach shot describes the visual elements of the scene in detail, including character actions, background settings, and emotional atmospheres.\nThe shot descriptions support visual artists in capturing the emotions and storyline of the text.\nSufficient details are provided to guide the actual visual production process.\n#Steps S:\nCarefully read the original text, identifying key scenes and elements that can be visualized.\nCreate a storyboard script for each key scene, including character actions, expressions, environments, and other important visual elements.\nUse descriptive and specific language to write the visual details of each scene, ensuring that visual artists can create based on these descriptions.\nEnsure that the shot descriptions align with the emotions and storyline of the text, enhancing the coherence between the visual and textual elements.\nConduct repeated revisions and fine-tuning to ensure the accuracy and practicality of the shot descriptions.\nYou should respond in the json format, which can be loaded by json in Python(pleas don't show 'json'):\n{\n    \"thought\": \"analyze the present situation, and what move you should make\",\n    \"scripts\": [script1, script2,script3,script4,script5]\n}\nPlease ensure that your response follows the specified format and includes the necessary fields.\n# forbitten\nthis format is forbitten, don't show 'json'\n"
+            },
+            {
+                "name": "system",
+                "role": "user",
+                "content": "\u5728\u4e00\u5ea7\u56fe\u4e66\u9986\u4e2d\uff0c\u4e00\u540d\u8457\u540d\u5c0f\u8bf4\u5bb6\u88ab\u53d1\u73b0\u6b7b\u4e8e\u4e66\u623f\u5185\u3002\u73b0\u573a\u95e8\u7a97\u7d27\u95ed\uff0c\u65e0\u660e\u663e\u5916\u529b\u7834\u574f\u75d5\u8ff9\u3002\u5c0f\u8bf4\u5bb6\u5750\u5728\u4e66\u684c\u524d\uff0c\u624b\u4e2d\u7d27\u63e1\u4e00\u652f\u94a2\u7b14\uff0c\u9762\u90e8\u8868\u60c5\u75db\u82e6\uff0c\u9888\u90e8\u6709\u4e00\u5904\u660e\u663e\u7684\u52d2\u75d5\u3002\u684c\u9762\u4e0a\u6446\u653e\u7740\u672a\u5b8c\u6210\u7684\u624b\u7a3f\uff0c\u5176\u5185\u5bb9\u4f3c\u4e4e\u4e0e\u4ed6\u751f\u524d\u6700\u540e\u4e00\u90e8\u4f5c\u54c1\u7684\u4e3b\u9898\u6709\u5173\u3002\u4e66\u623f\u5185\u8fd8\u53d1\u73b0\u4e00\u53ea\u7834\u788e\u7684\u82b1\u74f6\uff0c\u4e00\u5730\u6563\u843d\u7684\u73ab\u7470\u82b1\u74e3\uff0c\u4ee5\u53ca\u4e00\u5f20\u88ab\u63c9\u76b1\u4e22\u5f03\u7684\u7167\u7247\uff0c\u7167\u7247\u4e0a\u662f\u5c0f\u8bf4\u5bb6\u4e0e\u4e00\u4f4d\u964c\u751f\u5973\u5b50\u7684\u5408\u5f71\u3002"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "8cad1ee4-e875-9b30-ac20-5c94aee51b88",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n  \"thought\": \"Analyze the given text to identify key visual elements and sequence them into a storyboard.\",\n  \"scripts\": [\n    {\n      \"shot_number\": 1,\n      \"description\": \"Exterior shot of the library - Establishing the setting as an imposing, historic building with large windows and ornate architecture. The camera lingers on the entrance sign, emphasizing its significance as the location of the crime.\"\n\n    },\n    {\n      \"shot_number\": 2,\n      \"description\": \"Interior shot of the library - A long corridor lined with bookshelves, leading up to the closed door of the deceased novelist's study. The atmosphere is quiet, still, and somber, reflecting the gravity of the situation.\"\n\n    },\n    {\n      \"shot_number\": 3,\n      \"description\": \"Close-up of the locked door - Emphasize the sturdy construction, intricate lock mechanism, and lack of visible damage, indicating that no forced entry occurred.\"\n\n    },\n    {\n      \"shot_number\": 4,\n      \"description\": \"Medium shot of the study interior - A dimly lit room filled with books, antique furniture, and various writing paraphernalia. The camera pans across the room, highlighting the disorderly arrangement of objects and the shattered vase on the floor, surrounded by scattered rose petals.\"\n\n    },\n    {\n      \"shot_number\": 5,\n      \"description\": \"Close-up of the broken vase - Focus on the shards, emphasizing the violence of the impact and suggesting a possible struggle. The rose petals add a touch of melancholy and mystery to the scene.\"\n\n    },\n    {\n      \"shot_number\": 6,\n      \"description\": \"Over-the-shoulder shot of the detective examining the body - The novelist is seated at his desk, his face contorted in pain, with a distinct ligature mark around his neck. His hand clutches a pen tightly, frozen in the act of writing. The camera captures the detectives' reactions, conveying their shock and concern.\"\n\n    },\n    {\n      \"shot_number\": 7,\n      \"description\": \"Close-up of the unfinished manuscript - The camera zooms in on the handwritten pages, revealing a few legible sentences that seem to connect to the theme of the novelist's last published work. This detail raises questions about potential motives and suspects.\"\n\n    },\n    {\n      \"shot_number\": 8,\n      \"description\": \"Medium shot of the discarded photograph - The crumpled image lies amidst the debris on the floor, partially obscured by fallen petals. As the camera zooms in, it reveals the novelist standing alongside an unfamiliar woman, their expressions ambiguous. This discovery adds an intriguing personal dimension to the investigation.\"\n\n    },\n    {\n      \"shot_number\": 9,\n      \"description\": \"Reverse angle shot of the detectives discussing the evidence - They stand in the doorway, silhouetted against the brighter library corridor, as they exchange theories and speculate on the possible connection between the photograph, the broken vase, and the manuscript. This shot underscores the complexity of the case and sets the stage for further investigation.\"\n\n    }\n  ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 493,
+            "output_tokens": 635,
+            "total_tokens": 1128
+        }
+    }
+}

@@ -1,0 +1,108 @@
+2024-04-12 14:39:36.674 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:39:36.677 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 14:39:36.677 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 14:39:36.677 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-143933_goom37/agentscope.db]
+2024-04-12 14:39:36.688 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:36.690 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 14:39:36.690 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:39:36.691 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:39:36.692 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:39:36.693 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:36.693 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:36.694 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:36.695 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:36.695 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:36.702 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:39:36.702 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:39:36.703 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:39:36.703 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:39:42.902 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:39:42.902 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:39:42.902 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:39:42.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:39:42.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:39:42.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:39:42.904 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:39:42.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:39:42.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:39:42.910 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.910 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.910 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.911 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.911 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.911 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.914 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.914 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.914 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.915 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.915 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.915 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.917 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.917 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.917 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.918 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.918 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.918 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.919 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.919 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.919 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.920 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.920 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.920 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.921 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.921 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.921 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.922 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.922 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:39:42.922 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 好的，欢迎来到推理解谜游戏！您将扮演一位侦探，通过逻辑推理揭开一桩神秘事件的真相。您需要先选择一种汤底类型，以确定案件的基本特征：
+
+1. 红汤：指有死亡情节的汤，即案件中涉及人员死亡。
+2. 清汤：指没有人死亡的汤，案件中无人丧生。
+3. 本格：指没有超自然现象的案件，完全基于现实逻辑。
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择一个汤底类型（输入数字即可），然后我将为您呈现案件的概况，您将有若干次提问机会来逐步揭示事件真相。准备好了吗？请选择汤底类型。
+host: 好的，欢迎来到推理解谜游戏！您将扮演一位侦探，通过逻辑推理揭开一桩神秘事件的真相。您需要先选择一种汤底类型，以确定案件的基本特征：
+
+1. 红汤：指有死亡情节的汤，即案件中涉及人员死亡。
+2. 清汤：指没有人死亡的汤，案件中无人丧生。
+3. 本格：指没有超自然现象的案件，完全基于现实逻辑。
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择一个汤底类型（输入数字即可），然后我将为您呈现案件的概况，您将有若干次提问机会来逐步揭示事件真相。准备好了吗？请选择汤底类型。
+host: 好的，欢迎来到推理解谜游戏！您将扮演一位侦探，通过逻辑推理揭开一桩神秘事件的真相。您需要先选择一种汤底类型，以确定案件的基本特征：
+
+1. 红汤：指有死亡情节的汤，即案件中涉及人员死亡。
+2. 清汤：指没有人死亡的汤，案件中无人丧生。
+3. 本格：指没有超自然现象的案件，完全基于现实逻辑。
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择一个汤底类型（输入数字即可），然后我将为您呈现案件的概况，您将有若干次提问机会来逐步揭示事件真相。准备好了吗？请选择汤底类型。
+host: 您选择了红汤类型。接下来，我将为您描述案件概况：
+
+**案件概述：**
+在一座古老庄园内，一场家庭聚会正在进行。午夜时分，主人罗伯特先生被发现死于书房内，颈部有一道明显的勒痕，现场还遗留一把带血的园艺剪刀。庄园内共有六位嫌疑人：罗伯特的妻子艾米莉、长子杰森、长女苏珊、管家威廉、厨师玛丽亚和远房表弟亚瑟。他们均声称在案发时各自有不在场证明，但证据显示所有人的证词都存在疑点。
+
+您有5次提问机会来揭示案件真相。请开始您的推理，并提出第一个问题。剩余提问次数：5次。
+host: 您选择了红汤类型。接下来，我将为您描述案件概况：
+
+**案件概述：**
+在一座古老庄园内，一场家庭聚会正在进行。午夜时分，主人罗伯特先生被发现死于书房内，颈部有一道明显的勒痕，现场还遗留一把带血的园艺剪刀。庄园内共有六位嫌疑人：罗伯特的妻子艾米莉、长子杰森、长女苏珊、管家威廉、厨师玛丽亚和远房表弟亚瑟。他们均声称在案发时各自有不在场证明，但证据显示所有人的证词都存在疑点。
+
+您有5次提问机会来揭示案件真相。请开始您的推理，并提出第一个问题。剩余提问次数：5次。
+host: 您选择了红汤类型。接下来，我将为您描述案件概况：
+
+**案件概述：**
+在一座古老庄园内，一场家庭聚会正在进行。午夜时分，主人罗伯特先生被发现死于书房内，颈部有一道明显的勒痕，现场还遗留一把带血的园艺剪刀。庄园内共有六位嫌疑人：罗伯特的妻子艾米莉、长子杰森、长女苏珊、管家威廉、厨师玛丽亚和远房表弟亚瑟。他们均声称在案发时各自有不在场证明，但证据显示所有人的证词都存在疑点。
+
+您有5次提问机会来揭示案件真相。请开始您的推理，并提出第一个问题。剩余提问次数：5次。

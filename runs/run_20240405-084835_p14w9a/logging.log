@@ -1,0 +1,46 @@
+2024-04-05 08:48:36.372 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 08:48:36.374 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-05 08:48:36.374 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-05 08:48:36.374 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240405-084835_p14w9a/agentscope.db]
+2024-04-05 08:48:36.375 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.376 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-05 08:48:36.376 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-05 08:48:36.377 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-05 08:48:36.378 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-05 08:48:36.378 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.379 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.379 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.380 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.380 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [51925] as the port number.
+2024-04-05 08:48:36.380 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.381 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [51926] as the port number.
+2024-04-05 08:48:36.381 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.382 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [51927] as the port number.
+2024-04-05 08:48:36.382 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.382 | WARNING  | agentscope.agents.rpc_agent:check_port:284 - gRpc server port is not provided, automatically select [51928] as the port number.
+2024-04-05 08:48:36.389 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 08:48:36.389 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 08:48:36.389 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 08:48:36.389 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 08:48:36.390 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.390 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.391 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:48:36.391 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:51:50.667 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 08:51:50.667 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 08:51:50.668 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 08:51:50.667 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-05 08:51:50.668 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 08:51:50.668 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-05 08:51:50.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:51:50.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:51:50.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-05 08:51:50.672 | INFO     | agentscope.agents.rpc_agent:setup_rcp_agent_server:224 - Starting rpc server [DictDialogAgent] at port [51870]...
+2024-04-05 08:51:50.672 | INFO     | agentscope.agents.rpc_agent:setup_rcp_agent_server:224 - Starting rpc server [DictDialogAgent] at port [51870]...
+2024-04-05 08:51:50.672 | INFO     | agentscope.agents.rpc_agent:setup_rcp_agent_server:224 - Starting rpc server [DictDialogAgent] at port [51870]...
+2024-04-05 08:51:50.680 | INFO     | agentscope.agents.rpc_agent:setup_rcp_agent_server:243 - rpc server [DictDialogAgent] at port [51870] started successfully
+2024-04-05 08:51:50.680 | INFO     | agentscope.agents.rpc_agent:setup_rcp_agent_server:243 - rpc server [DictDialogAgent] at port [51870] started successfully
+2024-04-05 08:51:50.680 | INFO     | agentscope.agents.rpc_agent:setup_rcp_agent_server:243 - rpc server [DictDialogAgent] at port [51870] started successfully
+juge: {'词语1': '沙发', '词语2': '书桌'}
+juge: {'词语1': '沙发', '词语2': '书桌'}
+juge: {'词语1': '沙发', '词语2': '书桌'}

@@ -1,0 +1,510 @@
+2024-04-12 23:58:51.155 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:58:51.157 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 23:58:51.157 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 23:58:51.157 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-235848_lhql7f/agentscope.db]
+2024-04-12 23:58:51.168 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:51.170 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 23:58:51.170 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:58:51.171 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:58:51.171 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 23:58:51.172 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:51.173 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:51.173 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:51.174 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:51.174 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:51.182 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:58:51.182 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:58:51.182 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:58:51.182 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:58:55.078 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:58:55.078 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:58:55.078 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 23:58:55.078 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:58:55.078 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:58:55.078 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 23:58:55.078 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:58:55.078 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:58:55.078 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 23:58:55.084 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.084 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.084 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.085 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.085 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.085 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.086 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.086 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.086 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.087 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.087 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.087 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.088 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.088 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.088 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.089 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.089 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.089 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.089 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.089 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.089 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.090 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.090 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.090 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.092 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.092 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.092 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.093 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.093 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.093 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.094 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.094 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.094 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.094 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.094 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 23:58:55.094 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "As the game has just started and the opponent has placed their first piece at [7, 9], there is no immediate threat or opportunity for either player to form a line of three. However, it is strategically wise to start building towards a potential line for myself while simultaneously keeping an eye on potential threats from the opponent's piece. To achieve this, I will place my first piece at [8, .jpg] which is adjacent to the opponent's piece but does not directly create a line for them. This move allows me to establish a presence in the center of the board, which is generally advantageous in Gomoku, and sets up potential future connections both horizontally and diagonally.",
+    "move": [
+        8,
+        9
+    ]
+}
+Bob: {
+    "thought": "As the game has just started and the opponent has placed their first piece at [7, 9], there is no immediate threat or opportunity for either player to form a line of three. However, it is strategically wise to start building towards a potential line for myself while simultaneously keeping an eye on potential threats from the opponent's piece. To achieve this, I will place my first piece at [8, .jpg] which is adjacent to the opponent's piece but does not directly create a line for them. This move allows me to establish a presence in the center of the board, which is generally advantageous in Gomoku, and sets up potential future connections both horizontally and diagonally.",
+    "move": [
+        8,
+        9
+    ]
+}
+Bob: {
+    "thought": "As the game has just started and the opponent has placed their first piece at [7, 9], there is no immediate threat or opportunity for either player to form a line of three. However, it is strategically wise to start building towards a potential line for myself while simultaneously keeping an eye on potential threats from the opponent's piece. To achieve this, I will place my first piece at [8, .jpg] which is adjacent to the opponent's piece but does not directly create a line for them. This move allows me to establish a presence in the center of the board, which is generally advantageous in Gomoku, and sets up potential future connections both horizontally and diagonally.",
+    "move": [
+        8,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000oo00000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000oo00000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000oo00000
+000000000x00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-12 23:59:47.069 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: Analyzing the current board state, I notice that the opponent has just placed two consecutive 'o' pieces horizontally at [7, 9] and [7, 8]. This creates a potential threat of them forming a horizontal line in their next move. In order to defend against this, I should place my 'x' piece adjacent to their line, specifically at [.png, 8]. This blocks their immediate chance of creating a three-in-a-row and also gives me the opportunity to develop my own game plan in the next moves.\n\nMove: [9, 8]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d2163d25-f39e-98f0-ae38-3a0e71802241",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: Analyzing the current board state, I notice that the opponent has just placed two consecutive 'o' pieces horizontally at [7, 9] and [7, 8]. This creates a potential threat of them forming a horizontal line in their next move. In order to defend against this, I should place my 'x' piece adjacent to their line, specifically at [.png, 8]. This blocks their immediate chance of creating a three-in-a-row and also gives me the opportunity to develop my own game plan in the next moves.\n\nMove: [9, 8]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 119,
+            "total_tokens": 2670
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 23:59:47.069 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: Analyzing the current board state, I notice that the opponent has just placed two consecutive 'o' pieces horizontally at [7, 9] and [7, 8]. This creates a potential threat of them forming a horizontal line in their next move. In order to defend against this, I should place my 'x' piece adjacent to their line, specifically at [.png, 8]. This blocks their immediate chance of creating a three-in-a-row and also gives me the opportunity to develop my own game plan in the next moves.\n\nMove: [9, 8]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d2163d25-f39e-98f0-ae38-3a0e71802241",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: Analyzing the current board state, I notice that the opponent has just placed two consecutive 'o' pieces horizontally at [7, 9] and [7, 8]. This creates a potential threat of them forming a horizontal line in their next move. In order to defend against this, I should place my 'x' piece adjacent to their line, specifically at [.png, 8]. This blocks their immediate chance of creating a three-in-a-row and also gives me the opportunity to develop my own game plan in the next moves.\n\nMove: [9, 8]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 119,
+            "total_tokens": 2670
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 23:59:47.069 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: Analyzing the current board state, I notice that the opponent has just placed two consecutive 'o' pieces horizontally at [7, 9] and [7, 8]. This creates a potential threat of them forming a horizontal line in their next move. In order to defend against this, I should place my 'x' piece adjacent to their line, specifically at [.png, 8]. This blocks their immediate chance of creating a three-in-a-row and also gives me the opportunity to develop my own game plan in the next moves.\n\nMove: [9, 8]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d2163d25-f39e-98f0-ae38-3a0e71802241",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: Analyzing the current board state, I notice that the opponent has just placed two consecutive 'o' pieces horizontally at [7, 9] and [7, 8]. This creates a potential threat of them forming a horizontal line in their next move. In order to defend against this, I should place my 'x' piece adjacent to their line, specifically at [.png, 8]. This blocks their immediate chance of creating a three-in-a-row and also gives me the opportunity to develop my own game plan in the next moves.\n\nMove: [9, 8]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 119,
+            "total_tokens": 2670
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 23:59:53.449 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, there is no immediate threat from the opponent's two adjacent 'o' pieces at [7, 8] and [7, 9]. However, they are in a good position to potentially form a horizontal or diagonal line. To counteract this, I plan to place my piece at [.jpg, 10] to block their horizontal expansion and initiate a diagonal line for myself.\n\nMove: [9, 10]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "be5ad672-8115-90d4-aa9b-0047a3a30cc6",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, there is no immediate threat from the opponent's two adjacent 'o' pieces at [7, 8] and [7, 9]. However, they are in a good position to potentially form a horizontal or diagonal line. To counteract this, I plan to place my piece at [.jpg, 10] to block their horizontal expansion and initiate a diagonal line for myself.\n\nMove: [9, 10]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 95,
+            "total_tokens": 2646
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 23:59:53.449 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, there is no immediate threat from the opponent's two adjacent 'o' pieces at [7, 8] and [7, 9]. However, they are in a good position to potentially form a horizontal or diagonal line. To counteract this, I plan to place my piece at [.jpg, 10] to block their horizontal expansion and initiate a diagonal line for myself.\n\nMove: [9, 10]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "be5ad672-8115-90d4-aa9b-0047a3a30cc6",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, there is no immediate threat from the opponent's two adjacent 'o' pieces at [7, 8] and [7, 9]. However, they are in a good position to potentially form a horizontal or diagonal line. To counteract this, I plan to place my piece at [.jpg, 10] to block their horizontal expansion and initiate a diagonal line for myself.\n\nMove: [9, 10]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 95,
+            "total_tokens": 2646
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 23:59:53.449 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, there is no immediate threat from the opponent's two adjacent 'o' pieces at [7, 8] and [7, 9]. However, they are in a good position to potentially form a horizontal or diagonal line. To counteract this, I plan to place my piece at [.jpg, 10] to block their horizontal expansion and initiate a diagonal line for myself.\n\nMove: [9, 10]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "be5ad672-8115-90d4-aa9b-0047a3a30cc6",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, there is no immediate threat from the opponent's two adjacent 'o' pieces at [7, 8] and [7, 9]. However, they are in a good position to potentially form a horizontal or diagonal line. To counteract this, I plan to place my piece at [.jpg, 10] to block their horizontal expansion and initiate a diagonal line for myself.\n\nMove: [9, 10]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 95,
+            "total_tokens": 2646
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-13 00:00:03.838 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\n    \"thought\": \"After analyzing the board, I observe that the opponent has placed two 'o' pieces horizontally at [7, 8] and [7, 9]. There is no immediate risk of a three-in-a-row formation by the opponent. My primary focus is to establish a strong position while preventing the opponent from doing so. I plan to place my piece at [.jpg, 9], adjacent to my existing piece at [8, 9]. This move strengthens my presence in the center of the board, creating a potential diagonal line. It also indirectly guards against any potential future horizontal or vertical expansion by the opponent in the vicinity.\",\n    \"move\": [\n        .png,\n        9\n    ]\n}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "4a91b760-469e-9213-b7a0-4aa16a763366",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\n    \"thought\": \"After analyzing the board, I observe that the opponent has placed two 'o' pieces horizontally at [7, 8] and [7, 9]. There is no immediate risk of a three-in-a-row formation by the opponent. My primary focus is to establish a strong position while preventing the opponent from doing so. I plan to place my piece at [.jpg, 9], adjacent to my existing piece at [8, 9]. This move strengthens my presence in the center of the board, creating a potential diagonal line. It also indirectly guards against any potential future horizontal or vertical expansion by the opponent in the vicinity.\",\n    \"move\": [\n        .png,\n        9\n    ]\n}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 153,
+            "total_tokens": 2704
+        }
+    }
+}.
+ Exception: Expecting value: line 4 column 9 (char 627), 	 Attempt 3 / 3
+2024-04-13 00:00:03.838 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\n    \"thought\": \"After analyzing the board, I observe that the opponent has placed two 'o' pieces horizontally at [7, 8] and [7, 9]. There is no immediate risk of a three-in-a-row formation by the opponent. My primary focus is to establish a strong position while preventing the opponent from doing so. I plan to place my piece at [.jpg, 9], adjacent to my existing piece at [8, 9]. This move strengthens my presence in the center of the board, creating a potential diagonal line. It also indirectly guards against any potential future horizontal or vertical expansion by the opponent in the vicinity.\",\n    \"move\": [\n        .png,\n        9\n    ]\n}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "4a91b760-469e-9213-b7a0-4aa16a763366",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\n    \"thought\": \"After analyzing the board, I observe that the opponent has placed two 'o' pieces horizontally at [7, 8] and [7, 9]. There is no immediate risk of a three-in-a-row formation by the opponent. My primary focus is to establish a strong position while preventing the opponent from doing so. I plan to place my piece at [.jpg, 9], adjacent to my existing piece at [8, 9]. This move strengthens my presence in the center of the board, creating a potential diagonal line. It also indirectly guards against any potential future horizontal or vertical expansion by the opponent in the vicinity.\",\n    \"move\": [\n        .png,\n        9\n    ]\n}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 153,
+            "total_tokens": 2704
+        }
+    }
+}.
+ Exception: Expecting value: line 4 column 9 (char 627), 	 Attempt 3 / 3
+2024-04-13 00:00:03.838 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\n    \"thought\": \"After analyzing the board, I observe that the opponent has placed two 'o' pieces horizontally at [7, 8] and [7, 9]. There is no immediate risk of a three-in-a-row formation by the opponent. My primary focus is to establish a strong position while preventing the opponent from doing so. I plan to place my piece at [.jpg, 9], adjacent to my existing piece at [8, 9]. This move strengthens my presence in the center of the board, creating a potential diagonal line. It also indirectly guards against any potential future horizontal or vertical expansion by the opponent in the vicinity.\",\n    \"move\": [\n        .png,\n        9\n    ]\n}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "4a91b760-469e-9213-b7a0-4aa16a763366",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\n    \"thought\": \"After analyzing the board, I observe that the opponent has placed two 'o' pieces horizontally at [7, 8] and [7, 9]. There is no immediate risk of a three-in-a-row formation by the opponent. My primary focus is to establish a strong position while preventing the opponent from doing so. I plan to place my piece at [.jpg, 9], adjacent to my existing piece at [8, 9]. This move strengthens my presence in the center of the board, creating a potential diagonal line. It also indirectly guards against any potential future horizontal or vertical expansion by the opponent in the vicinity.\",\n    \"move\": [\n        .png,\n        9\n    ]\n}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2551,
+            "output_tokens": 153,
+            "total_tokens": 2704
+        }
+    }
+}.
+ Exception: Expecting value: line 4 column 9 (char 627), 	 Attempt 3 / 3

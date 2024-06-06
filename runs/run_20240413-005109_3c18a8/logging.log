@@ -1,0 +1,2793 @@
+2024-04-13 00:51:12.476 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:51:12.478 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-13 00:51:12.479 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-13 00:51:12.479 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240413-005109_3c18a8/agentscope.db]
+2024-04-13 00:51:12.488 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:12.489 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:51:12.491 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:12.492 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:12.492 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:12.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:12.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:12.495 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:12.495 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:12.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:12.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:51:12.504 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:51:12.504 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:51:12.504 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:51:21.025 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:51:21.025 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:51:21.025 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:51:21.026 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:51:21.026 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:51:21.026 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:51:21.026 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:51:21.026 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:51:21.026 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:51:21.026 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:51:21.026 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:51:21.026 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:51:21.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.030 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.031 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.037 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:51:21.038 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:51:21.037 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:51:21.037 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:51:21.038 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:51:21.038 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:51:21.106 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:51:21.106 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:51:21.106 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:51:21.107 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:51:21.107 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:51:21.107 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:51:21.107 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:51:21.107 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:51:21.107 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:51:21.108 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:51:21.108 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:51:21.108 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:51:21.110 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.110 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.110 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.111 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.111 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.111 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.112 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.112 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.112 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo-2024-04-09.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:51:21.112 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.112 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.112 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.113 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.113 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.113 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.114 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.114 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.114 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.115 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.116 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.116 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:51:21.116 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [7, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        7,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [7, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        7,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [7, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        7,
+        8
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [6, 9], creating a vertical threat with two 'o's in a line. To block this potential vertical line and prevent the opponent from forming three in a row, I will place 'x' at [5, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        5,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [6, 9], creating a vertical threat with two 'o's in a line. To block this potential vertical line and prevent the opponent from forming three in a row, I will place 'x' at [5, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        5,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [6, 9], creating a vertical threat with two 'o's in a line. To block this potential vertical line and prevent the opponent from forming three in a row, I will place 'x' at [5, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        5,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [8, 9], creating a vertical threat with three 'o's in a line. To block this potential vertical line and prevent the opponent from forming four in a row, I will place 'x' at [4, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [8, 9], creating a vertical threat with three 'o's in a line. To block this potential vertical line and prevent the opponent from forming four in a row, I will place 'x' at [4, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [8, 9], creating a vertical threat with three 'o's in a line. To block this potential vertical line and prevent the opponent from forming four in a row, I will place 'x' at [4, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        4,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [9, 9], creating a vertical threat with four 'o's in a line. To block this potential vertical line and prevent the opponent from forming five in a row, I will place 'x' at [3, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        3,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [9, 9], creating a vertical threat with four 'o's in a line. To block this potential vertical line and prevent the opponent from forming five in a row, I will place 'x' at [3, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        3,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [9, 9], creating a vertical threat with four 'o's in a line. To block this potential vertical line and prevent the opponent from forming five in a row, I will place 'x' at [3, 9]. This move will block the opponent's vertical line and prevent a potential threat.",
+    "move": [
+        3,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000o00000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:53:49.048 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:53:49.048 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:53:49.048 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:53:49.047 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:53:49.048 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:53:49.056 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.056 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.056 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.056 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.058 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.058 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.058 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.058 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.060 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.064 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.064 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.064 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.064 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.066 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.066 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.066 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.066 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.068 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:53:49.068 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:53:49.068 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:53:49.068 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:53:49.068 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:53:49.068 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:53:49.068 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:53:49.068 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:53:49.130 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:53:49.130 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:53:49.130 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:53:49.130 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:53:49.130 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:53:49.130 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:53:49.130 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:53:49.130 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:53:49.130 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:53:49.130 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:53:49.130 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:53:49.130 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:53:49.132 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.132 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.132 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.132 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.133 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.133 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.133 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.133 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.135 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.135 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.135 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.135 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.136 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.136 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.136 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.136 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.137 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.137 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.137 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.137 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.138 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.138 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.138 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:53:49.138 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [6, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [6, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [6, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [6, 8]. This move will block the opponent from extending their line horizontally and also sets up a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [4, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [4, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [4, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [4, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        4,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 8], creating a vertical threat with three 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [3, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        3,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 8], creating a vertical threat with three 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [3, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        3,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 8], creating a vertical threat with three 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [3, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        3,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 8], creating a vertical threat with three 'o's aligned. To block this potential vertical line and to prevent any further extension, I will place 'x' at [3, 9]. This move will not only block the opponent's vertical line but also start to create a vertical line of my own.",
+    "move": [
+        3,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+0000000ooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+0000000ooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+0000000ooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+0000000ooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed three 'o's in a row at [5, 7], [5, 8], and [5, 9], creating a significant threat of forming a line of four on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 6]. This move will block the opponent's horizontal line and prevent them from connecting four 'o's.",
+    "move": [
+        5,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed three 'o's in a row at [5, 7], [5, 8], and [5, 9], creating a significant threat of forming a line of four on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 6]. This move will block the opponent's horizontal line and prevent them from connecting four 'o's.",
+    "move": [
+        5,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed three 'o's in a row at [5, 7], [5, 8], and [5, 9], creating a significant threat of forming a line of four on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 6]. This move will block the opponent's horizontal line and prevent them from connecting four 'o's.",
+    "move": [
+        5,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed three 'o's in a row at [5, 7], [5, 8], and [5, 9], creating a significant threat of forming a line of four on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 6]. This move will block the opponent's horizontal line and prevent them from connecting four 'o's.",
+    "move": [
+        5,
+        6
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xooo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+000000xoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed four 'o's in a row at [5, 6], [5, 7], [5, 8], [5, 9], and [5, 10], creating a significant threat of forming a line of five on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 5]. This move will block the opponent's horizontal line and prevent them from connecting five 'o's.",
+    "move": [
+        5,
+        5
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed four 'o's in a row at [5, 6], [5, 7], [5, 8], [5, 9], and [5, 10], creating a significant threat of forming a line of five on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 5]. This move will block the opponent's horizontal line and prevent them from connecting five 'o's.",
+    "move": [
+        5,
+        5
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed four 'o's in a row at [5, 6], [5, 7], [5, 8], [5, 9], and [5, 10], creating a significant threat of forming a line of five on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 5]. This move will block the opponent's horizontal line and prevent them from connecting five 'o's.",
+    "move": [
+        5,
+        5
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed four 'o's in a row at [5, 6], [5, 7], [5, 8], [5, 9], and [5, 10], creating a significant threat of forming a line of five on their next move. To block this immediate threat and prevent a potential win by the opponent, I need to place 'x' at [5, 5]. This move will block the opponent's horizontal line and prevent them from connecting five 'o's.",
+    "move": [
+        5,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000xxoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000xxoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000xxoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000x00000
+00000xxoooo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:57:38.535 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:57:38.535 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:57:38.535 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:57:38.535 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:57:38.535 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:57:38.534 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:57:38.535 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:57:38.535 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:57:38.535 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:57:38.535 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:57:38.535 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:57:38.546 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.546 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.546 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.546 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.546 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.548 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.548 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.548 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.548 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.548 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.551 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.551 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.551 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.551 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.551 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.552 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.552 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.552 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.552 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.552 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.553 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.553 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.553 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.553 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.553 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.556 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:57:38.556 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:57:38.556 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:57:38.557 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:57:38.556 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:57:38.557 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:57:38.557 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:57:38.556 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:57:38.557 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:57:38.557 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:57:38.619 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:57:38.619 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:57:38.619 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:57:38.619 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:57:38.619 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:57:38.619 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:57:38.620 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:57:38.619 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:57:38.619 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:57:38.620 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:57:38.619 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:57:38.619 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 00:57:38.620 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:57:38.620 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:57:38.620 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 00:57:38.622 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.622 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.622 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.622 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.622 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.623 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.623 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.623 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.623 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.623 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.624 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.624 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.624 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.624 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.624 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.625 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.625 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.625 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.625 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.625 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:57:38.626 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I should place 'x' adjacent to it. Placing at [6, 8] will block any horizontal expansion from the opponent and start a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I should place 'x' adjacent to it. Placing at [6, 8] will block any horizontal expansion from the opponent and start a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I should place 'x' adjacent to it. Placing at [6, 8] will block any horizontal expansion from the opponent and start a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I should place 'x' adjacent to it. Placing at [6, 8] will block any horizontal expansion from the opponent and start a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [6, 9]. To prevent any potential threats and to start forming my own line, I should place 'x' adjacent to it. Placing at [6, 8] will block any horizontal expansion from the opponent and start a potential line for me.",
+    "move": [
+        6,
+        8
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and prevent the opponent from forming three in a row, I should place 'x' at [4, 9]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and prevent the opponent from forming three in a row, I should place 'x' at [4, 9]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and prevent the opponent from forming three in a row, I should place 'x' at [4, 9]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and prevent the opponent from forming three in a row, I should place 'x' at [4, 9]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 9], creating a vertical threat with two 'o's aligned. To block this potential vertical line and prevent the opponent from forming three in a row, I should place 'x' at [4, 9]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 10], creating a vertical threat with three 'o's aligned. To block this potential vertical line and prevent the opponent from forming four in a row, I should place 'x' at [4, 10]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        10
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 10], creating a vertical threat with three 'o's aligned. To block this potential vertical line and prevent the opponent from forming four in a row, I should place 'x' at [4, 10]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        10
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 10], creating a vertical threat with three 'o's aligned. To block this potential vertical line and prevent the opponent from forming four in a row, I should place 'x' at [4, 10]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        10
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 10], creating a vertical threat with three 'o's aligned. To block this potential vertical line and prevent the opponent from forming four in a row, I should place 'x' at [4, 10]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        10
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 10], creating a vertical threat with three 'o's aligned. To block this potential vertical line and prevent the opponent from forming four in a row, I should place 'x' at [4, 10]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        10
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000oo0000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xx0000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 11], creating a vertical threat with four 'o's aligned. To block this potential vertical line and prevent the opponent from forming a winning line of five, I should place 'x' at [4, 11]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        11
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 11], creating a vertical threat with four 'o's aligned. To block this potential vertical line and prevent the opponent from forming a winning line of five, I should place 'x' at [4, 11]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        11
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 11], creating a vertical threat with four 'o's aligned. To block this potential vertical line and prevent the opponent from forming a winning line of five, I should place 'x' at [4, 11]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        11
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 11], creating a vertical threat with four 'o's aligned. To block this potential vertical line and prevent the opponent from forming a winning line of five, I should place 'x' at [4, 11]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        11
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed another 'o' at [5, 11], creating a vertical threat with four 'o's aligned. To block this potential vertical line and prevent the opponent from forming a winning line of five, I should place 'x' at [4, 11]. This move will not only block the opponent but also keep options open for horizontal or diagonal plays in future moves.",
+    "move": [
+        4,
+        11
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xxx000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xxx000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xxx000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xxx000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000xxx000
+000000000ooo000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+2024-04-13 01:00:45.659 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 01:00:45.659 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 01:00:45.659 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 01:00:45.659 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 01:00:45.659 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 01:00:45.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 01:00:45.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 01:00:45.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 01:00:45.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 01:00:45.659 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 01:00:45.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 01:00:45.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 01:00:45.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 01:00:45.672 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.672 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.672 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.672 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.672 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.672 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.674 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.674 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.674 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.674 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.674 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.674 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.676 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.676 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.676 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.676 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.676 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.676 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.678 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.678 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.678 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.678 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.678 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.678 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.681 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 01:00:45.682 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 01:00:45.681 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 01:00:45.682 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 01:00:45.681 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 01:00:45.682 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 01:00:45.681 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 01:00:45.682 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 01:00:45.681 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 01:00:45.682 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 01:00:45.681 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 01:00:45.682 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 01:00:45.752 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 01:00:45.752 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 01:00:45.752 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 01:00:45.752 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 01:00:45.752 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 01:00:45.752 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 01:00:45.752 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 01:00:45.752 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 01:00:45.752 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 01:00:45.752 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 01:00:45.752 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 01:00:45.752 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo-2024-04-09: 'Model [gpt-4-turbo-2024-04-09] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 01:00:45.752 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 01:00:45.752 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 01:00:45.752 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo-2024-04-09
+2024-04-13 01:00:45.752 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 01:00:45.752 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 01:00:45.752 | WARNING  | agentscope.utils.monitor:register_budget:584 - Calculate budgets for model [gpt-4-turbo-2024-04-09] is not supported
+2024-04-13 01:00:45.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.756 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.757 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.757 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.757 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.757 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.757 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.757 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.758 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.760 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 01:00:45.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 7]. To prevent any potential threats and to start forming my own line, I will place my 'x' adjacent to it. Placing at [7, 6] allows me to potentially build a horizontal line while also blocking the opponent's expansion in that direction.",
+    "move": [
+        7,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 7]. To prevent any potential threats and to start forming my own line, I will place my 'x' adjacent to it. Placing at [7, 6] allows me to potentially build a horizontal line while also blocking the opponent's expansion in that direction.",
+    "move": [
+        7,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 7]. To prevent any potential threats and to start forming my own line, I will place my 'x' adjacent to it. Placing at [7, 6] allows me to potentially build a horizontal line while also blocking the opponent's expansion in that direction.",
+    "move": [
+        7,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 7]. To prevent any potential threats and to start forming my own line, I will place my 'x' adjacent to it. Placing at [7, 6] allows me to potentially build a horizontal line while also blocking the opponent's expansion in that direction.",
+    "move": [
+        7,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 7]. To prevent any potential threats and to start forming my own line, I will place my 'x' adjacent to it. Placing at [7, 6] allows me to potentially build a horizontal line while also blocking the opponent's expansion in that direction.",
+    "move": [
+        7,
+        6
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7, 7]. To prevent any potential threats and to start forming my own line, I will place my 'x' adjacent to it. Placing at [7, 6] allows me to potentially build a horizontal line while also blocking the opponent's expansion in that direction.",
+    "move": [
+        7,
+        6
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000xo0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000xo0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000xo0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000xo0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000xo0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000xo0000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.

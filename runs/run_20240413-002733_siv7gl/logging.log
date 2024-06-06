@@ -1,0 +1,780 @@
+2024-04-13 00:27:35.712 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-13 00:27:35.715 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-13 00:27:35.715 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-13 00:27:35.715 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240413-002733_siv7gl/agentscope.db]
+2024-04-13 00:27:35.721 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:35.721 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:27:35.722 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:27:35.722 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:27:35.723 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:27:35.724 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:35.724 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:35.725 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:35.726 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:35.726 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:35.735 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:27:35.735 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:27:35.735 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-13 00:27:35.735 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-13 00:27:40.488 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:27:40.488 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:27:40.489 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:27:40.489 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-13 00:27:40.488 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:27:40.489 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:27:40.489 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-13 00:27:40.489 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:27:40.489 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-13 00:27:40.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.496 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.497 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.498 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.498 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.498 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.500 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.500 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.500 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.501 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.501 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.501 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.501 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.501 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.501 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.503 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.503 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.503 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.506 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.506 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.506 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.507 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.507 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:27:40.507 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The current board is empty except for one opponent's piece at [8, 9]. There are no immediate threats or opportunities for either player. As per the defensive strategy, I should consider placing my first piece near the opponent's piece to limit their potential for creating a line. However, since it is the very beginning of the game, it is also important to establish a strong presence in the center of the board, which provides more flexibility for future moves. Therefore, I choose to place my first piece at the center [7, 7], which simultaneously keeps an eye on the opponent's piece while positioning myself in a strategically valuable location.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "The current board is empty except for one opponent's piece at [8, 9]. There are no immediate threats or opportunities for either player. As per the defensive strategy, I should consider placing my first piece near the opponent's piece to limit their potential for creating a line. However, since it is the very beginning of the game, it is also important to establish a strong presence in the center of the board, which provides more flexibility for future moves. Therefore, I choose to place my first piece at the center [7, 7], which simultaneously keeps an eye on the opponent's piece while positioning myself in a strategically valuable location.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "The current board is empty except for one opponent's piece at [8, 9]. There are no immediate threats or opportunities for either player. As per the defensive strategy, I should consider placing my first piece near the opponent's piece to limit their potential for creating a line. However, since it is the very beginning of the game, it is also important to establish a strong presence in the center of the board, which provides more flexibility for future moves. Therefore, I choose to place my first piece at the center [7, 7], which simultaneously keeps an eye on the opponent's piece while positioning myself in a strategically valuable location.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+00000000oo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+2024-04-13 00:28:39.547 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"After analyzing the current board, I observe that the opponent has placed two 'o' pieces in a vertical line at [8, 8] and [8, 9]. This poses a potential threat. To prioritize defense, I need to block this vertical line from becoming a winning combination. Additionally, I notice that my previous move at [7, 7] created a potential diagonal threat. My strategy is now to reinforce this diagonal while also addressing the opponent's vertical threat. \n\nConsidering these factors, I decide to place my piece at [.jpg, 8], which effectively blocks the opponent's vertical line and extends my diagonal line. This move also offers the possibility of creating a future horizontal threat if the opponent doesn't respond defensively. Overall, this move is a strategic balance between defense and offense.\",\n    \"move\": [\n        ½,\n        8\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "eee85a3b-cb2a-95bc-a0a3-568dee5fea63",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"After analyzing the current board, I observe that the opponent has placed two 'o' pieces in a vertical line at [8, 8] and [8, 9]. This poses a potential threat. To prioritize defense, I need to block this vertical line from becoming a winning combination. Additionally, I notice that my previous move at [7, 7] created a potential diagonal threat. My strategy is now to reinforce this diagonal while also addressing the opponent's vertical threat. \n\nConsidering these factors, I decide to place my piece at [.jpg, 8], which effectively blocks the opponent's vertical line and extends my diagonal line. This move also offers the possibility of creating a future horizontal threat if the opponent doesn't respond defensively. Overall, this move is a strategic balance between defense and offense.\",\n    \"move\": [\n        ½,\n        8\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 184,
+            "total_tokens": 2652
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 465 (char 466), 	 Attempt 1 / 6
+2024-04-13 00:28:39.547 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"After analyzing the current board, I observe that the opponent has placed two 'o' pieces in a vertical line at [8, 8] and [8, 9]. This poses a potential threat. To prioritize defense, I need to block this vertical line from becoming a winning combination. Additionally, I notice that my previous move at [7, 7] created a potential diagonal threat. My strategy is now to reinforce this diagonal while also addressing the opponent's vertical threat. \n\nConsidering these factors, I decide to place my piece at [.jpg, 8], which effectively blocks the opponent's vertical line and extends my diagonal line. This move also offers the possibility of creating a future horizontal threat if the opponent doesn't respond defensively. Overall, this move is a strategic balance between defense and offense.\",\n    \"move\": [\n        ½,\n        8\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "eee85a3b-cb2a-95bc-a0a3-568dee5fea63",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"After analyzing the current board, I observe that the opponent has placed two 'o' pieces in a vertical line at [8, 8] and [8, 9]. This poses a potential threat. To prioritize defense, I need to block this vertical line from becoming a winning combination. Additionally, I notice that my previous move at [7, 7] created a potential diagonal threat. My strategy is now to reinforce this diagonal while also addressing the opponent's vertical threat. \n\nConsidering these factors, I decide to place my piece at [.jpg, 8], which effectively blocks the opponent's vertical line and extends my diagonal line. This move also offers the possibility of creating a future horizontal threat if the opponent doesn't respond defensively. Overall, this move is a strategic balance between defense and offense.\",\n    \"move\": [\n        ½,\n        8\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 184,
+            "total_tokens": 2652
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 465 (char 466), 	 Attempt 1 / 6
+2024-04-13 00:28:39.547 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"After analyzing the current board, I observe that the opponent has placed two 'o' pieces in a vertical line at [8, 8] and [8, 9]. This poses a potential threat. To prioritize defense, I need to block this vertical line from becoming a winning combination. Additionally, I notice that my previous move at [7, 7] created a potential diagonal threat. My strategy is now to reinforce this diagonal while also addressing the opponent's vertical threat. \n\nConsidering these factors, I decide to place my piece at [.jpg, 8], which effectively blocks the opponent's vertical line and extends my diagonal line. This move also offers the possibility of creating a future horizontal threat if the opponent doesn't respond defensively. Overall, this move is a strategic balance between defense and offense.\",\n    \"move\": [\n        ½,\n        8\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "eee85a3b-cb2a-95bc-a0a3-568dee5fea63",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"After analyzing the current board, I observe that the opponent has placed two 'o' pieces in a vertical line at [8, 8] and [8, 9]. This poses a potential threat. To prioritize defense, I need to block this vertical line from becoming a winning combination. Additionally, I notice that my previous move at [7, 7] created a potential diagonal threat. My strategy is now to reinforce this diagonal while also addressing the opponent's vertical threat. \n\nConsidering these factors, I decide to place my piece at [.jpg, 8], which effectively blocks the opponent's vertical line and extends my diagonal line. This move also offers the possibility of creating a future horizontal threat if the opponent doesn't respond defensively. Overall, this move is a strategic balance between defense and offense.\",\n    \"move\": [\n        ½,\n        8\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 184,
+            "total_tokens": 2652
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 465 (char 466), 	 Attempt 1 / 6
+2024-04-13 00:28:54.380 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"In the current state of the board, Alice has placed two 'o' pieces adjacently in the eighth row, presenting a potential threat for a horizontal or vertical line. My primary objective is to disrupt this formation and prevent further development of their line. Additionally, I should seek opportunities to create a strong foundation for my own lines. I have identified several candidate moves that address these concerns:\n\n1. [8, .jpg]: This move directly blocks Alice's horizontal line and creates a diagonal threat with my existing piece at [7, 7].\n2. [7, 8]: Placing a piece here would hinder Alice's vertical progression and also initiate a potential diagonal line for me.\n3. [6, 7]: Occupying this space would block both Alice's horizontal and vertical progressions, but does not immediately contribute to my own line formation.\n\nAfter evaluating the strategic value of each option, I've decided to go with move [8, 7]. It effectively neutralizes Alice's horizontal threat, initiates a diagonal line for me, and maintains a balanced approach between defense and offense. Thus, my move is [8, 7].\",\n    \"move\": [\n        8,\n        7\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "076353f9-9e43-9463-ac24-229a203f1131",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"In the current state of the board, Alice has placed two 'o' pieces adjacently in the eighth row, presenting a potential threat for a horizontal or vertical line. My primary objective is to disrupt this formation and prevent further development of their line. Additionally, I should seek opportunities to create a strong foundation for my own lines. I have identified several candidate moves that address these concerns:\n\n1. [8, .jpg]: This move directly blocks Alice's horizontal line and creates a diagonal threat with my existing piece at [7, 7].\n2. [7, 8]: Placing a piece here would hinder Alice's vertical progression and also initiate a potential diagonal line for me.\n3. [6, 7]: Occupying this space would block both Alice's horizontal and vertical progressions, but does not immediately contribute to my own line formation.\n\nAfter evaluating the strategic value of each option, I've decided to go with move [8, 7]. It effectively neutralizes Alice's horizontal threat, initiates a diagonal line for me, and maintains a balanced approach between defense and offense. Thus, my move is [8, 7].\",\n    \"move\": [\n        8,\n        7\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 256,
+            "total_tokens": 2724
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 436 (char 437), 	 Attempt 2 / 6
+2024-04-13 00:28:54.380 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"In the current state of the board, Alice has placed two 'o' pieces adjacently in the eighth row, presenting a potential threat for a horizontal or vertical line. My primary objective is to disrupt this formation and prevent further development of their line. Additionally, I should seek opportunities to create a strong foundation for my own lines. I have identified several candidate moves that address these concerns:\n\n1. [8, .jpg]: This move directly blocks Alice's horizontal line and creates a diagonal threat with my existing piece at [7, 7].\n2. [7, 8]: Placing a piece here would hinder Alice's vertical progression and also initiate a potential diagonal line for me.\n3. [6, 7]: Occupying this space would block both Alice's horizontal and vertical progressions, but does not immediately contribute to my own line formation.\n\nAfter evaluating the strategic value of each option, I've decided to go with move [8, 7]. It effectively neutralizes Alice's horizontal threat, initiates a diagonal line for me, and maintains a balanced approach between defense and offense. Thus, my move is [8, 7].\",\n    \"move\": [\n        8,\n        7\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "076353f9-9e43-9463-ac24-229a203f1131",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"In the current state of the board, Alice has placed two 'o' pieces adjacently in the eighth row, presenting a potential threat for a horizontal or vertical line. My primary objective is to disrupt this formation and prevent further development of their line. Additionally, I should seek opportunities to create a strong foundation for my own lines. I have identified several candidate moves that address these concerns:\n\n1. [8, .jpg]: This move directly blocks Alice's horizontal line and creates a diagonal threat with my existing piece at [7, 7].\n2. [7, 8]: Placing a piece here would hinder Alice's vertical progression and also initiate a potential diagonal line for me.\n3. [6, 7]: Occupying this space would block both Alice's horizontal and vertical progressions, but does not immediately contribute to my own line formation.\n\nAfter evaluating the strategic value of each option, I've decided to go with move [8, 7]. It effectively neutralizes Alice's horizontal threat, initiates a diagonal line for me, and maintains a balanced approach between defense and offense. Thus, my move is [8, 7].\",\n    \"move\": [\n        8,\n        7\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 256,
+            "total_tokens": 2724
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 436 (char 437), 	 Attempt 2 / 6
+2024-04-13 00:28:54.380 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"In the current state of the board, Alice has placed two 'o' pieces adjacently in the eighth row, presenting a potential threat for a horizontal or vertical line. My primary objective is to disrupt this formation and prevent further development of their line. Additionally, I should seek opportunities to create a strong foundation for my own lines. I have identified several candidate moves that address these concerns:\n\n1. [8, .jpg]: This move directly blocks Alice's horizontal line and creates a diagonal threat with my existing piece at [7, 7].\n2. [7, 8]: Placing a piece here would hinder Alice's vertical progression and also initiate a potential diagonal line for me.\n3. [6, 7]: Occupying this space would block both Alice's horizontal and vertical progressions, but does not immediately contribute to my own line formation.\n\nAfter evaluating the strategic value of each option, I've decided to go with move [8, 7]. It effectively neutralizes Alice's horizontal threat, initiates a diagonal line for me, and maintains a balanced approach between defense and offense. Thus, my move is [8, 7].\",\n    \"move\": [\n        8,\n        7\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "076353f9-9e43-9463-ac24-229a203f1131",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"In the current state of the board, Alice has placed two 'o' pieces adjacently in the eighth row, presenting a potential threat for a horizontal or vertical line. My primary objective is to disrupt this formation and prevent further development of their line. Additionally, I should seek opportunities to create a strong foundation for my own lines. I have identified several candidate moves that address these concerns:\n\n1. [8, .jpg]: This move directly blocks Alice's horizontal line and creates a diagonal threat with my existing piece at [7, 7].\n2. [7, 8]: Placing a piece here would hinder Alice's vertical progression and also initiate a potential diagonal line for me.\n3. [6, 7]: Occupying this space would block both Alice's horizontal and vertical progressions, but does not immediately contribute to my own line formation.\n\nAfter evaluating the strategic value of each option, I've decided to go with move [8, 7]. It effectively neutralizes Alice's horizontal threat, initiates a diagonal line for me, and maintains a balanced approach between defense and offense. Thus, my move is [8, 7].\",\n    \"move\": [\n        8,\n        7\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 256,
+            "total_tokens": 2724
+        }
+    }
+}.
+ Exception: Invalid control character at: line 2 column 436 (char 437), 	 Attempt 2 / 6
+2024-04-13 00:29:01.707 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, I see that Alice has placed her second piece adjacent to her first piece, forming a potential horizontal threat at [8, 7] and [8, 8]. My priority now is to block this formation while also working towards establishing a solid center presence. I will place my piece at [.png] to neutralize the immediate threat and set up a diagonal possibility for myself.\n\nMove: [7, 8]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bf5c51ee-0b01-9f51-afbf-2cede42dfbf4",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, I see that Alice has placed her second piece adjacent to her first piece, forming a potential horizontal threat at [8, 7] and [8, 8]. My priority now is to block this formation while also working towards establishing a solid center presence. I will place my piece at [.png] to neutralize the immediate threat and set up a diagonal possibility for myself.\n\nMove: [7, 8]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 92,
+            "total_tokens": 2560
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 6
+2024-04-13 00:29:01.707 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, I see that Alice has placed her second piece adjacent to her first piece, forming a potential horizontal threat at [8, 7] and [8, 8]. My priority now is to block this formation while also working towards establishing a solid center presence. I will place my piece at [.png] to neutralize the immediate threat and set up a diagonal possibility for myself.\n\nMove: [7, 8]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bf5c51ee-0b01-9f51-afbf-2cede42dfbf4",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, I see that Alice has placed her second piece adjacent to her first piece, forming a potential horizontal threat at [8, 7] and [8, 8]. My priority now is to block this formation while also working towards establishing a solid center presence. I will place my piece at [.png] to neutralize the immediate threat and set up a diagonal possibility for myself.\n\nMove: [7, 8]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 92,
+            "total_tokens": 2560
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 6
+2024-04-13 00:29:01.707 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: After analyzing the current board, I see that Alice has placed her second piece adjacent to her first piece, forming a potential horizontal threat at [8, 7] and [8, 8]. My priority now is to block this formation while also working towards establishing a solid center presence. I will place my piece at [.png] to neutralize the immediate threat and set up a diagonal possibility for myself.\n\nMove: [7, 8]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bf5c51ee-0b01-9f51-afbf-2cede42dfbf4",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: After analyzing the current board, I see that Alice has placed her second piece adjacent to her first piece, forming a potential horizontal threat at [8, 7] and [8, 8]. My priority now is to block this formation while also working towards establishing a solid center presence. I will place my piece at [.png] to neutralize the immediate threat and set up a diagonal possibility for myself.\n\nMove: [7, 8]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 92,
+            "total_tokens": 2560
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 6
+2024-04-13 00:30:46.627 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\n    \"thought\": \"There is no immediate threat from the opponent as they have only placed two pieces, not forming any 'OO' patterns. My primary focus should be on establishing a strong offensive position. By placing my piece at [.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) [6, .jpg](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBWRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABcAAAAAQAAAFwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAJagAwAEAAAAAQAAAJYAAAAAQVNDSUkAAABTY3JlZW5zaG90vDd6VwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAdVJREFUOE9j/P//PwMlgImBQjCZgWBg2JygoKCiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "8ecec312-30e9-97c5-b655-fb2414ad29dc",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "length",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\n    \"thought\": \"There is no immediate threat from the opponent as they have only placed two pieces, not forming any 'OO' patterns. My primary focus should be on establishing a strong offensive position. By placing my piece at [.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) [6, .jpg](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBWRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABcAAAAAQAAAFwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAJagAwAEAAAAAQAAAJYAAAAAQVNDSUkAAABTY3JlZW5zaG90vDd6VwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAdVJREFUOE9j/P//PwMlgImBQjCZgWBg2JygoKCiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 2000,
+            "total_tokens": 4468
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 4 / 6
+2024-04-13 00:30:46.627 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\n    \"thought\": \"There is no immediate threat from the opponent as they have only placed two pieces, not forming any 'OO' patterns. My primary focus should be on establishing a strong offensive position. By placing my piece at [.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) [6, .jpg](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBWRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABcAAAAAQAAAFwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAJagAwAEAAAAAQAAAJYAAAAAQVNDSUkAAABTY3JlZW5zaG90vDd6VwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAdVJREFUOE9j/P//PwMlgImBQjCZgWBg2JygoKCiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "8ecec312-30e9-97c5-b655-fb2414ad29dc",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "length",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\n    \"thought\": \"There is no immediate threat from the opponent as they have only placed two pieces, not forming any 'OO' patterns. My primary focus should be on establishing a strong offensive position. By placing my piece at [.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) [6, .jpg](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBWRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABcAAAAAQAAAFwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAJagAwAEAAAAAQAAAJYAAAAAQVNDSUkAAABTY3JlZW5zaG90vDd6VwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAdVJREFUOE9j/P//PwMlgImBQjCZgWBg2JygoKCiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 2000,
+            "total_tokens": 4468
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 4 / 6
+2024-04-13 00:30:46.627 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\n    \"thought\": \"There is no immediate threat from the opponent as they have only placed two pieces, not forming any 'OO' patterns. My primary focus should be on establishing a strong offensive position. By placing my piece at [.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) [6, .jpg](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBWRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABcAAAAAQAAAFwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAJagAwAEAAAAAQAAAJYAAAAAQVNDSUkAAABTY3JlZW5zaG90vDd6VwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAdVJREFUOE9j/P//PwMlgImBQjCZgWBg2JygoKCiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "8ecec312-30e9-97c5-b655-fb2414ad29dc",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "length",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\n    \"thought\": \"There is no immediate threat from the opponent as they have only placed two pieces, not forming any 'OO' patterns. My primary focus should be on establishing a strong offensive position. By placing my piece at [.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) [6, .jpg](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QBWRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABcAAAAAQAAAFwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAJagAwAEAAAAAQAAAJYAAAAAQVNDSUkAAABTY3JlZW5zaG90vDd6VwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAdVJREFUOE9j/P//PwMlgImBQjCZgWBg2JygoKCiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 2000,
+            "total_tokens": 4468
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 4 / 6
+2024-04-13 00:30:56.862 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a double 'o' in the vertical direction at [8,8] and [8,9]. To block their potential line, I should place my piece at [8,7] or [8,10]. Additionally, I need to consider creating my own line. There is currently no clear opportunity for a triple 'x', so I will prioritize defense. I'll choose [8,7] as it allows for potential horizontal or diagonal development for my pieces in future turns.\n\nMove: [8, 7]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "5ea82d41-04e5-9d2e-9c38-b9d1b9a14f67",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a double 'o' in the vertical direction at [8,8] and [8,9]. To block their potential line, I should place my piece at [8,7] or [8,10]. Additionally, I need to consider creating my own line. There is currently no clear opportunity for a triple 'x', so I will prioritize defense. I'll choose [8,7] as it allows for potential horizontal or diagonal development for my pieces in future turns.\n\nMove: [8, 7]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 112,
+            "total_tokens": 2580
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 5 / 6
+2024-04-13 00:30:56.862 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a double 'o' in the vertical direction at [8,8] and [8,9]. To block their potential line, I should place my piece at [8,7] or [8,10]. Additionally, I need to consider creating my own line. There is currently no clear opportunity for a triple 'x', so I will prioritize defense. I'll choose [8,7] as it allows for potential horizontal or diagonal development for my pieces in future turns.\n\nMove: [8, 7]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "5ea82d41-04e5-9d2e-9c38-b9d1b9a14f67",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a double 'o' in the vertical direction at [8,8] and [8,9]. To block their potential line, I should place my piece at [8,7] or [8,10]. Additionally, I need to consider creating my own line. There is currently no clear opportunity for a triple 'x', so I will prioritize defense. I'll choose [8,7] as it allows for potential horizontal or diagonal development for my pieces in future turns.\n\nMove: [8, 7]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 112,
+            "total_tokens": 2580
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 5 / 6
+2024-04-13 00:30:56.862 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a double 'o' in the vertical direction at [8,8] and [8,9]. To block their potential line, I should place my piece at [8,7] or [8,10]. Additionally, I need to consider creating my own line. There is currently no clear opportunity for a triple 'x', so I will prioritize defense. I'll choose [8,7] as it allows for potential horizontal or diagonal development for my pieces in future turns.\n\nMove: [8, 7]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "5ea82d41-04e5-9d2e-9c38-b9d1b9a14f67",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a double 'o' in the vertical direction at [8,8] and [8,9]. To block their potential line, I should place my piece at [8,7] or [8,10]. Additionally, I need to consider creating my own line. There is currently no clear opportunity for a triple 'x', so I will prioritize defense. I'll choose [8,7] as it allows for potential horizontal or diagonal development for my pieces in future turns.\n\nMove: [8, 7]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 112,
+            "total_tokens": 2580
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 5 / 6
+2024-04-13 00:31:08.625 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a double piece along the vertical line at [8,8] and [8,9]. This presents a potential threat that needs to be addressed defensively. Additionally, the central position taken by my piece at [7,7] allows for flexibility in creating multiple directions for a potential three-in-a-row. Considering these factors, I should place my next piece at [7,9] to block the opponent's vertical threat and simultaneously set up a potential diagonal or horizontal three-in-a-row formation for myself.\n\nMove: [7, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "fe51a3d2-9460-9adb-af4c-9eed76338840",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a double piece along the vertical line at [8,8] and [8,9]. This presents a potential threat that needs to be addressed defensively. Additionally, the central position taken by my piece at [7,7] allows for flexibility in creating multiple directions for a potential three-in-a-row. Considering these factors, I should place my next piece at [7,9] to block the opponent's vertical threat and simultaneously set up a potential diagonal or horizontal three-in-a-row formation for myself.\n\nMove: [7, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 115,
+            "total_tokens": 2583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 6 / 6
+2024-04-13 00:31:08.625 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a double piece along the vertical line at [8,8] and [8,9]. This presents a potential threat that needs to be addressed defensively. Additionally, the central position taken by my piece at [7,7] allows for flexibility in creating multiple directions for a potential three-in-a-row. Considering these factors, I should place my next piece at [7,9] to block the opponent's vertical threat and simultaneously set up a potential diagonal or horizontal three-in-a-row formation for myself.\n\nMove: [7, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "fe51a3d2-9460-9adb-af4c-9eed76338840",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a double piece along the vertical line at [8,8] and [8,9]. This presents a potential threat that needs to be addressed defensively. Additionally, the central position taken by my piece at [7,7] allows for flexibility in creating multiple directions for a potential three-in-a-row. Considering these factors, I should place my next piece at [7,9] to block the opponent's vertical threat and simultaneously set up a potential diagonal or horizontal three-in-a-row formation for myself.\n\nMove: [7, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 115,
+            "total_tokens": 2583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 6 / 6
+2024-04-13 00:31:08.625 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: The opponent has formed a double piece along the vertical line at [8,8] and [8,9]. This presents a potential threat that needs to be addressed defensively. Additionally, the central position taken by my piece at [7,7] allows for flexibility in creating multiple directions for a potential three-in-a-row. Considering these factors, I should place my next piece at [7,9] to block the opponent's vertical threat and simultaneously set up a potential diagonal or horizontal three-in-a-row formation for myself.\n\nMove: [7, 9]",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "fe51a3d2-9460-9adb-af4c-9eed76338840",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: The opponent has formed a double piece along the vertical line at [8,8] and [8,9]. This presents a potential threat that needs to be addressed defensively. Additionally, the central position taken by my piece at [7,7] allows for flexibility in creating multiple directions for a potential three-in-a-row. Considering these factors, I should place my next piece at [7,9] to block the opponent's vertical threat and simultaneously set up a potential diagonal or horizontal three-in-a-row formation for myself.\n\nMove: [7, 9]"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 2468,
+            "output_tokens": 115,
+            "total_tokens": 2583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 6 / 6

@@ -1,0 +1,141 @@
+2024-04-12 14:33:05.109 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:33:05.111 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 14:33:05.111 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 14:33:05.111 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-143302_05pwep/agentscope.db]
+2024-04-12 14:33:05.119 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:05.120 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 14:33:05.122 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:33:05.124 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:33:05.125 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:33:05.125 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:05.126 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:05.127 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:05.127 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:05.128 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:05.135 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:33:05.135 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:33:05.135 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:33:05.135 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:33:10.210 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:33:10.210 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:33:10.211 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:33:10.210 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:33:10.211 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:33:10.211 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:33:10.211 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:33:10.211 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:33:10.211 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:33:10.218 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.218 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.218 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.219 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.219 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.219 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.221 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.221 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.221 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.222 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.222 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.222 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.224 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.224 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.224 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.226 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.226 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.226 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.227 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.227 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.227 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.228 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.228 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.228 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.229 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.229 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.229 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.230 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.230 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.230 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.231 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.231 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.231 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.232 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.232 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:33:10.232 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到神秘推理游戏！您将扮演一名侦探，通过逻辑推理揭开一桩未知事件的真相。以下是游戏规则：
+
+1. 您需要先选择汤底类型，汤底决定了事件的基本特征：
+   - **1-红汤**：指有死亡情节的汤，即案件涉及谋杀或非自然死亡。
+   - **2-清汤**：指没有人死亡的汤，事件可能涉及盗窃、欺诈、失踪等其他犯罪行为。
+   - **3-本格**：指没有超自然现象的汤，事件完全基于现实逻辑和科学原理。
+   - **4-变格**：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请回复数字选择您想要挑战的汤底类型。
+
+选择汤底后，我将为您呈现事件的概况（汤面），并告知您拥有几次提问次数。您需利用这些提问机会，通过逻辑推理逐步揭示事件真相。
+
+当您认为已掌握事件全貌时，请回复“还原事件”，并详细描述您推测的案发经过。我会根据您的回答与实际汤底的一致性进行评分，满分10分。
+
+请注意，您在规定回合内未能准确还原事件，我将告知您“游戏失败”，并揭示汤底内容。如果您决定继续游戏，请回复“1-继续游戏”。
+
+现在，请选择您的汤底类型。
+host: 欢迎来到神秘推理游戏！您将扮演一名侦探，通过逻辑推理揭开一桩未知事件的真相。以下是游戏规则：
+
+1. 您需要先选择汤底类型，汤底决定了事件的基本特征：
+   - **1-红汤**：指有死亡情节的汤，即案件涉及谋杀或非自然死亡。
+   - **2-清汤**：指没有人死亡的汤，事件可能涉及盗窃、欺诈、失踪等其他犯罪行为。
+   - **3-本格**：指没有超自然现象的汤，事件完全基于现实逻辑和科学原理。
+   - **4-变格**：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请回复数字选择您想要挑战的汤底类型。
+
+选择汤底后，我将为您呈现事件的概况（汤面），并告知您拥有几次提问次数。您需利用这些提问机会，通过逻辑推理逐步揭示事件真相。
+
+当您认为已掌握事件全貌时，请回复“还原事件”，并详细描述您推测的案发经过。我会根据您的回答与实际汤底的一致性进行评分，满分10分。
+
+请注意，您在规定回合内未能准确还原事件，我将告知您“游戏失败”，并揭示汤底内容。如果您决定继续游戏，请回复“1-继续游戏”。
+
+现在，请选择您的汤底类型。
+host: 欢迎来到神秘推理游戏！您将扮演一名侦探，通过逻辑推理揭开一桩未知事件的真相。以下是游戏规则：
+
+1. 您需要先选择汤底类型，汤底决定了事件的基本特征：
+   - **1-红汤**：指有死亡情节的汤，即案件涉及谋杀或非自然死亡。
+   - **2-清汤**：指没有人死亡的汤，事件可能涉及盗窃、欺诈、失踪等其他犯罪行为。
+   - **3-本格**：指没有超自然现象的汤，事件完全基于现实逻辑和科学原理。
+   - **4-变格**：指包含超自然现象（如灵异、科幻、超能力、妖怪等）的汤。
+
+请回复数字选择您想要挑战的汤底类型。
+
+选择汤底后，我将为您呈现事件的概况（汤面），并告知您拥有几次提问次数。您需利用这些提问机会，通过逻辑推理逐步揭示事件真相。
+
+当您认为已掌握事件全貌时，请回复“还原事件”，并详细描述您推测的案发经过。我会根据您的回答与实际汤底的一致性进行评分，满分10分。
+
+请注意，您在规定回合内未能准确还原事件，我将告知您“游戏失败”，并揭示汤底内容。如果您决定继续游戏，请回复“1-继续游戏”。
+
+现在，请选择您的汤底类型。
+host: 您选择了红汤类型。接下来，我将为您提供事件概况（汤面）及提问次数。请仔细阅读并做好推理准备。
+
+**汤面**：
+在一座古老的城堡中，一位富有的贵族被发现死于自己的书房内。书房门窗紧闭，且从内部反锁，无明显外力侵入痕迹。尸体呈坐姿，面部表情惊恐，手中紧握一张残破的照片，照片上是一片模糊的森林。书桌上有一杯未喝完的红酒，杯子边缘残留着口红印。此外，书房内还有一座古老的钟表，其指针停在了凌晨2点的位置。贵族生前曾与几位家族成员及仆人有过激烈争执，其中包括他的妻子、儿子、女儿以及管家。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问，帮助您揭开这起神秘死亡事件的真相。剩余提问次数：5次。
+host: 您选择了红汤类型。接下来，我将为您提供事件概况（汤面）及提问次数。请仔细阅读并做好推理准备。
+
+**汤面**：
+在一座古老的城堡中，一位富有的贵族被发现死于自己的书房内。书房门窗紧闭，且从内部反锁，无明显外力侵入痕迹。尸体呈坐姿，面部表情惊恐，手中紧握一张残破的照片，照片上是一片模糊的森林。书桌上有一杯未喝完的红酒，杯子边缘残留着口红印。此外，书房内还有一座古老的钟表，其指针停在了凌晨2点的位置。贵族生前曾与几位家族成员及仆人有过激烈争执，其中包括他的妻子、儿子、女儿以及管家。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问，帮助您揭开这起神秘死亡事件的真相。剩余提问次数：5次。
+host: 您选择了红汤类型。接下来，我将为您提供事件概况（汤面）及提问次数。请仔细阅读并做好推理准备。
+
+**汤面**：
+在一座古老的城堡中，一位富有的贵族被发现死于自己的书房内。书房门窗紧闭，且从内部反锁，无明显外力侵入痕迹。尸体呈坐姿，面部表情惊恐，手中紧握一张残破的照片，照片上是一片模糊的森林。书桌上有一杯未喝完的红酒，杯子边缘残留着口红印。此外，书房内还有一座古老的钟表，其指针停在了凌晨2点的位置。贵族生前曾与几位家族成员及仆人有过激烈争执，其中包括他的妻子、儿子、女儿以及管家。
+
+**提问次数**：您有5次提问机会。
+
+请您开始提问，帮助您揭开这起神秘死亡事件的真相。剩余提问次数：5次。

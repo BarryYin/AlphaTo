@@ -1,0 +1,34 @@
+2024-04-09 12:11:38.630 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 12:11:38.639 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-09 12:11:38.640 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-09 12:11:38.640 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240409-121138_1lgj8k/agentscope.db]
+2024-04-09 12:11:38.646 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.647 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-09 12:11:38.648 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 12:11:38.649 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 12:11:38.650 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-09 12:11:38.650 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.651 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.652 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 12:11:38.661 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 12:11:38.661 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-09 12:11:38.661 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-09 12:11:38.663 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.663 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.664 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.664 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.665 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.665 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.666 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.666 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.667 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.667 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.667 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.667 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.668 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.668 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-09 12:11:38.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]

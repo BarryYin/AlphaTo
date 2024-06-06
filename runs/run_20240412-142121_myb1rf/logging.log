@@ -1,0 +1,132 @@
+2024-04-12 14:21:24.508 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:21:24.510 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 14:21:24.510 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 14:21:24.511 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-142121_myb1rf/agentscope.db]
+2024-04-12 14:21:24.517 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:24.535 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 14:21:24.536 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:21:24.537 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:21:24.538 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 14:21:24.538 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:24.539 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:24.539 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:24.540 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:24.540 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:24.547 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:21:24.548 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:21:24.547 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:21:24.548 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:21:41.743 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:21:41.743 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:21:41.744 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:21:41.743 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 14:21:41.744 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:21:41.745 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:21:41.745 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:21:41.744 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 14:21:41.745 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 14:21:41.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.755 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.759 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.759 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.759 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.761 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.762 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.763 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.764 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.765 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.766 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.767 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.768 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.768 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.768 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 14:21:41.769 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到推理游戏！您将扮演一名侦探，通过逻辑分析和合理提问，揭开隐藏在案件背后的真相。
+
+以下是游戏规则：
+
+1. 选择汤底类型：
+   a) 红汤：指有死亡情节的汤。
+   b) 清汤：指无人死亡的汤。
+   c) 本格：指没有超自然现象的案件。
+   d) 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择汤底类型，输入对应数字（1-4）：
+
+例如：1
+host: 欢迎来到推理游戏！您将扮演一名侦探，通过逻辑分析和合理提问，揭开隐藏在案件背后的真相。
+
+以下是游戏规则：
+
+1. 选择汤底类型：
+   a) 红汤：指有死亡情节的汤。
+   b) 清汤：指无人死亡的汤。
+   c) 本格：指没有超自然现象的案件。
+   d) 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择汤底类型，输入对应数字（1-4）：
+
+例如：1
+host: 欢迎来到推理游戏！您将扮演一名侦探，通过逻辑分析和合理提问，揭开隐藏在案件背后的真相。
+
+以下是游戏规则：
+
+1. 选择汤底类型：
+   a) 红汤：指有死亡情节的汤。
+   b) 清汤：指无人死亡的汤。
+   c) 本格：指没有超自然现象的案件。
+   d) 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的案件。
+
+请您选择汤底类型，输入对应数字（1-4）：
+
+例如：1
+host: 您选择了红汤类型。接下来，我将为您呈现案件概述（汤面），然后您将有三次提问机会，以帮助您推理案件详情。
+
+**案件概述（汤面）：**
+在一座偏僻的山间别墅中，一位知名小说家被发现死于书房内，现场门窗紧闭且从内部反锁。尸体旁边散落着未完成的手稿和一杯咖啡，咖啡杯边缘残留有清晰的唇印。初步尸检显示，小说家死于剧毒物质中毒。别墅内的其他人员均声称案发时自己在各自房间内，无一人能提供有力的不在场证明。
+
+现在，您可以开始提问了。您还有 **三次提问** 机会。
+
+例如：是否有目击者看到可疑人物？
+host: 您选择了红汤类型。接下来，我将为您呈现案件概述（汤面），然后您将有三次提问机会，以帮助您推理案件详情。
+
+**案件概述（汤面）：**
+在一座偏僻的山间别墅中，一位知名小说家被发现死于书房内，现场门窗紧闭且从内部反锁。尸体旁边散落着未完成的手稿和一杯咖啡，咖啡杯边缘残留有清晰的唇印。初步尸检显示，小说家死于剧毒物质中毒。别墅内的其他人员均声称案发时自己在各自房间内，无一人能提供有力的不在场证明。
+
+现在，您可以开始提问了。您还有 **三次提问** 机会。
+
+例如：是否有目击者看到可疑人物？
+host: 您选择了红汤类型。接下来，我将为您呈现案件概述（汤面），然后您将有三次提问机会，以帮助您推理案件详情。
+
+**案件概述（汤面）：**
+在一座偏僻的山间别墅中，一位知名小说家被发现死于书房内，现场门窗紧闭且从内部反锁。尸体旁边散落着未完成的手稿和一杯咖啡，咖啡杯边缘残留有清晰的唇印。初步尸检显示，小说家死于剧毒物质中毒。别墅内的其他人员均声称案发时自己在各自房间内，无一人能提供有力的不在场证明。
+
+现在，您可以开始提问了。您还有 **三次提问** 机会。
+
+例如：是否有目击者看到可疑人物？
+imgmaker1: {'thought': 'The case overview can be divided into the following three scenes', 'scripts': ['script1: In a secluded mountain villa, a well-known novelist is found dead in his study. The windows and doors are tightly shut and locked from the inside, indicating an enclosed crime scene without external interference.', 'script2: Surrounding the body, there lies an unfinished manuscript and a coffee cup with distinct lipstick marks on its rim. These items suggest the victim was engaged in writing and had consumed the beverage shortly before their demise.', 'script3: The preliminary autopsy reveals that the cause of death is poisoning due to a potent toxic substance. All other individuals residing in the villa assert they were in their respective rooms at the time of the incident, yet none can provide a solid alibi.']}
+imgmaker1: {'thought': 'The case overview can be divided into the following three scenes', 'scripts': ['script1: In a secluded mountain villa, a well-known novelist is found dead in his study. The windows and doors are tightly shut and locked from the inside, indicating an enclosed crime scene without external interference.', 'script2: Surrounding the body, there lies an unfinished manuscript and a coffee cup with distinct lipstick marks on its rim. These items suggest the victim was engaged in writing and had consumed the beverage shortly before their demise.', 'script3: The preliminary autopsy reveals that the cause of death is poisoning due to a potent toxic substance. All other individuals residing in the villa assert they were in their respective rooms at the time of the incident, yet none can provide a solid alibi.']}
+imgmaker1: {'thought': 'The case overview can be divided into the following three scenes', 'scripts': ['script1: In a secluded mountain villa, a well-known novelist is found dead in his study. The windows and doors are tightly shut and locked from the inside, indicating an enclosed crime scene without external interference.', 'script2: Surrounding the body, there lies an unfinished manuscript and a coffee cup with distinct lipstick marks on its rim. These items suggest the victim was engaged in writing and had consumed the beverage shortly before their demise.', 'script3: The preliminary autopsy reveals that the cause of death is poisoning due to a potent toxic substance. All other individuals residing in the villa assert they were in their respective rooms at the time of the incident, yet none can provide a solid alibi.']}

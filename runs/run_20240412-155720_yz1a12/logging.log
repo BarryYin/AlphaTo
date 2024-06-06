@@ -1,0 +1,132 @@
+2024-04-12 15:57:22.976 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 15:57:22.979 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 15:57:22.979 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 15:57:22.979 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-155720_yz1a12/agentscope.db]
+2024-04-12 15:57:22.987 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:22.988 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 15:57:22.989 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 15:57:22.990 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 15:57:22.991 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 15:57:22.992 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:22.994 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:22.996 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:22.998 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:23.000 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:23.010 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 15:57:23.010 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 15:57:23.010 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 15:57:23.010 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 15:57:27.471 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 15:57:27.472 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 15:57:27.471 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 15:57:27.471 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 15:57:27.472 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 15:57:27.472 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 15:57:27.472 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 15:57:27.472 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 15:57:27.472 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 15:57:27.477 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.477 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.477 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.480 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.480 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.480 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.481 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.485 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.485 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.485 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.486 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.486 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.486 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.487 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.487 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.487 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.489 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.489 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.489 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.490 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.491 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.491 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.491 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.492 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.493 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 15:57:27.494 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到神秘汤面推理游戏！您将根据我提供的线索，推理出隐藏的事件真相。
+
+首先，请选择您偏好的汤底类型：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请回复对应数字进行选择。
+host: 欢迎来到神秘汤面推理游戏！您将根据我提供的线索，推理出隐藏的事件真相。
+
+首先，请选择您偏好的汤底类型：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请回复对应数字进行选择。
+host: 欢迎来到神秘汤面推理游戏！您将根据我提供的线索，推理出隐藏的事件真相。
+
+首先，请选择您偏好的汤底类型：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象的汤；
+4. 变格：指包含超自然现象（灵异、科幻、超能力、妖怪等）的汤。
+
+请回复对应数字进行选择。
+host: 您选择了红汤类型。接下来，我将为您呈上本次的神秘汤面：
+
+**汤面：**
+在一所古老的庄园中，一位著名的侦探小说家在深夜被发现死于书房内，手中紧握着一张未完成的手稿。书房门窗紧闭，无明显外力破坏痕迹。书桌上有一杯已冷却的咖啡和一盏熄灭的台灯。壁炉内尚有余烬，旁边散落着几根未烧尽的火柴。死者生前健康状况良好，人际关系复杂，曾收到过匿名威胁信件。现场没有发现凶器，也没有目击者。
+
+您有三次提问机会来揭示事件真相。请问：
+
+1. 死者是否死于他杀？
+2. 死者是否在饮用咖啡后立即遇害？
+3. 死者是否曾试图烧毁某些物品？
+
+请回复对应的序号进行提问。剩余提问次数：3次。
+host: 您选择了红汤类型。接下来，我将为您呈上本次的神秘汤面：
+
+**汤面：**
+在一所古老的庄园中，一位著名的侦探小说家在深夜被发现死于书房内，手中紧握着一张未完成的手稿。书房门窗紧闭，无明显外力破坏痕迹。书桌上有一杯已冷却的咖啡和一盏熄灭的台灯。壁炉内尚有余烬，旁边散落着几根未烧尽的火柴。死者生前健康状况良好，人际关系复杂，曾收到过匿名威胁信件。现场没有发现凶器，也没有目击者。
+
+您有三次提问机会来揭示事件真相。请问：
+
+1. 死者是否死于他杀？
+2. 死者是否在饮用咖啡后立即遇害？
+3. 死者是否曾试图烧毁某些物品？
+
+请回复对应的序号进行提问。剩余提问次数：3次。
+host: 您选择了红汤类型。接下来，我将为您呈上本次的神秘汤面：
+
+**汤面：**
+在一所古老的庄园中，一位著名的侦探小说家在深夜被发现死于书房内，手中紧握着一张未完成的手稿。书房门窗紧闭，无明显外力破坏痕迹。书桌上有一杯已冷却的咖啡和一盏熄灭的台灯。壁炉内尚有余烬，旁边散落着几根未烧尽的火柴。死者生前健康状况良好，人际关系复杂，曾收到过匿名威胁信件。现场没有发现凶器，也没有目击者。
+
+您有三次提问机会来揭示事件真相。请问：
+
+1. 死者是否死于他杀？
+2. 死者是否在饮用咖啡后立即遇害？
+3. 死者是否曾试图烧毁某些物品？
+
+请回复对应的序号进行提问。剩余提问次数：3次。
+imgmaker1: {'thought': "The case description presents the scene of a renowned detective novelist's mysterious death in an old manor's study during the late hours. Key details include:", 'scripts': ['Script 1: The novelist is found deceased in their study, clutching an incomplete manuscript, with no signs of forced entry or external disturbance.', "Script 2: The study contains a cold cup of coffee, an extinguished lamp, smoldering embers in the fireplace, and scattered unused matchsticks. The victim had good health, complex relationships, had received anonymous threats, and there's no evident murder weapon or witnesses."]}
+imgmaker1: {'thought': "The case description presents the scene of a renowned detective novelist's mysterious death in an old manor's study during the late hours. Key details include:", 'scripts': ['Script 1: The novelist is found deceased in their study, clutching an incomplete manuscript, with no signs of forced entry or external disturbance.', "Script 2: The study contains a cold cup of coffee, an extinguished lamp, smoldering embers in the fireplace, and scattered unused matchsticks. The victim had good health, complex relationships, had received anonymous threats, and there's no evident murder weapon or witnesses."]}
+imgmaker1: {'thought': "The case description presents the scene of a renowned detective novelist's mysterious death in an old manor's study during the late hours. Key details include:", 'scripts': ['Script 1: The novelist is found deceased in their study, clutching an incomplete manuscript, with no signs of forced entry or external disturbance.', "Script 2: The study contains a cold cup of coffee, an extinguished lamp, smoldering embers in the fireplace, and scattered unused matchsticks. The victim had good health, complex relationships, had received anonymous threats, and there's no evident murder weapon or witnesses."]}

@@ -1,0 +1,42 @@
+[
+    {
+        "model_type": "dashscope_chat",
+        "config_name": "qwen",
+        "model_name": "qwen-max",
+        "api_key": "YOUR_API_KEY",
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "model_type": "dashscope_image_synthesis",
+        "config_name": "wanx",
+        "model_name": "wanx-v1",
+        "api_key": "sk-ebf86b67058945fa827863a3742df0b0",
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+    "config_name": "gpt-4",
+    "model_type": "openai",
+    "model_name": "gpt-4-turbo-2024-04-09",
+    "api_key": "", 
+    "organization": "", 
+    "generate_args": {
+        "temperature": 0.1
+               }
+    },
+    {
+        "config_name": "InternLM2",
+        "model_type": "InternLM2_chat",
+        "model_name": "internlm2",
+        "api_key": "YOUR_API_KEY",
+        "client_args": {
+            "base_url": "http://localhost:23333/v1/"
+        },
+        "generate_args": {
+            "temperature": 0.7
+        }
+    }
+]

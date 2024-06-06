@@ -1,0 +1,947 @@
+2024-04-12 18:19:35.202 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 18:19:35.205 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 18:19:35.205 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 18:19:35.205 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-181932_kc5exu/agentscope.db]
+2024-04-12 18:19:35.214 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:35.214 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 18:19:35.216 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 18:19:35.216 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 18:19:35.217 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 18:19:35.217 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:35.218 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:35.220 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:35.221 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:35.222 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:35.229 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 18:19:35.229 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 18:19:35.229 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 18:19:35.229 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 18:19:38.009 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 18:19:38.009 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 18:19:38.009 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 18:19:38.011 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 18:19:38.011 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 18:19:38.012 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 18:19:38.012 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 18:19:38.011 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 18:19:38.012 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 18:19:38.017 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.017 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.017 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.018 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.018 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.018 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.019 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.019 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.019 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.024 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.024 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.024 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.025 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.025 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.025 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.027 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.027 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.027 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.032 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.033 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.034 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.035 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.035 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.035 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.036 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.036 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.036 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.037 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.037 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 18:19:38.037 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 运动类
+Moderator: 运动类
+Moderator: 运动类
+juge: {'词语1': '游泳', '词语2': '跑步'}
+juge: {'词语1': '游泳', '词语2': '跑步'}
+juge: {'词语1': '游泳', '词语2': '跑步'}
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家1，当前的时间是2024-04-12, 你上一位玩家的发言内容是一种体育运动，奥林匹克赛事之一。
+                    你收到的词语是:游泳
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家1，当前的时间是2024-04-12, 你上一位玩家的发言内容是一种体育运动，奥林匹克赛事之一。
+                    你收到的词语是:游泳
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家1，当前的时间是2024-04-12, 你上一位玩家的发言内容是一种体育运动，奥林匹克赛事之一。
+                    你收到的词语是:游泳
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+2024-04-12 18:20:09.956 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"水上竞速项目\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "1f2b004c-8f74-9738-86bf-afd5ac9fddad",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"水上竞速项目\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 572,
+            "output_tokens": 13,
+            "total_tokens": 585
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:09.956 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"水上竞速项目\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "1f2b004c-8f74-9738-86bf-afd5ac9fddad",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"水上竞速项目\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 572,
+            "output_tokens": 13,
+            "total_tokens": 585
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:09.956 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"水上竞速项目\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "1f2b004c-8f74-9738-86bf-afd5ac9fddad",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"水上竞速项目\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 572,
+            "output_tokens": 13,
+            "total_tokens": 585
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+play1: {'特征': '水上竞速项目'}
+play1: {'特征': '水上竞速项目'}
+play1: {'特征': '水上竞速项目'}
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家2，当前的时间是2024-04-12, 你上一位玩家的发言内容是水上竞速项目。
+                    你收到的词语是:游泳
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家2，当前的时间是2024-04-12, 你上一位玩家的发言内容是水上竞速项目。
+                    你收到的词语是:游泳
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家2，当前的时间是2024-04-12, 你上一位玩家的发言内容是水上竞速项目。
+                    你收到的词语是:游泳
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+2024-04-12 18:20:13.757 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"竞技运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "7f9272bf-0a4b-9bce-9584-762c7ed3021d",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"竞技运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 570,
+            "output_tokens": 11,
+            "total_tokens": 581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:13.757 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"竞技运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "7f9272bf-0a4b-9bce-9584-762c7ed3021d",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"竞技运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 570,
+            "output_tokens": 11,
+            "total_tokens": 581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:13.757 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"竞技运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "7f9272bf-0a4b-9bce-9584-762c7ed3021d",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"竞技运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 570,
+            "output_tokens": 11,
+            "total_tokens": 581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:16.038 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"竞技运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "3dd88e59-713a-92dd-a645-8a029fdc372a",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"竞技运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 570,
+            "output_tokens": 11,
+            "total_tokens": 581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 18:20:16.038 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"竞技运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "3dd88e59-713a-92dd-a645-8a029fdc372a",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"竞技运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 570,
+            "output_tokens": 11,
+            "total_tokens": 581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 18:20:16.038 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"竞技运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "3dd88e59-713a-92dd-a645-8a029fdc372a",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"竞技运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 570,
+            "output_tokens": 11,
+            "total_tokens": 581
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+play2: {'特征': '水中竞技运动'}
+play2: {'特征': '水中竞技运动'}
+play2: {'特征': '水中竞技运动'}
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家3，当前的时间是2024-04-12, 你上一位玩家的发言内容是水中竞技运动。
+                    你收到的词语是:跑步
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家3，当前的时间是2024-04-12, 你上一位玩家的发言内容是水中竞技运动。
+                    你收到的词语是:跑步
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+Moderator: 
+                    你是一个描述机器人，你需要说出你收到的<词语>的一个特征，并且字数越短越好，通常10个字以内，你给出任意一个特征都可以，比如大致的形状、功效、使用特征等，当你在进行表达的时候，你需要参考上一个玩家的发言，尽量与他有一些不同。
+                    请尽量不要表述过多，以适当地隐藏自己的<词语>。
+                    此外，你也可以只说一个词，只要能够形容这个<词语>即可。
+                    更重要的是，绝对不能直接说出自己的词语。
+                    你的身份是玩家3，当前的时间是2024-04-12, 你上一位玩家的发言内容是水中竞技运动。
+                    你收到的词语是:跑步
+                    请你通过json的格式返回。
+                    返回内容是一个字典{"特征":str}。
+                    
+2024-04-12 18:20:20.465 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"陆地有氧运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "5c379416-4b8f-926e-8891-b10d40bdefa5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"陆地有氧运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 569,
+            "output_tokens": 14,
+            "total_tokens": 583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:20.465 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"陆地有氧运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "5c379416-4b8f-926e-8891-b10d40bdefa5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"陆地有氧运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 569,
+            "output_tokens": 14,
+            "total_tokens": 583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:20.465 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"陆地有氧运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "5c379416-4b8f-926e-8891-b10d40bdefa5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"陆地有氧运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 569,
+            "output_tokens": 14,
+            "total_tokens": 583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 18:20:23.081 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"陆地有氧运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "347b3679-0c16-98a5-9b21-b4f8f5923ab9",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"陆地有氧运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 569,
+            "output_tokens": 14,
+            "total_tokens": 583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 18:20:23.081 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"陆地有氧运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "347b3679-0c16-98a5-9b21-b4f8f5923ab9",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"陆地有氧运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 569,
+            "output_tokens": 14,
+            "total_tokens": 583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+2024-04-12 18:20:23.081 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "```json\n{\"特征\": \"陆地有氧运动\"}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "347b3679-0c16-98a5-9b21-b4f8f5923ab9",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "```json\n{\"特征\": \"陆地有氧运动\"}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 569,
+            "output_tokens": 14,
+            "total_tokens": 583
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 2 / 3
+play3: {'特征': '陆地有氧运动'}
+play3: {'特征': '陆地有氧运动'}
+play3: {'特征': '陆地有氧运动'}
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:游泳;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:游泳;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:游泳;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+play1: {'投票结果': 3}
+play1: {'投票结果': 3}
+play1: {'投票结果': 3}
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:游泳;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:游泳;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:游泳;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+play2: {'投票结果': 3}
+play2: {'投票结果': 3}
+play2: {'投票结果': 3}
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:跑步;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:跑步;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+Moderator: 
+                现在进行投票，你需要根据你收到的<词语>，以及其他玩家的发言，选择一个和你的差距最大的玩家。
+                你收到的词语是:跑步;
+                其他玩家的发言内容是玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；玩家0的发言内容是一种体育运动，奥林匹克赛事之一；玩家1的发言内容是水上竞速项目；玩家2的发言内容是水中竞技运动；玩家3的发言内容是陆地有氧运动；。
+                其中，投票结果应当为1,2,3,中的数字，数字代表对应相应的玩家。
+                当前的投票数字最大不要超过3.
+                请你通过json的格式返回。
+                返回内容是一个字典{"投票结果":int}。
+                
+play3: {'投票结果': 5}
+play3: {'投票结果': 5}
+play3: {'投票结果': 5}
+2024-04-12 20:32:07.120 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:32:07.120 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:32:07.120 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:32:07.120 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:32:07.127 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:32:07.127 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:32:07.128 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:32:07.127 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:32:07.128 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:32:07.127 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:32:07.128 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:32:07.128 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:32:07.152 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.152 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.152 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.152 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.187 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.187 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.187 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.187 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.189 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.189 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.189 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.189 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.191 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.191 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.191 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.191 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.200 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.200 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.200 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.200 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.201 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.201 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.201 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.201 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.202 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.202 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.202 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.202 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.203 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.204 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.204 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.204 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:32:07.204 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+Moderator: 开始游戏
+host: 欢迎来到推理汤面游戏！以下是游戏规则：
+
+您需要选择一种汤底类型来进行推理：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）。
+
+请您选择一个汤底类型（输入对应的数字即可），然后我将为您呈现汤面（案件概述）。您将有若干轮提问机会，通过提问来逐步揭示案件真相。当您认为已掌握事件全貌时，可以回复“还原事件”，并详细描述您的推理结果。我会根据您的回答与实际汤底的一致性进行评分（满分10分）。
+
+请做出您的选择：1/2/3/4
+host: 欢迎来到推理汤面游戏！以下是游戏规则：
+
+您需要选择一种汤底类型来进行推理：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）。
+
+请您选择一个汤底类型（输入对应的数字即可），然后我将为您呈现汤面（案件概述）。您将有若干轮提问机会，通过提问来逐步揭示案件真相。当您认为已掌握事件全貌时，可以回复“还原事件”，并详细描述您的推理结果。我会根据您的回答与实际汤底的一致性进行评分（满分10分）。
+
+请做出您的选择：1/2/3/4
+host: 欢迎来到推理汤面游戏！以下是游戏规则：
+
+您需要选择一种汤底类型来进行推理：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）。
+
+请您选择一个汤底类型（输入对应的数字即可），然后我将为您呈现汤面（案件概述）。您将有若干轮提问机会，通过提问来逐步揭示案件真相。当您认为已掌握事件全貌时，可以回复“还原事件”，并详细描述您的推理结果。我会根据您的回答与实际汤底的一致性进行评分（满分10分）。
+
+请做出您的选择：1/2/3/4
+host: 欢迎来到推理汤面游戏！以下是游戏规则：
+
+您需要选择一种汤底类型来进行推理：
+1. 红汤：指有死亡情节的汤；
+2. 清汤：指无人死亡的汤；
+3. 本格：指没有超自然现象；
+4. 变格：指包含超自然现象（如灵异、科幻、超能力、妖怪等）。
+
+请您选择一个汤底类型（输入对应的数字即可），然后我将为您呈现汤面（案件概述）。您将有若干轮提问机会，通过提问来逐步揭示案件真相。当您认为已掌握事件全貌时，可以回复“还原事件”，并详细描述您的推理结果。我会根据您的回答与实际汤底的一致性进行评分（满分10分）。
+
+请做出您的选择：1/2/3/4
+host: 您选择了红汤类型。好的，接下来是本次的汤面：
+
+在一座古老的城堡中，发现了一位著名画家的尸体。画家被发现时倒在画室中央，周围散落着未完成的画作和各种颜料工具。死因初步判断为中毒，现场未发现明显的挣扎痕迹。画家生前独居，城堡内仅有他和一位长期为其打理家务的女仆。案发当日，画家曾邀请了几位好友来城堡共进晚餐，他们是：一位知名评论家、一位画廊老板、一位同行画家以及画家的远房侄子。晚餐结束后，众人各自离开，声称并未进入画室。女仆则在晚饭后便回自己房间休息，声称并未听见任何异常动静。
+
+您有5轮提问机会来揭示事件真相。请问：
+
+1. 画家的画作中是否存在描绘有毒植物的内容？
+2. 知名评论家是否曾公开批评过这位画家的作品？
+3. 画廊老板是否近期面临严重的财务危机？
+4. 同行画家是否擅长使用毒物作为创作元素？
+5. 远房侄子是否因遗产问题与画家存在矛盾？
+
+请提出您的第一个问题（输入对应编号即可）。
+host: 您选择了红汤类型。好的，接下来是本次的汤面：
+
+在一座古老的城堡中，发现了一位著名画家的尸体。画家被发现时倒在画室中央，周围散落着未完成的画作和各种颜料工具。死因初步判断为中毒，现场未发现明显的挣扎痕迹。画家生前独居，城堡内仅有他和一位长期为其打理家务的女仆。案发当日，画家曾邀请了几位好友来城堡共进晚餐，他们是：一位知名评论家、一位画廊老板、一位同行画家以及画家的远房侄子。晚餐结束后，众人各自离开，声称并未进入画室。女仆则在晚饭后便回自己房间休息，声称并未听见任何异常动静。
+
+您有5轮提问机会来揭示事件真相。请问：
+
+1. 画家的画作中是否存在描绘有毒植物的内容？
+2. 知名评论家是否曾公开批评过这位画家的作品？
+3. 画廊老板是否近期面临严重的财务危机？
+4. 同行画家是否擅长使用毒物作为创作元素？
+5. 远房侄子是否因遗产问题与画家存在矛盾？
+
+请提出您的第一个问题（输入对应编号即可）。
+host: 您选择了红汤类型。好的，接下来是本次的汤面：
+
+在一座古老的城堡中，发现了一位著名画家的尸体。画家被发现时倒在画室中央，周围散落着未完成的画作和各种颜料工具。死因初步判断为中毒，现场未发现明显的挣扎痕迹。画家生前独居，城堡内仅有他和一位长期为其打理家务的女仆。案发当日，画家曾邀请了几位好友来城堡共进晚餐，他们是：一位知名评论家、一位画廊老板、一位同行画家以及画家的远房侄子。晚餐结束后，众人各自离开，声称并未进入画室。女仆则在晚饭后便回自己房间休息，声称并未听见任何异常动静。
+
+您有5轮提问机会来揭示事件真相。请问：
+
+1. 画家的画作中是否存在描绘有毒植物的内容？
+2. 知名评论家是否曾公开批评过这位画家的作品？
+3. 画廊老板是否近期面临严重的财务危机？
+4. 同行画家是否擅长使用毒物作为创作元素？
+5. 远房侄子是否因遗产问题与画家存在矛盾？
+
+请提出您的第一个问题（输入对应编号即可）。
+host: 您选择了红汤类型。好的，接下来是本次的汤面：
+
+在一座古老的城堡中，发现了一位著名画家的尸体。画家被发现时倒在画室中央，周围散落着未完成的画作和各种颜料工具。死因初步判断为中毒，现场未发现明显的挣扎痕迹。画家生前独居，城堡内仅有他和一位长期为其打理家务的女仆。案发当日，画家曾邀请了几位好友来城堡共进晚餐，他们是：一位知名评论家、一位画廊老板、一位同行画家以及画家的远房侄子。晚餐结束后，众人各自离开，声称并未进入画室。女仆则在晚饭后便回自己房间休息，声称并未听见任何异常动静。
+
+您有5轮提问机会来揭示事件真相。请问：
+
+1. 画家的画作中是否存在描绘有毒植物的内容？
+2. 知名评论家是否曾公开批评过这位画家的作品？
+3. 画廊老板是否近期面临严重的财务危机？
+4. 同行画家是否擅长使用毒物作为创作元素？
+5. 远房侄子是否因遗产问题与画家存在矛盾？
+
+请提出您的第一个问题（输入对应编号即可）。
+imgmaker1: {'thought': "The case involves the mysterious death of a renowned painter within an ancient castle. The deceased was found amidst incomplete artworks and art supplies, with poisoning identified as the probable cause of death. There are no signs of struggle at the scene. The painter lived alone in the castle, accompanied only by a housekeeper who retired to her quarters after dinner on the night of the incident, claiming to have heard nothing unusual. The painter had entertained several guests for dinner that same evening: a prominent critic, a gallery owner, another painter, and the painter's distant nephew. Each guest departed after the meal, asserting they did not enter the studio, and the housekeeper corroborated their alibis.", 'scripts': ["Scene 1: The Painter's Studio", "In the heart of an ancient stone fortress, the lifeless body of a celebrated artist lies sprawled amidst a sea of unfinished masterpieces and scattered art implements. The air is thick with the scent of oils and pigments, yet there's an eerie stillness that belies the usual creative energy. The absence of any visible struggle suggests a calculated act. A preliminary forensic examination points to poisoning as the fatal blow. The artist, known for his reclusive lifestyle, shared this sprawling abode only with a long-serving housekeeper who, on the fateful evening, retired early to her chambers, oblivious to any disturbance.", "Scene 2: The Evening's Gathering", "That very night, beneath the vaulted ceilings of the castle's grand dining hall, the painter hosted an intimate soirée. Seated around the opulent table were a distinguished art critic, whose words held sway over the art world; a financially embattled gallery owner, whose fortunes were intertwined with those of the deceased; a fellow artist, whose unconventional techniques often incorporated lethal substances; and a distant relative of the host, entangled in a bitter inheritance dispute. As the evening drew to a close, each guest took their leave, their paths never crossing the threshold of the now-haunted studio. Their alibis, corroborated by the unsuspecting housekeeper, seemed watertight. Yet, as the investigation unfolds, it becomes increasingly clear that beneath the genteel facade of this gathering lay hidden motives, simmering tensions, and perhaps even murderous intent."]}
+imgmaker1: {'thought': "The case involves the mysterious death of a renowned painter within an ancient castle. The deceased was found amidst incomplete artworks and art supplies, with poisoning identified as the probable cause of death. There are no signs of struggle at the scene. The painter lived alone in the castle, accompanied only by a housekeeper who retired to her quarters after dinner on the night of the incident, claiming to have heard nothing unusual. The painter had entertained several guests for dinner that same evening: a prominent critic, a gallery owner, another painter, and the painter's distant nephew. Each guest departed after the meal, asserting they did not enter the studio, and the housekeeper corroborated their alibis.", 'scripts': ["Scene 1: The Painter's Studio", "In the heart of an ancient stone fortress, the lifeless body of a celebrated artist lies sprawled amidst a sea of unfinished masterpieces and scattered art implements. The air is thick with the scent of oils and pigments, yet there's an eerie stillness that belies the usual creative energy. The absence of any visible struggle suggests a calculated act. A preliminary forensic examination points to poisoning as the fatal blow. The artist, known for his reclusive lifestyle, shared this sprawling abode only with a long-serving housekeeper who, on the fateful evening, retired early to her chambers, oblivious to any disturbance.", "Scene 2: The Evening's Gathering", "That very night, beneath the vaulted ceilings of the castle's grand dining hall, the painter hosted an intimate soirée. Seated around the opulent table were a distinguished art critic, whose words held sway over the art world; a financially embattled gallery owner, whose fortunes were intertwined with those of the deceased; a fellow artist, whose unconventional techniques often incorporated lethal substances; and a distant relative of the host, entangled in a bitter inheritance dispute. As the evening drew to a close, each guest took their leave, their paths never crossing the threshold of the now-haunted studio. Their alibis, corroborated by the unsuspecting housekeeper, seemed watertight. Yet, as the investigation unfolds, it becomes increasingly clear that beneath the genteel facade of this gathering lay hidden motives, simmering tensions, and perhaps even murderous intent."]}
+imgmaker1: {'thought': "The case involves the mysterious death of a renowned painter within an ancient castle. The deceased was found amidst incomplete artworks and art supplies, with poisoning identified as the probable cause of death. There are no signs of struggle at the scene. The painter lived alone in the castle, accompanied only by a housekeeper who retired to her quarters after dinner on the night of the incident, claiming to have heard nothing unusual. The painter had entertained several guests for dinner that same evening: a prominent critic, a gallery owner, another painter, and the painter's distant nephew. Each guest departed after the meal, asserting they did not enter the studio, and the housekeeper corroborated their alibis.", 'scripts': ["Scene 1: The Painter's Studio", "In the heart of an ancient stone fortress, the lifeless body of a celebrated artist lies sprawled amidst a sea of unfinished masterpieces and scattered art implements. The air is thick with the scent of oils and pigments, yet there's an eerie stillness that belies the usual creative energy. The absence of any visible struggle suggests a calculated act. A preliminary forensic examination points to poisoning as the fatal blow. The artist, known for his reclusive lifestyle, shared this sprawling abode only with a long-serving housekeeper who, on the fateful evening, retired early to her chambers, oblivious to any disturbance.", "Scene 2: The Evening's Gathering", "That very night, beneath the vaulted ceilings of the castle's grand dining hall, the painter hosted an intimate soirée. Seated around the opulent table were a distinguished art critic, whose words held sway over the art world; a financially embattled gallery owner, whose fortunes were intertwined with those of the deceased; a fellow artist, whose unconventional techniques often incorporated lethal substances; and a distant relative of the host, entangled in a bitter inheritance dispute. As the evening drew to a close, each guest took their leave, their paths never crossing the threshold of the now-haunted studio. Their alibis, corroborated by the unsuspecting housekeeper, seemed watertight. Yet, as the investigation unfolds, it becomes increasingly clear that beneath the genteel facade of this gathering lay hidden motives, simmering tensions, and perhaps even murderous intent."]}
+imgmaker1: {'thought': "The case involves the mysterious death of a renowned painter within an ancient castle. The deceased was found amidst incomplete artworks and art supplies, with poisoning identified as the probable cause of death. There are no signs of struggle at the scene. The painter lived alone in the castle, accompanied only by a housekeeper who retired to her quarters after dinner on the night of the incident, claiming to have heard nothing unusual. The painter had entertained several guests for dinner that same evening: a prominent critic, a gallery owner, another painter, and the painter's distant nephew. Each guest departed after the meal, asserting they did not enter the studio, and the housekeeper corroborated their alibis.", 'scripts': ["Scene 1: The Painter's Studio", "In the heart of an ancient stone fortress, the lifeless body of a celebrated artist lies sprawled amidst a sea of unfinished masterpieces and scattered art implements. The air is thick with the scent of oils and pigments, yet there's an eerie stillness that belies the usual creative energy. The absence of any visible struggle suggests a calculated act. A preliminary forensic examination points to poisoning as the fatal blow. The artist, known for his reclusive lifestyle, shared this sprawling abode only with a long-serving housekeeper who, on the fateful evening, retired early to her chambers, oblivious to any disturbance.", "Scene 2: The Evening's Gathering", "That very night, beneath the vaulted ceilings of the castle's grand dining hall, the painter hosted an intimate soirée. Seated around the opulent table were a distinguished art critic, whose words held sway over the art world; a financially embattled gallery owner, whose fortunes were intertwined with those of the deceased; a fellow artist, whose unconventional techniques often incorporated lethal substances; and a distant relative of the host, entangled in a bitter inheritance dispute. As the evening drew to a close, each guest took their leave, their paths never crossing the threshold of the now-haunted studio. Their alibis, corroborated by the unsuspecting housekeeper, seemed watertight. Yet, as the investigation unfolds, it becomes increasingly clear that beneath the genteel facade of this gathering lay hidden motives, simmering tensions, and perhaps even murderous intent."]}
+2024-04-12 20:36:25.688 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:36:25.688 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:36:25.688 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:36:25.688 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:36:25.688 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-12 20:36:25.689 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:36:25.689 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:36:25.689 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:36:25.689 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:36:25.690 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:36:25.690 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:36:25.689 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-12 20:36:25.690 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:36:25.690 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:36:25.690 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx
+2024-04-12 20:36:25.705 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.705 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.705 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.705 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.705 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.709 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.709 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.709 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.709 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.709 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.719 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.719 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.719 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.719 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.719 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.721 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.721 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.721 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.721 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.721 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.731 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.731 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.731 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.731 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.731 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 20:36:25.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]

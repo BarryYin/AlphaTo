@@ -1,0 +1,44 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240412-135718",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "system",
+                "content": "\nPlease extract the case description from the text given to you. It is a description of the case, and only the case description needs to be processed. Content unrelated to the case does not need to be processed.\nPlease break down the case description into 3-5 small sub-scenes, describing the content of the text\nYou should respond in the json format, which can be loaded by json in Python(pleas don't show 'json'):\n{\n    \"thought\": \"analyze the present situation, and what move you should make\",\n    \"scripts\": [script1, script2,script3,script4,script5]\n}\nPlease ensure that your response follows the specified format and includes the necessary fields.\n{\n    \"thought\": \"Analyzing the given content can be broken down into three parts\",\n    \"scripts\": ['script1 is The novelist sits at his desk, with a distorted face and a painful expression, showing the struggle before death; his hand is gripping a pen, and the window behind him is closed and undamaged, emphasizing that the events occurring in the room were not caused by external intrusion.', 'script2 is The unfinished manuscript is laid out, with the pen resting on the paper and the ink still wet, suggesting that the novelist was writing a chapter closely related to his last work before his death','script3 is A crumpled photo was abandoned in a corner or on the ground, clearly showing a photo of the novelist with a strange woman. The identity of this mysterious woman has led to more speculation about the novelist's life experience and cause of death.']\n}\n# forbitten\nthis format is forbitten, don't show 'json'\n"
+            },
+            {
+                "name": "system",
+                "role": "user",
+                "content": "\u60a8\u9009\u62e9\u4e86\u7ea2\u6c64\u7c7b\u578b\u3002\u63a5\u4e0b\u6765\uff0c\u6211\u5c06\u4e3a\u60a8\u5448\u73b0\u6c64\u9762\uff08\u6848\u4ef6\u7ebf\u7d22\uff09\uff1a\n\n**\u6c64\u9762\uff1a**\n\n\u5728\u4e00\u4e2a\u5bd2\u51b7\u7684\u51ac\u591c\uff0c\u4e00\u4f4d\u8457\u540d\u5c0f\u8bf4\u5bb6\u5728\u81ea\u5bb6\u4e66\u623f\u4e2d\u88ab\u53d1\u73b0\u8eab\u4ea1\u3002\u4e66\u623f\u95e8\u4ece\u5185\u90e8\u53cd\u9501\uff0c\u7a97\u6237\u7d27\u95ed\u4e14\u5b8c\u597d\u65e0\u635f\uff0c\u5c4b\u5185\u65e0\u6253\u6597\u75d5\u8ff9\u3002\u5c0f\u8bf4\u5bb6\u5750\u5728\u4e66\u684c\u524d\uff0c\u624b\u63e1\u672a\u5b8c\u6210\u7684\u624b\u7a3f\uff0c\u684c\u4e0a\u6709\u4e00\u676f\u5df2\u51b7\u6389\u7684\u5496\u5561\u548c\u4e00\u4e2a\u7a7a\u836f\u74f6\uff0c\u836f\u74f6\u6807\u7b7e\u663e\u793a\u4e3a\u5b89\u7720\u836f\u3002\u6cd5\u533b\u9274\u5b9a\u6b7b\u56e0\u4e3a\u836f\u7269\u8fc7\u91cf\uff0c\u4f46\u5947\u602a\u7684\u662f\uff0c\u5c0f\u8bf4\u5bb6\u5e73\u65f6\u5e76\u65e0\u670d\u836f\u4e60\u60ef\u3002\u6b64\u5916\uff0c\u4e66\u684c\u62bd\u5c49\u91cc\u6709\u4e00\u5c01\u672a\u5bc4\u51fa\u7684\u4fe1\uff0c\u6536\u4ef6\u4eba\u662f\u5c0f\u8bf4\u5bb6\u7684\u597d\u53cb\u517c\u7ade\u4e89\u5bf9\u624b\uff0c\u4fe1\u4e2d\u900f\u9732\u51fa\u5f3a\u70c8\u7684\u7ade\u4e89\u60c5\u7eea\u548c\u5bf9\u597d\u53cb\u624d\u534e\u7684\u5ac9\u5992\u3002\n\n\u60a8\u6709\u4e09\u6b21\u63d0\u95ee\u673a\u4f1a\u6765\u63ed\u793a\u771f\u76f8\u3002\u8bf7\u5f00\u59cb\u60a8\u7684\u63a8\u7406\u63d0\u95ee\u3002\u5269\u4f59\u63d0\u95ee\u6b21\u6570\uff1a3\u6b21\u3002"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "ca618114-dd44-9863-b9a9-f5c1d108f733",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"The case description consists of several key elements that can be divided into distinct scenes.\",\n    \"scripts\": [\n        \"Scene 1: The deceased novelist is discovered in his locked study on a cold winter night. The room exhibits no signs of forced entry or struggle, indicating an isolated incident within the confines of the space.\",\n        \"Scene 2: The novelist is depicted seated at his desk, clutching an incomplete manuscript, with a now-cold cup of coffee and an empty bottle of sleeping pills nearby. The forensic examination concludes that the cause of death was an overdose of these pills, despite there being no known history of the novelist using such medication.\",\n        \"Scene 3: An unsent letter is found in the desk drawer, addressed to the novelist's friend and rival. The contents reveal intense professional rivalry and jealousy towards the recipient's literary talent, adding a layer of intrigue and potential motive to the investigation.\"\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 534,
+            "output_tokens": 193,
+            "total_tokens": 727
+        }
+    }
+}

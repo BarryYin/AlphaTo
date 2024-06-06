@@ -1,0 +1,103 @@
+2024-04-10 18:04:12.656 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:12.657 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-10 18:04:12.658 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-10 18:04:12.658 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240410-180412_c89ox2/agentscope.db]
+2024-04-10 18:04:12.662 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.662 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-10 18:04:12.663 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-10 18:04:12.664 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-10 18:04:12.665 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-10 18:04:12.665 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.666 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.667 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.667 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.668 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.669 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.670 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.677 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:12.677 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:12.677 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:12.677 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:12.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.679 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.680 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:12.680 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.168 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:18.168 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:18.168 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:18.169 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:18.169 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:18.169 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:18.176 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.176 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.176 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.178 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.178 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.178 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.180 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:18.181 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:19.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:19.433 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:19.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:19.432 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-10 18:04:19.433 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:19.433 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:19.433 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-10 18:04:19.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.444 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.446 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.448 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.449 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.449 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.449 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:19.449 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-10 18:04:23.348 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.348 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.348 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.348 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.352 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.352 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.352 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:23.352 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+host: 三个十不出头
+host: 三个十不出头
+host: 三个十不出头
+host: 三个十不出头
+2024-04-10 18:04:39.053 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.053 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.053 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.053 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.058 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.058 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.058 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:39.058 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+judge: 很遗憾，回答错误，减1分，当前得分是4。原因：虽然“证”字与谜面中的“三个十”在结构上看似吻合，但“不出头”这一关键提示表明所求的字中不应有“十”的“出头”部分，即不应有撇或横折，而“证”字中的两个“十”均有“出头”，不符合要求。正确的答案是“正”，其由三个“十”构成且没有一个“十”出头。
+judge: 很遗憾，回答错误，减1分，当前得分是4。原因：虽然“证”字与谜面中的“三个十”在结构上看似吻合，但“不出头”这一关键提示表明所求的字中不应有“十”的“出头”部分，即不应有撇或横折，而“证”字中的两个“十”均有“出头”，不符合要求。正确的答案是“正”，其由三个“十”构成且没有一个“十”出头。
+judge: 很遗憾，回答错误，减1分，当前得分是4。原因：虽然“证”字与谜面中的“三个十”在结构上看似吻合，但“不出头”这一关键提示表明所求的字中不应有“十”的“出头”部分，即不应有撇或横折，而“证”字中的两个“十”均有“出头”，不符合要求。正确的答案是“正”，其由三个“十”构成且没有一个“十”出头。
+judge: 很遗憾，回答错误，减1分，当前得分是4。原因：虽然“证”字与谜面中的“三个十”在结构上看似吻合，但“不出头”这一关键提示表明所求的字中不应有“十”的“出头”部分，即不应有撇或横折，而“证”字中的两个“十”均有“出头”，不符合要求。正确的答案是“正”，其由三个“十”构成且没有一个“十”出头。
+2024-04-10 18:04:52.120 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:52.120 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:52.120 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:52.120 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:53.130 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:53.130 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:53.130 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+2024-04-10 18:04:53.130 | WARNING  | agentscope.message:__init__:121 - A new field `role` is newly added to the message. Please specify the role of the message. Currently we use a default "assistant" value.
+participant: 答案为正
+participant: 答案为正
+participant: 答案为正
+participant: 答案为正

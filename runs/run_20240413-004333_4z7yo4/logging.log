@@ -1,0 +1,791 @@
+2024-04-13 00:43:35.904 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:43:35.907 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-13 00:43:35.907 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-13 00:43:35.907 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240413-004333_4z7yo4/agentscope.db]
+2024-04-13 00:43:35.913 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:35.914 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:43:35.915 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:35.916 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:35.917 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:35.917 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:35.918 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:35.919 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:35.920 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:35.921 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:35.928 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:43:35.928 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:43:35.928 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:43:35.928 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:43:38.705 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:43:38.706 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:43:38.705 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:43:38.706 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:43:38.706 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:43:38.705 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:43:38.706 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:43:38.706 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:43:38.706 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:43:38.706 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:43:38.706 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:43:38.706 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:43:38.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.711 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.713 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.713 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.713 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.714 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.715 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.715 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.715 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.716 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:43:38.716 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:43:38.716 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:43:38.717 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:43:38.717 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:43:38.717 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:43:38.773 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:43:38.773 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:43:38.773 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:43:38.773 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:43:38.773 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:43:38.773 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:43:38.774 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.cost] to SqliteMonitor with unit [dollor] and quota [None]
+2024-04-13 00:43:38.774 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.cost] to SqliteMonitor with unit [dollor] and quota [None]
+2024-04-13 00:43:38.774 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.cost] to SqliteMonitor with unit [dollor] and quota [None]
+2024-04-13 00:43:38.776 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.776 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.776 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.777 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.777 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.777 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.779 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:43:38.779 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:43:38.779 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-13 00:43:38.780 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.780 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.780 | INFO     | agentscope.utils.monitor:register:362 - Register metric [gpt-4-turbo.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-13 00:43:38.781 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.781 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.781 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.782 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.782 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.782 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.783 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.783 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.783 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.784 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.784 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.784 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.784 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.784 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.784 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.786 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.786 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:43:38.786 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7,9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [7,8]. This move blocks the opponent from extending their line horizontally and allows me to start creating a line of my own.",
+    "move": [
+        7,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7,9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [7,8]. This move blocks the opponent from extending their line horizontally and allows me to start creating a line of my own.",
+    "move": [
+        7,
+        8
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed an 'o' at [7,9]. To prevent any potential threats and to start forming my own line, I will place 'x' at [7,8]. This move blocks the opponent from extending their line horizontally and allows me to start creating a line of my own.",
+    "move": [
+        7,
+        8
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [6,9], forming a vertical line with the 'o' at [7,9]. To block this potential threat and prevent the opponent from extending vertically, I will place 'x' at [5,9]. This move will block the opponent's vertical line and prevent them from forming a line of three.",
+    "move": [
+        5,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [6,9], forming a vertical line with the 'o' at [7,9]. To block this potential threat and prevent the opponent from extending vertically, I will place 'x' at [5,9]. This move will block the opponent's vertical line and prevent them from forming a line of three.",
+    "move": [
+        5,
+        9
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [6,9], forming a vertical line with the 'o' at [7,9]. To block this potential threat and prevent the opponent from extending vertically, I will place 'x' at [5,9]. This move will block the opponent's vertical line and prevent them from forming a line of three.",
+    "move": [
+        5,
+        9
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+000000000o00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+00000000oo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [6,8], forming a horizontal line with the 'o' at [6,9]. To block this potential threat and prevent the opponent from extending horizontally, I will place 'x' at [6,7]. This move will block the opponent's horizontal line and prevent them from forming a line of three.",
+    "move": [
+        6,
+        7
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [6,8], forming a horizontal line with the 'o' at [6,9]. To block this potential threat and prevent the opponent from extending horizontally, I will place 'x' at [6,7]. This move will block the opponent's horizontal line and prevent them from forming a line of three.",
+    "move": [
+        6,
+        7
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [6,8], forming a horizontal line with the 'o' at [6,9]. To block this potential threat and prevent the opponent from extending horizontally, I will place 'x' at [6,7]. This move will block the opponent's horizontal line and prevent them from forming a line of three.",
+    "move": [
+        6,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [5,7], forming a vertical line with the 'o' at [6,7]. To block this potential threat and prevent the opponent from extending vertically, I will place 'x' at [4,7]. This move will block the opponent's vertical line and prevent them from forming a line of three.",
+    "move": [
+        4,
+        7
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [5,7], forming a vertical line with the 'o' at [6,7]. To block this potential threat and prevent the opponent from extending vertically, I will place 'x' at [4,7]. This move will block the opponent's vertical line and prevent them from forming a line of three.",
+    "move": [
+        4,
+        7
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [5,7], forming a vertical line with the 'o' at [6,7]. To block this potential threat and prevent the opponent from extending vertically, I will place 'x' at [4,7]. This move will block the opponent's vertical line and prevent them from forming a line of three.",
+    "move": [
+        4,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000ox0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000ox0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000ox0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "The opponent has placed 'o' at [4,6], forming a diagonal line with the 'o' at [5,7]. To block this potential threat and prevent the opponent from extending diagonally, I will place 'x' at [3,5]. This move will block the opponent's diagonal line and prevent them from forming a line of three.",
+    "move": [
+        3,
+        5
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [4,6], forming a diagonal line with the 'o' at [5,7]. To block this potential threat and prevent the opponent from extending diagonally, I will place 'x' at [3,5]. This move will block the opponent's diagonal line and prevent them from forming a line of three.",
+    "move": [
+        3,
+        5
+    ]
+}
+Bob: {
+    "thought": "The opponent has placed 'o' at [4,6], forming a diagonal line with the 'o' at [5,7]. To block this potential threat and prevent the opponent from extending diagonally, I will place 'x' at [3,5]. This move will block the opponent's diagonal line and prevent them from forming a line of three.",
+    "move": [
+        3,
+        5
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+00000x000000000
+000000ox0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+00000x000000000
+000000ox0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+00000x000000000
+000000ox0000000
+0000000o0x00000
+0000000xoo00000
+00000000xo00000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+Host: The game ends, Alice wins!
+2024-04-13 00:48:02.719 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:48:02.719 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:48:02.719 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:48:02.719 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:48:02.721 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:48:02.721 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [wanx] already exists.
+2024-04-13 00:48:02.721 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:48:02.720 | WARNING  | agentscope.models:read_model_configs:164 - config_name [gpt-4] already exists.
+2024-04-13 00:48:02.721 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen, wanx, gpt-4
+2024-04-13 00:48:02.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.733 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.736 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.739 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.739 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.739 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.739 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.740 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.740 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.740 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.740 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.741 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.741 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.741 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.741 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.742 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:48:02.742 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:48:02.742 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:48:02.742 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:48:02.742 | WARNING  | agentscope.models:_get_model_wrapper:80 - Model type [openai] will be deprecated in future releases, please use [openai_chat] instead.
+2024-04-13 00:48:02.742 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:48:02.742 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:48:02.742 | INFO     | agentscope.models.model:__init__:257 - Initialize model [gpt-4]
+2024-04-13 00:48:02.803 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:48:02.803 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:48:02.803 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:48:02.803 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:48:02.803 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:48:02.803 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:48:02.803 | WARNING  | agentscope.models.openai_model:__init__:83 - fail to get max_length for gpt-4-turbo: 'Model [gpt-4-turbo] not found in OPENAI_MAX_LENGTH. The last updated date is 20231212'
+2024-04-13 00:48:02.803 | INFO     | agentscope.utils.monitor:register_budget:554 - set budget None to gpt-4-turbo
+2024-04-13 00:48:02.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.805 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.806 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.806 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.806 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.806 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.807 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.808 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.809 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-13 00:48:02.810 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.

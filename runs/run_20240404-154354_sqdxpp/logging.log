@@ -1,0 +1,106 @@
+2024-04-04 15:43:54.735 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:43:54.737 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-04 15:43:54.737 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-04 15:43:54.737 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240404-154354_sqdxpp/agentscope.db]
+2024-04-04 15:43:54.739 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:54.740 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-04 15:43:54.741 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:43:54.743 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:43:54.744 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-04 15:43:54.744 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.723 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 15:43:58.723 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:43:58.723 | WARNING  | agentscope.models:read_model_configs:164 - config_name [qwen] already exists.
+2024-04-04 15:43:58.723 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-04 15:43:58.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.727 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.728 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.729 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.730 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-04 15:43:58.730 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: Welcome to the Gomoku game! Black player goes first. Please make your move.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Bob, it's your turn.
+Bob: {
+    "thought": "As there are no pieces on the board yet, my initial move should focus on establishing a strong center position while keeping flexibility to react to my opponent's moves. A strategic opening move would be to place my piece at [7, 7], which is the central point of the board. This allows me to potentially develop attacks in multiple directions and control key intersections.",
+    "move": [
+        7,
+        7
+    ]
+}
+Bob: {
+    "thought": "As there are no pieces on the board yet, my initial move should focus on establishing a strong center position while keeping flexibility to react to my opponent's moves. A strategic opening move would be to place my piece at [7, 7], which is the central point of the board. This allows me to potentially develop attacks in multiple directions and control key intersections.",
+    "move": [
+        7,
+        7
+    ]
+}
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
+Host: The current board is as follows:
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+0000000x0000000
+000000000000000
+000000o00000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+Alice, it's your turn.
