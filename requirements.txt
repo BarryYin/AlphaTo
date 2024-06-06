@@ -1,5 +1,5 @@
 #gradio
-#gradio==4.22.0
+gradio==4.22.0
 python-dotenv==1.0.0
 python-dotenv==1.0.0
 json5
