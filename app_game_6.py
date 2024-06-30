@@ -28,10 +28,26 @@ import uuid
 #from agents.text2audio_agent import Text2AudioAgent
 #from agents.text2image_agent import Text2ImageAgent
 import mimetypes
+
+
+import os
+# download internlm2 to the base_path directory using git tool
+# base_path = './internlm2-chat-7b'
+# os.system(f'git clone https://code.openxlab.org.cn/OpenLMLab/internlm2-chat-7b.git {base_path}')
+# os.system(f'cd {base_path} && git lfs pull')
+# os.system(f'lmdeploy lite auto_awq \
+#     {base_path}\
+#   --calib-dataset 'ptb' \
+#   --calib-samples 128 \
+#   --calib-seqlen 1024 \
+#   --w-bits 4 \
+#   --w-group-size 128 \
+#   --work-dir /root/internlm2-chat-7b-4bit')
+
 def generate_uid():
     uid = str(uuid.uuid4())
     #state[uid] = 0
-    state[uid] = init_game(uuid)
+    state[uid] = init_game(uid)
     print(f"Generated new UID: {uid}")
     for key, value in state.items():
         print(f'state["{key}"] = {value}')
@@ -137,17 +153,17 @@ prompt_juge = f'''
 
 
 
-#text2image = Text2ImageAgent(
-#    name="image",
-#    model_config_name="qwen",
-#    sys_prompt="你是一个图片助手",
-#)
+# text2image = Text2ImageAgent(
+#     name="image",
+#     model_config_name="qwen",
+#     sys_prompt="你是一个图片助手",
+# )
 
-#text2audio = Text2AudioAgent(
-#    name="audio",
-#    model_config_name="qwen",
-#    sys_prompt="你是一个音频助手",
-#)
+# text2audio = Text2AudioAgent(
+#     name="audio",
+#     model_config_name="qwen",
+#     sys_prompt="你是一个音频助手",
+# )
 
 
 
@@ -170,13 +186,13 @@ Please ensure that your response follows the specified format and includes the n
 this format is forbitten, don't show 'json'
 """  
 
-# imgmaker = DictDialogAgent(
-#             name="imgmaker1",
-#             model_config_name="qwen",
-#             #model_config_name="qwen",
-#             use_memory=True,
-#             sys_prompt=sys_img_prompt,
-#         )
+imgmaker = DictDialogAgent(
+            name="imgmaker1",
+            model_config_name="qwen",
+            #model_config_name="qwen",
+            use_memory=True,
+            sys_prompt=sys_img_prompt,
+        )
 
 
 haiguitang_user = UserAgent()
@@ -675,8 +691,7 @@ def init_game(uid1):
         state[uid]['piece_white'] = NAME_TO_PIECE[NAME_WHITE]
         state[uid]['black'] = GomokuAgent(
             NAME_BLACK,
-            #model_config_name=YOUR_MODEL_CONFIGURATION_NAME,
-            model_config_name= "InternLM2",
+            model_config_name=YOUR_MODEL_CONFIGURATION_NAME,
             sys_prompt=SYS_PROMPT_TEMPLATE.format(state[uid]['piece_black'], state[uid]['piece_white']),
         )
         state[uid]['white'] = GomokuAgent(
@@ -1083,20 +1098,20 @@ Note:
 # Prepare the model configuration
 
 
-# YOUR_MODEL_CONFIGURATION_NAME = "qwen"
-# YOUR_MODEL_CONFIGURATION = {
-#         "model_type": "dashscope_chat",
-#         "config_name": YOUR_MODEL_CONFIGURATION_NAME,
-#         "model_name": "qwen-max",
-#         "api_key": model_configs[0]["api_key"],
-#         "generate_args": {
-#             "temperature": 0.1
-#         }
-# }
+YOUR_MODEL_CONFIGURATION_NAME = "qwen"
+YOUR_MODEL_CONFIGURATION = {
+        "model_type": "dashscope_chat",
+        "config_name": YOUR_MODEL_CONFIGURATION_NAME,
+        "model_name": "qwen-max",
+        "api_key": model_configs[0]["api_key"],
+        "generate_args": {
+            "temperature": 0.1
+        }
+}
 
 
 # Initialize the agents
-#agentscope.init(model_configs=YOUR_MODEL_CONFIGURATION)
+agentscope.init(model_configs=YOUR_MODEL_CONFIGURATION)
 
 
 
@@ -1442,8 +1457,38 @@ with demo:
     
     game_tabs = gr.Tabs(visible=True)
     with game_tabs:
-        
-        main_tab1 = gr.Tab('谁是卧底', id=0)
+        # main_tab = gr.Tab('海龟汤游戏', id=0)
+        # with main_tab:
+        #     gr.Markdown(value=title_text_haiguitang)
+        #     #state = gr.State(value=initstate())
+        #     # 开始游戏按钮
+        #     with gr.Row():
+        #       start_btn_haituitang = gr.Button(value="开始游戏")
+        #     with gr.Row():
+            
+        #         with gr.Column():
+        #                 haiguitang_user_chatbot = gr.Chatbot(
+        #                     height=500,
+        #                     value=[[None,'您好，欢迎来到海龟汤游戏，如果你准备好了，请点击上方「开始」按钮']],
+        #                     elem_classes="app-chatbot",
+        #                     avatar_images=[host_avatar, user_avatar, parti_avatar,judge_avatar],
+        #                     label="游戏进程观察区",
+        #                     show_label=True,
+        #                     bubble_full_width=False,
+        #                 )
+            
+        #     with gr.Row():
+        #         with gr.Column(scale=12):
+        #                 haiguitang_chat_input = gr.Textbox(
+        #                     label='user_chat_input',
+        #                     show_label=False,
+        #                     placeholder='在这里参与游戏')
+        #         with gr.Column(min_width=70, scale=1):
+        #             haiguitang_send_button = gr.Button('📣发送', variant='primary')
+                
+        #     with gr.Row():
+        #                 return_welcome_button_haiguitang = gr.Button(value="↩️返回首页") 
+        main_tab1 = gr.Tab('谁是卧底', id=1)
         with main_tab1:
             gr.Markdown(value=title_text)
             #state = gr.State(value=initstate())
@@ -1488,107 +1533,76 @@ with demo:
                             player4_vote = gr.Textbox(label="Player 4 指认框", interactive=False,visible=False)
                             vote_btn = gr.Button(value="确认投票(即使你被淘汰了，你可以继续观战，看看自己一方到底赢了没)")
             with gr.Row():
-                return_welcome_button_wodi = gr.Button(value="↩️返回首页")   
-        main_tab = gr.Tab('海龟汤游戏', id=1)
-        with main_tab:
-            gr.Markdown(value=title_text_haiguitang)
-            #state = gr.State(value=initstate())
-            # 开始游戏按钮
-            with gr.Row():
-              start_btn_haituitang = gr.Button(value="开始游戏")
-            with gr.Row():
-            
-                with gr.Column():
-                        haiguitang_user_chatbot = gr.Chatbot(
-                            height=500,
-                            value=[[None,'您好，欢迎来到海龟汤游戏，如果你准备好了，请点击上方「开始」按钮']],
-                            elem_classes="app-chatbot",
-                            avatar_images=[host_avatar, user_avatar, parti_avatar,judge_avatar],
-                            label="游戏进程观察区",
-                            show_label=True,
-                            bubble_full_width=False,
-                        )
-            
-            with gr.Row():
-                with gr.Column(scale=12):
-                        haiguitang_chat_input = gr.Textbox(
-                            label='user_chat_input',
-                            show_label=False,
-                            placeholder='在这里参与游戏')
-                with gr.Column(min_width=70, scale=1):
-                    haiguitang_send_button = gr.Button('📣发送', variant='primary')
-                
-            with gr.Row():
-                        return_welcome_button_haiguitang = gr.Button(value="↩️返回首页")  
-        main_tab2 = gr.Tab('猜谜语', id=2)
-        with main_tab2:
-            gr.Markdown('# <center> \N{fire} 和AI猜谜语</center>')
-            #with gr.Row():
-            #        start_btn_miyu = gr.Button(value="重置/开始游戏")
-            with gr.Row():
-                with gr.Column(min_width=270):
-                    user_chatbot = gr.Chatbot(
-                        elem_classes="app-chatbot",
-                        avatar_images=[user_avatar, parti_avatar],
-                        label="答题区",
-                        show_label=True,
-                        bubble_full_width=False,
-                    )
-                with gr.Column(min_width=270):
-                    user_chatsys = gr.Chatbot(
-                        value=[['您好，欢迎来到玩心眼之猜谜语大挑战，如果你准备好了，请回答「开始」', None]],
-                        elem_classes="app-chatbot",
-                        avatar_images=[host_avatar, judge_avatar],
-                        label="系统栏",
-                        show_label=True,
-                        bubble_full_width=False,
-                    )
-            with gr.Row():
-                with gr.Column(scale=12):
-                    user_chat_input = gr.Textbox(
-                        label='user_chat_input',
-                        show_label=False,
-                        placeholder='尽情挥洒你的才情吧')
-                with gr.Column(min_width=70, scale=1):
-                    send_button = gr.Button('📣发送', variant='primary')
-                #with gr.Column(min_width=70, scale=1):
-                #    start_button = gr.Button('📣开始', variant='primary')
-            with gr.Row():
-                return_welcome_button = gr.Button(value="↩️返回首页")
-        sub_tab = gr.Tab('五子棋', id=3)
-        with sub_tab:
-                gr.Markdown('# <center> \N{fire} 和AI玩五子棋</center>')
+                return_welcome_button_wodi = gr.Button(value="↩️返回首页")    
+        # main_tab2 = gr.Tab('猜谜语', id=2)
+        # with main_tab2:
+        #     gr.Markdown('# <center> \N{fire} 和AI猜谜语</center>')
+        #     #with gr.Row():
+        #     #        start_btn_miyu = gr.Button(value="重置/开始游戏")
+        #     with gr.Row():
+        #         with gr.Column(min_width=270):
+        #             user_chatbot = gr.Chatbot(
+        #                 elem_classes="app-chatbot",
+        #                 avatar_images=[user_avatar, parti_avatar],
+        #                 label="答题区",
+        #                 show_label=True,
+        #                 bubble_full_width=False,
+        #             )
+        #         with gr.Column(min_width=270):
+        #             user_chatsys = gr.Chatbot(
+        #                 value=[['您好，欢迎来到玩心眼之猜谜语大挑战，如果你准备好了，请回答「开始」', None]],
+        #                 elem_classes="app-chatbot",
+        #                 avatar_images=[host_avatar, judge_avatar],
+        #                 label="系统栏",
+        #                 show_label=True,
+        #                 bubble_full_width=False,
+        #             )
+        #     with gr.Row():
+        #         with gr.Column(scale=12):
+        #             user_chat_input = gr.Textbox(
+        #                 label='user_chat_input',
+        #                 show_label=False,
+        #                 placeholder='尽情挥洒你的才情吧')
+        #         with gr.Column(min_width=70, scale=1):
+        #             send_button = gr.Button('📣发送', variant='primary')
+        #         #with gr.Column(min_width=70, scale=1):
+        #         #    start_button = gr.Button('📣开始', variant='primary')
+        #     with gr.Row():
+        #         return_welcome_button = gr.Button(value="↩️返回首页")
+        # sub_tab = gr.Tab('五子棋', id=3)
+        # with sub_tab:
+        #         gr.Markdown('# <center> \N{fire} 和AI玩五子棋</center>')
               
-                with gr.Row(elem_classes='container'):
-                    with gr.Column(scale=4):
-                        with gr.Column():
-                            #img = gr.Image(interactive=False)  
-                            user_chatbot1 = Chatbot(
-                                value=[[None, '系统指挥官提示：您好，欢迎来到五子棋对战，如果你准备好了，请回答开始']],
-                                elem_id='user_chatbot',
-                                elem_classes=['markdown-body'],
-                                avatar_images=[judge_avatar,user_avatar, host_avatar, parti_avatar],
-                                height=600,
-                                latex_delimiters=[],
-                                show_label=False)
-                        with gr.Row():
-                            with gr.Column(scale=12):
-                                preview_chat_input1 = gr.Textbox(
-                                    show_label=False,
-                                    container=False,
-                                    placeholder='开始')
-                            with gr.Column(min_width=70, scale=1):
-                                preview_send_button1 = gr.Button('发送', variant='primary')
+        #         with gr.Row(elem_classes='container'):
+        #             with gr.Column(scale=4):
+        #                 with gr.Column():
+        #                     #img = gr.Image(interactive=False)  
+        #                     user_chatbot1 = Chatbot(
+        #                         value=[[None, '系统指挥官提示：您好，欢迎来到五子棋对战，如果你准备好了，请回答开始']],
+        #                         elem_id='user_chatbot',
+        #                         elem_classes=['markdown-body'],
+        #                         avatar_images=[judge_avatar,user_avatar, host_avatar, parti_avatar],
+        #                         height=600,
+        #                         latex_delimiters=[],
+        #                         show_label=False)
+        #                 with gr.Row():
+        #                     with gr.Column(scale=12):
+        #                         preview_chat_input1 = gr.Textbox(
+        #                             show_label=False,
+        #                             container=False,
+        #                             placeholder='开始')
+        #                     with gr.Column(min_width=70, scale=1):
+        #                         preview_send_button1 = gr.Button('发送', variant='primary')
 
-                    with gr.Column(scale=1):
-                        gomoku_img = gr.Image(value="assets/board.png",interactive=False)  
-                        update_button = gr.Button(value='🔄更新棋盘局势')
-                        #user_chat_bot_cover1 = gr.HTML(f'<div class="bot_cover">'
-                        #                '<div class="bot_name">"五子棋"</div>'
-                        #                '<div class="bot_desp">"和AI下五子棋"</div>'
-                        #                '</div>')
-                with gr.Row():
-                    return_welcome_button1 = gr.Button(value="↩️返回首页")
+        #             with gr.Column(scale=1):
+        #                 gomoku_img = gr.Image(value="assets/board.png",interactive=False)  
+        #                 update_button = gr.Button(value='🔄更新棋盘局势')
+        #                 #user_chat_bot_cover1 = gr.HTML(f'<div class="bot_cover">'
+        #                 #                '<div class="bot_name">"五子棋"</div>'
+        #                 #                '<div class="bot_desp">"和AI下五子棋"</div>'
+        #                 #                '</div>')
+        #         with gr.Row():
+        #             return_welcome_button1 = gr.Button(value="↩️返回首页")
 
     update_button.click(updateimg, inputs=[uidinput], outputs=gomoku_img)
     #start_btn_miyu.click(refresh_game, inputs=[stats], outputs=[stats])
@@ -1601,7 +1615,7 @@ with demo:
     new_button.click(game_ui, outputs=[tabs, game_tabs])
     return_welcome_button.click(welcome_ui, outputs=[tabs, game_tabs])
     return_welcome_button1.click(welcome_ui, outputs=[tabs, game_tabs])
-    return_welcome_button_wodi.click(welcome_ui, outputs=[tabs, game_tabs])
+    #return_welcome_button_wodi.click(welcome_ui, outputs=[tabs, game_tabs])
     return_welcome_button_haiguitang.click(welcome_ui, outputs=[tabs, game_tabs])
 
     user_chat_input.submit(
@@ -1646,7 +1660,7 @@ with demo:
     demo.load(fn=generate_uid, inputs=[], outputs=[uidinput])
 
 demo.queue(default_concurrency_limit=None)
-demo.launch(max_threads=400,share=False,debug=True)
+demo.launch(max_threads=400,share=False)
 
 #if __name__ == '__main__':
     #demo.launch()
