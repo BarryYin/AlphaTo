@@ -1,0 +1,101 @@
+2024-04-12 16:37:39.662 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-12 16:37:39.664 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 16:37:39.664 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 16:37:39.664 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-163739_xrnnpp/agentscope.db]
+2024-04-12 16:37:39.665 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 16:37:39.665 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 16:37:39.666 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 16:37:39.667 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 16:37:39.667 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+User: hi
+##################### ITER 1, STEP 1: REASONING ######################
+2024-04-12 16:40:03.506 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I need to provide a response adhering to the specified JSON format, including my thought process, spoken statement, and a function call with its respective arguments.\nSpeak: Here is the formatted response according to your specifications.\nFunction: Using the 'bing_search' function to search for information on the topic.\n\n```json\n{\n    \"thought\": \"I am formulating a response that includes my thought process, spoken statement, and a function call with its respective arguments. In this instance, I will utilize the 'bing_search' function to look up information on a given topic.\",\n    \"speak\": \"Here is the formatted response according to your specifications.\",\n    \"function\": [\n        {\n            \"name\": \"bing_search\",\n            \"arguments\": {\n                \"question\": \"Search query topic\"\n            }\n        }\n    ]\n}\n```",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "42ffa77d-884b-9b44-bf0b-34bb87029fc5",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I need to provide a response adhering to the specified JSON format, including my thought process, spoken statement, and a function call with its respective arguments.\nSpeak: Here is the formatted response according to your specifications.\nFunction: Using the 'bing_search' function to search for information on the topic.\n\n```json\n{\n    \"thought\": \"I am formulating a response that includes my thought process, spoken statement, and a function call with its respective arguments. In this instance, I will utilize the 'bing_search' function to look up information on a given topic.\",\n    \"speak\": \"Here is the formatted response according to your specifications.\",\n    \"function\": [\n        {\n            \"name\": \"bing_search\",\n            \"arguments\": {\n                \"question\": \"Search query topic\"\n            }\n        }\n    ]\n}\n```"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 486,
+            "output_tokens": 170,
+            "total_tokens": 656
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 1 / 3
+2024-04-12 16:40:12.788 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{{\n    \"thought\": \"I need to find information about the capital of France.\",\n    \"speak\": \"Let me quickly look up the capital of France for you.\",\n    \"function\": [\n        {\n            \"name\": \"bing_search\",\n            \"arguments\": {\n                \"question\": \"What is the capital of France?\"\n            }\n        }\n    ]\n}}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "c0eca090-69a0-9d34-b54c-b18d616eedf1",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{{\n    \"thought\": \"I need to find information about the capital of France.\",\n    \"speak\": \"Let me quickly look up the capital of France for you.\",\n    \"function\": [\n        {\n            \"name\": \"bing_search\",\n            \"arguments\": {\n                \"question\": \"What is the capital of France?\"\n            }\n        }\n    ]\n}}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 486,
+            "output_tokens": 75,
+            "total_tokens": 561
+        }
+    }
+}.
+ Exception: Expecting property name enclosed in double quotes: line 1 column 2 (char 1), 	 Attempt 2 / 3
+2024-04-12 16:40:21.197 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{{\n    \"thought\": \"I need to provide a response adhering to the specified JSON format, but without any specific context or question given, I'll provide a general example.\",\n    \"speak\": \"Here is a demonstration of the required response format:\",\n    \"function\": [\n        {\n            \"name\": \"execute_python_code\",\n            \"arguments\": {\n                \"code\": \"import json; print(json.dumps({'example_key': 'example_value'}))\"\n            }\n        }\n    ]\n}}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "511bde0e-a256-9eb7-9312-cb0a43fc2a92",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{{\n    \"thought\": \"I need to provide a response adhering to the specified JSON format, but without any specific context or question given, I'll provide a general example.\",\n    \"speak\": \"Here is a demonstration of the required response format:\",\n    \"function\": [\n        {\n            \"name\": \"execute_python_code\",\n            \"arguments\": {\n                \"code\": \"import json; print(json.dumps({'example_key': 'example_value'}))\"\n            }\n        }\n    ]\n}}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 486,
+            "output_tokens": 101,
+            "total_tokens": 587
+        }
+    }
+}.
+ Exception: Expecting property name enclosed in double quotes: line 1 column 2 (char 1), 	 Attempt 3 / 3

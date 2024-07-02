@@ -1,0 +1,109 @@
+{
+    "model_class": "DashScopeChatWrapper",
+    "timestamp": "20240412-170519",
+    "arguments": {
+        "model": "qwen-max",
+        "messages": [
+            {
+                "name": "system",
+                "role": "user",
+                "content": "You're a helpful assistant.\n\nThe following tool functions are available in the format of\n```\n{index}. {function name}: {function description}\n    {argument name} ({argument type}): {argument description}\n    ...\n```\n\nTool Functions:\n\n\nNotice:\n1. Fully understand the tool function and its arguments before using it.\n2. Only use the tool function when it's necessary.\n3. Check if the arguments you provided to the tool function is correct in type and value.\n4. You can't take some problems for granted. For example, where you are, what's the time now, etc. But you can try to use the tool function to solve the problem.\n5. If the function execution fails, you should analyze the error and try to solve it.\n\n"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "Let's play a game. Count from 1 to 21, alternating between each other. Each time, we can only count two numbers. For example, I start with 1 and 2. You start with 3, which can be either 3 or 4. See who gets to 21 first"
+            },
+            {
+                "name": "assistant",
+                "role": "user",
+                "content": "{\"thought\": \"I understood the rules of the counting game and my turn is next.\", \"speak\": \"My turn! 5 and 6.\", \"function\": []}"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "1,2"
+            },
+            {
+                "name": "assistant",
+                "role": "user",
+                "content": "{\"thought\": \"I understood the rules of the counting game and my turn is next.\", \"speak\": \"My turn! 5 and 6.\", \"function\": []}"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "Let's play a game. We'll count from 1 to 21, alternating numbers. Each time, we can only count two numbers. For example, I start with 1 and 2. You start with 3, which can be either 3 or 3 and 4. You must continue to count from my number and see who gets to 21 first"
+            },
+            {
+                "name": "assistant",
+                "role": "user",
+                "content": "{\"thought\": \"I understood the rules of the counting game and my turn is next.\", \"speak\": \"My turn! 5 and 6.\", \"function\": []}"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "no, you need flow with me ,I count 2"
+            },
+            {
+                "name": "assistant",
+                "role": "user",
+                "content": "{\"thought\": \"I understood the rules of the counting game and my turn is next.\", \"speak\": \"My turn! 7 and 8.\", \"function\": []}"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "you should count from 3"
+            },
+            {
+                "name": "assistant",
+                "role": "user",
+                "content": "{\"thought\": \"I understood the rules of the counting game and my turn is next.\", \"speak\": \"My turn! 9 and 10.\", \"function\": []}"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "no ,you are wrong"
+            },
+            {
+                "name": "assistant",
+                "role": "user",
+                "content": "{\"thought\": \"I understood the rules of the counting game and my turn is next.\", \"speak\": \"My turn! 9 and 10.\", \"function\": []}"
+            },
+            {
+                "name": "User",
+                "role": "assistant",
+                "content": "your turn is not right . you need follow me "
+            },
+            {
+                "name": "system",
+                "role": "user",
+                "content": "\nGenerate a response in the following format:\n\nResponse Format:\nYou should respond in the json format, which can be loaded by json in Python(pleas don't show 'json'):\n{\n    \"thought\": \"what you thought\",\n    \"speak\": \"what you said\",\n    \"function\": [{{\"name\": \"{{function name}}\", \"arguments\": {{\"{{argument name}}\": {{argument_value}}, ...}}}}, ...]\n}\n\nTaking using web_search function as an example, the response should be like this:\n{\n    \"thought\": \"xxx\",\n    \"speak\": \"xxx\",\n    \"function\": [{{\"name\": \"web_search\", \"arguments\": {{\"query\": \"what's the weather today?\"}}}}]\n}\n"
+            }
+        ],
+        "temperature": 0.5
+    },
+    "response": {
+        "status_code": 200,
+        "request_id": "954e2dd8-5b4d-9579-86de-3a00b1c6dabb",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"I am aware that I should provide a JSON response adhering to the specified format.\",\n    \"speak\": \"Here is the response in the desired JSON format:\",\n    \"function\": [\n        {\n            \"name\": \"web_search\",\n            \"arguments\": {\n                \"query\": \"What's the weather today?\"\n            }\n        }\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 802,
+            "output_tokens": 77,
+            "total_tokens": 879
+        }
+    }
+}

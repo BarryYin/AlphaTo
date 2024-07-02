@@ -1,0 +1,101 @@
+2024-04-12 16:48:30.655 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-12 16:48:30.657 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 16:48:30.658 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 16:48:30.658 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-164830_2x8koj/agentscope.db]
+2024-04-12 16:48:30.658 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 16:48:30.659 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 16:48:30.659 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 16:48:30.660 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 16:48:30.661 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+User: hi,how are you
+##################### ITER 1, STEP 1: REASONING ######################
+2024-04-12 16:48:41.075 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{{\n    \"thought\": \"I am an AI language model and do not possess emotions.\",\n    \"speak\": \"Hello! How can I assist you today?\",\n    \"function\": []\n}}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "dc5c5c13-6d7e-9bd1-8089-c37cc87bc389",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{{\n    \"thought\": \"I am an AI language model and do not possess emotions.\",\n    \"speak\": \"Hello! How can I assist you today?\",\n    \"function\": []\n}}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 490,
+            "output_tokens": 40,
+            "total_tokens": 530
+        }
+    }
+}.
+ Exception: Expecting property name enclosed in double quotes: line 1 column 2 (char 1), 	 Attempt 1 / 3
+2024-04-12 16:48:46.274 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{{\n    \"thought\": \"I am here to assist you. How can I help today?\",\n    \"speak\": \"Hello! How may I assist you today?\",\n    \"function\": []\n}}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "f9ff27f8-b30c-94dc-88fc-a5fcabcfeafb",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{{\n    \"thought\": \"I am here to assist you. How can I help today?\",\n    \"speak\": \"Hello! How may I assist you today?\",\n    \"function\": []\n}}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 490,
+            "output_tokens": 41,
+            "total_tokens": 531
+        }
+    }
+}.
+ Exception: Expecting property name enclosed in double quotes: line 1 column 2 (char 1), 	 Attempt 2 / 3
+2024-04-12 16:48:51.000 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "Thought: I need to greet the user and inquire about their well-being.\nSpeak: Hello! How can I assist you today?\nFunction: []",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "b8dc4440-f429-9757-83e3-654d1797b214",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "Thought: I need to greet the user and inquire about their well-being.\nSpeak: Hello! How can I assist you today?\nFunction: []"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 490,
+            "output_tokens": 29,
+            "total_tokens": 519
+        }
+    }
+}.
+ Exception: Expecting value: line 1 column 1 (char 0), 	 Attempt 3 / 3

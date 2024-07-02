@@ -1,0 +1,71 @@
+2024-04-12 16:42:02.891 | INFO     | agentscope.models:read_model_configs:171 - Load configs for model wrapper: qwen
+2024-04-12 16:42:02.894 | INFO     | agentscope.utils.monitor:_create_monitor_table:341 - Init [monitor_metrics] as the monitor table
+2024-04-12 16:42:02.894 | INFO     | agentscope.utils.monitor:_create_monitor_table:342 - Init [monitor_metrics_quota_exceeded] as the monitor trigger
+2024-04-12 16:42:02.894 | INFO     | agentscope.utils.monitor:__init__:311 - SqliteMonitor initialization completed at [./runs/run_20240412-164202_mpcfam/agentscope.db]
+2024-04-12 16:42:02.895 | INFO     | agentscope.models.model:__init__:257 - Initialize model [qwen]
+2024-04-12 16:42:02.896 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.call_counter] to SqliteMonitor with unit [times] and quota [None]
+2024-04-12 16:42:02.897 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.prompt_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 16:42:02.897 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.completion_tokens] to SqliteMonitor with unit [token] and quota [None]
+2024-04-12 16:42:02.898 | INFO     | agentscope.utils.monitor:register:362 - Register metric [qwen-max.total_tokens] to SqliteMonitor with unit [token] and quota [None]
+User: hi
+##################### ITER 1, STEP 1: REASONING ######################
+2024-04-12 16:42:39.255 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{{\n    \"thought\": \"I need to fetch the current weather information.\",\n    \"speak\": \"Let me quickly look up the weather for today.\",\n    \"function\": [\n        {\n            \"name\": \"web_search\",\n            \"arguments\": {\n                \"query\": \"what's the weather today?\"\n            }\n        }\n    ]\n}}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "bdd7bb80-6f9a-9f99-b5c0-0afc7cb73b6d",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{{\n    \"thought\": \"I need to fetch the current weather information.\",\n    \"speak\": \"Let me quickly look up the weather for today.\",\n    \"function\": [\n        {\n            \"name\": \"web_search\",\n            \"arguments\": {\n                \"query\": \"what's the weather today?\"\n            }\n        }\n    ]\n}}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 486,
+            "output_tokens": 70,
+            "total_tokens": 556
+        }
+    }
+}.
+ Exception: name 're' is not defined, 	 Attempt 1 / 3
+2024-04-12 16:42:45.459 | WARNING  | agentscope.models.model:checking_wrapper:182 - Fail to parsing response: {
+    "text": "{\n    \"thought\": \"I need to fetch information about the weather today.\",\n    \"speak\": \"Let me quickly check the current weather conditions for you.\",\n    \"function\": [\n        {\n            \"name\": \"bing_search\",\n            \"arguments\": {\n                \"question\": \"What's the weather today?\"\n            }\n        }\n    ]\n}",
+    "embedding": null,
+    "image_urls": null,
+    "raw": {
+        "status_code": 200,
+        "request_id": "d3597af5-eb63-9949-b688-08910a77e92e",
+        "code": "",
+        "message": "",
+        "output": {
+            "text": null,
+            "finish_reason": null,
+            "choices": [
+                {
+                    "finish_reason": "stop",
+                    "message": {
+                        "role": "assistant",
+                        "content": "{\n    \"thought\": \"I need to fetch information about the weather today.\",\n    \"speak\": \"Let me quickly check the current weather conditions for you.\",\n    \"function\": [\n        {\n            \"name\": \"bing_search\",\n            \"arguments\": {\n                \"question\": \"What's the weather today?\"\n            }\n        }\n    ]\n}"
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "input_tokens": 486,
+            "output_tokens": 71,
+            "total_tokens": 557
+        }
+    }
+}.
+ Exception: name 're' is not defined, 	 Attempt 2 / 3
