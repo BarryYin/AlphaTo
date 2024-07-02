@@ -12,7 +12,7 @@
         "model_type": "dashscope_image_synthesis",
         "config_name": "wanx",
         "model_name": "wanx-v1",
-        "api_key": "sk-ebf86b67058945fa827863a3742df0b0",
+        "api_key": "YOUR_API_KEY ",
         "generate_args": {
             "temperature": 0.5
         }
@@ -21,7 +21,7 @@
     "config_name": "gpt-4",
     "model_type": "openai",
     "model_name": "gpt-4-turbo-2024-04-09",
-    "api_key": "", 
+    "api_key": "YOUR_API_KEY", 
     "organization": "", 
     "generate_args": {
         "temperature": 0.1

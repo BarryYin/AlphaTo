@@ -48,7 +48,7 @@ def handle_request(state):
 
 model_configs = json.load(open('model_configs.json', 'r'))
 #model_configs[0]["api_key"] = os.environ["DASHSCOPE_API_KEY"]
-model_configs[0]["api_key"] = "sk-2f3938d72fee430fa50e2e7e65a48c79" 
+#model_configs[0]["api_key"] = "" 
 
 host_avatar = 'assets/host_image.png'
 user_avatar = 'assets/parti_image.png'

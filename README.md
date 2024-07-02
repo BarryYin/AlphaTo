@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="">
-    <img src="assets/who_is_AI.jpeg" alt="Logo" width="30%">
+    <img src="assets/1.png" alt="Logo" width="60%">
   </a>
 
 <h3 align="center">ALPHTO</h3>
@@ -41,28 +41,15 @@
 - 🌐 谁是卧底
 - 🎉 海龟汤
 
+ <a href="">
+    <img src="assets/2.png" alt="alphato-game" width="100%">
+  </a>
+
 **文档最后有微信群，欢迎加入一起探讨更多的可能！** 🎉
 
 **开源不易，如果本项目帮到大家，可以右上角帮我点个 star~ ⭐⭐ , 您的 star ⭐是我们最大的鼓励，谢谢各位！**  
 
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-license: Apache License 2.0
----
-
-
-
 
 ## 快速启动：
 ---
@@ -76,8 +63,35 @@ pip install -r requirements.txt
 #### install
 
 python app.py
+
+#### 配置
+默认大模型支持为 InternLM2 
+如果要切换模型，需要在 model_configs.json  为你选择的模型添加API Key
+
 ```
 
 
+## 项目说明：
 
+#### 🧱 整体架构
+ <a href="">
+    <img src="assets/3.png" alt="alphato-game" width="60%">
+  </a>
+
+
+#### 🌐 游戏搭建思路
+ <a href="">
+    <img src="assets/4.png" alt="alphato-game" width="60%">
+  </a>
+
+
+#### 🦸 研究方向
+- 多agent 支持的AI游戏
+- AI的智力表现和自我反思能力
+- 人类对AI参与游戏的感受
+
+
+
+license: Apache License 2.0
+---
 
